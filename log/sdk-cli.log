@@ -1,0 +1,2080 @@
+2025-10-30T17:33:54.912Z CLI info     Config : {"userName":"princetonbaretto_BH6h3C","accessKey":"dzHFiSHDYXyfRzZGA7QM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":"11","browserName":"Chrome","browserVersion":"138"}],"parallelsPerPlatform":1,"browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testReporting":true}
+2025-10-30T17:33:54.914Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [b03dbe77-0d44-4a94-9f65-8edf38d86331]  Starting testhub from 18367:0
+2025-10-30T17:33:54.915Z CLI info  [princetonbaretto_BH6h3C]   [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-10-30T17:33:55.465Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [b03dbe77-0d44-4a94-9f65-8edf38d86331]  startBuild: response=lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a
+2025-10-30T17:33:55.467Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:33:58.442Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-10-30T17:33:58.506Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-10-30T17:33:58.549Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-10-30T17:33:59.133Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-10-30T17:34:00.602Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-10-30T17:34:00.593Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 18367:0
+2025-10-30T17:34:01.471Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-10-30T17:34:00.593Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 18367:0
+2025-10-30T17:34:01.472Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:34:02.270Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+    integrations: { browserstack: [Object] }
+  }
+} to 18367:0
+2025-10-30T17:34:02.277Z CLI info [TEST REPORTING AND ANALYTICS:node]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  onLogCreatedEvent: LogCreated promise={}
+2025-10-30T17:34:02.277Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:34:02.258Z',
+      uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:34:02.259Z',
+      uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54'
+    }
+  ]
+} to 18367:0
+2025-10-30T17:34:02.282Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'failed',
+    duration_in_ms: 20,
+    started_at: '2025-10-30T17:34:00.593Z',
+    finished_at: '2025-10-30T17:34:00.613Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 18367:0
+2025-10-30T17:34:03.471Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'failed',
+      duration_in_ms: 20,
+      started_at: '2025-10-30T17:34:00.593Z',
+      finished_at: '2025-10-30T17:34:00.613Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 18367:0
+2025-10-30T17:34:03.471Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:34:04.437Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-10-30T17:34:05.248Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  stopBuild: lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a request={"finished_at":"2025-10-30T17:34:02.311Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-10-30T17:34:05.250Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:34:05.251Z CLI info [TEST REPORTING AND ANALYTICS:module]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  Visit https://automation.browserstack.com/builds/lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a to view build report, insights, and many more debugging information all at one place!
+2025-10-30T17:34:05.553Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-10-30T17:34:05.868Z CLI info  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-10-30T17:34:11.965Z CLI info [main]  [princetonbaretto_BH6h3C]  [lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a]  [b03dbe77-0d44-4a94-9f65-8edf38d86331]  Received graceful signal termination, performing cleanup
+2025-10-30T17:35:18.778Z CLI info     Config : {"userName":"princetonbaretto_BH6h3C","accessKey":"dzHFiSHDYXyfRzZGA7QM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":"11","browserName":"Chrome","browserVersion":"138"}],"parallelsPerPlatform":1,"browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testReporting":true}
+2025-10-30T17:35:18.782Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [049937ff-0a16-42eb-a9be-445248d7db8a]  Starting testhub from 22286:0
+2025-10-30T17:35:18.783Z CLI info  [princetonbaretto_BH6h3C]   [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-10-30T17:35:19.288Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [049937ff-0a16-42eb-a9be-445248d7db8a]  startBuild: response=sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb
+2025-10-30T17:35:19.290Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:35:23.726Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-10-30T17:35:23.778Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-10-30T17:35:23.827Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-10-30T17:35:24.357Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-10-30T17:35:27.007Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-10-30T17:35:26.986Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 22286:0
+2025-10-30T17:35:27.292Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-10-30T17:35:26.986Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 22286:0
+2025-10-30T17:35:27.293Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:35:28.473Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+    integrations: { browserstack: [Object] }
+  }
+} to 22286:0
+2025-10-30T17:35:28.483Z CLI info [TEST REPORTING AND ANALYTICS:node]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  onLogCreatedEvent: LogCreated promise={}
+2025-10-30T17:35:28.483Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:35:28.461Z',
+      uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '83346f98-27a9-4771-8f7b-bae603829d7a'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:35:28.462Z',
+      uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '83346f98-27a9-4771-8f7b-bae603829d7a'
+    }
+  ]
+} to 22286:0
+2025-10-30T17:35:28.489Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'failed',
+    duration_in_ms: 23,
+    started_at: '2025-10-30T17:35:26.986Z',
+    finished_at: '2025-10-30T17:35:27.009Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 22286:0
+2025-10-30T17:35:29.294Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'failed',
+      duration_in_ms: 23,
+      started_at: '2025-10-30T17:35:26.986Z',
+      finished_at: '2025-10-30T17:35:27.009Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 22286:0
+2025-10-30T17:35:29.295Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:35:30.136Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-10-30T17:35:30.952Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  stopBuild: sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb request={"finished_at":"2025-10-30T17:35:28.520Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-10-30T17:35:30.954Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:35:30.957Z CLI info [TEST REPORTING AND ANALYTICS:module]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  Visit https://automation.browserstack.com/builds/sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb to view build report, insights, and many more debugging information all at one place!
+2025-10-30T17:35:31.673Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-10-30T17:35:32.096Z CLI info  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-10-30T17:35:38.194Z CLI info [main]  [princetonbaretto_BH6h3C]  [sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb]  [049937ff-0a16-42eb-a9be-445248d7db8a]  Received graceful signal termination, performing cleanup
+2025-10-30T17:37:00.718Z CLI info     Config : {"userName":"princetonbaretto_BH6h3C","accessKey":"dzHFiSHDYXyfRzZGA7QM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":"11","browserName":"Chrome","browserVersion":"138"}],"parallelsPerPlatform":1,"browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testReporting":true}
+2025-10-30T17:37:00.721Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [546eac29-4241-4dc1-bbc0-bc5068df869a]  Starting testhub from 23442:0
+2025-10-30T17:37:00.721Z CLI info  [princetonbaretto_BH6h3C]   [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-10-30T17:37:01.268Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [546eac29-4241-4dc1-bbc0-bc5068df869a]  startBuild: response=to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz
+2025-10-30T17:37:01.270Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:37:04.161Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-10-30T17:37:04.204Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-10-30T17:37:04.249Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-10-30T17:37:04.815Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-10-30T17:37:06.539Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-10-30T17:37:06.527Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23442:0
+2025-10-30T17:37:07.272Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-10-30T17:37:06.527Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 23442:0
+2025-10-30T17:37:07.273Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:37:07.961Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+    integrations: { browserstack: [Object] }
+  }
+} to 23442:0
+2025-10-30T17:37:07.970Z CLI info [TEST REPORTING AND ANALYTICS:node]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  onLogCreatedEvent: LogCreated promise={}
+2025-10-30T17:37:07.971Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:37:07.953Z',
+      uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:37:07.954Z',
+      uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab'
+    }
+  ]
+} to 23442:0
+2025-10-30T17:37:07.976Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'failed',
+    duration_in_ms: 16,
+    started_at: '2025-10-30T17:37:06.527Z',
+    finished_at: '2025-10-30T17:37:06.543Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23442:0
+2025-10-30T17:37:09.274Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'failed',
+      duration_in_ms: 16,
+      started_at: '2025-10-30T17:37:06.527Z',
+      finished_at: '2025-10-30T17:37:06.543Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 23442:0
+2025-10-30T17:37:09.275Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:37:10.129Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-10-30T17:37:11.549Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  stopBuild: to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz request={"finished_at":"2025-10-30T17:37:08.010Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-10-30T17:37:11.550Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:37:11.552Z CLI info [TEST REPORTING AND ANALYTICS:module]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  Visit https://automation.browserstack.com/builds/to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz to view build report, insights, and many more debugging information all at one place!
+2025-10-30T17:37:11.870Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-10-30T17:37:12.928Z CLI info  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-10-30T17:37:18.971Z CLI info [main]  [princetonbaretto_BH6h3C]  [to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz]  [546eac29-4241-4dc1-bbc0-bc5068df869a]  Received graceful signal termination, performing cleanup
+2025-10-30T17:39:11.332Z CLI info     Config : {"userName":"princetonbaretto_BH6h3C","accessKey":"dzHFiSHDYXyfRzZGA7QM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":"11","browserName":"chrome","browserVersion":"138"}],"parallelsPerPlatform":1,"browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testReporting":true}
+2025-10-30T17:39:11.336Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [5a26e127-50ab-448f-be57-8f2f917ce823]  Starting testhub from 24730:0
+2025-10-30T17:39:11.337Z CLI info  [princetonbaretto_BH6h3C]   [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-10-30T17:39:11.956Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [5a26e127-50ab-448f-be57-8f2f917ce823]  startBuild: response=kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi
+2025-10-30T17:39:11.957Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:39:14.691Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-10-30T17:39:14.737Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-10-30T17:39:14.783Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-10-30T17:39:15.302Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-10-30T17:39:16.752Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-10-30T17:39:16.742Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 24730:0
+2025-10-30T17:39:17.959Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-10-30T17:39:16.742Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 24730:0
+2025-10-30T17:39:17.960Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:39:27.198Z CLI info [sdk:service]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Driver initialized as primary driver: platformIndex=0
+2025-10-30T17:39:27.985Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+    integrations: { browserstack: [Object] }
+  }
+} to 24730:0
+2025-10-30T17:39:29.965Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+      integrations: [Object]
+    }
+  }
+] to 24730:0
+2025-10-30T17:39:29.966Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:39:31.629Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+    integrations: { browserstack: [Object] }
+  }
+} to 24730:0
+2025-10-30T17:39:31.966Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+      integrations: [Object]
+    }
+  }
+] to 24730:0
+2025-10-30T17:39:31.966Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:39:31.970Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+    integrations: { browserstack: [Object] }
+  }
+} to 24730:0
+2025-10-30T17:39:32.408Z CLI info [TEST REPORTING AND ANALYTICS:node]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  onLogCreatedEvent: LogCreated promise={}
+2025-10-30T17:39:32.409Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:39:28.332Z',
+      uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+      kind: 'TEST_STEP',
+      message: 'Navigate to "/"',
+      level: 'failed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:39:32.385Z',
+      uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:39:32.385Z',
+      uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:39:32.388Z',
+      uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff'
+    }
+  ]
+} to 24730:0
+2025-10-30T17:39:32.413Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'failed',
+    duration_in_ms: 5180,
+    started_at: '2025-10-30T17:39:16.742Z',
+    finished_at: '2025-10-30T17:39:21.922Z',
+    failure: [ [Object], [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 24730:0
+2025-10-30T17:39:33.967Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [ [Object], [Object], [Object], [Object] ]
+  },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'failed',
+      duration_in_ms: 5180,
+      started_at: '2025-10-30T17:39:16.742Z',
+      finished_at: '2025-10-30T17:39:21.922Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 24730:0
+2025-10-30T17:39:33.968Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:39:34.869Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-10-30T17:39:35.679Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  stopBuild: kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi request={"finished_at":"2025-10-30T17:39:32.445Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-10-30T17:39:35.681Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:39:35.682Z CLI info [TEST REPORTING AND ANALYTICS:module]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Visit https://automation.browserstack.com/builds/kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi to view build report, insights, and many more debugging information all at one place!
+2025-10-30T17:39:36.022Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-10-30T17:39:37.053Z CLI info  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-10-30T17:39:43.146Z CLI info [main]  [princetonbaretto_BH6h3C]  [kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi]  [5a26e127-50ab-448f-be57-8f2f917ce823]  Received graceful signal termination, performing cleanup
+2025-10-30T17:40:20.228Z CLI info     Config : {"userName":"princetonbaretto_BH6h3C","accessKey":"dzHFiSHDYXyfRzZGA7QM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":"11","browserName":"chrome","browserVersion":"138"}],"parallelsPerPlatform":1,"browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testReporting":true}
+2025-10-30T17:40:20.233Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Starting testhub from 25484:0
+2025-10-30T17:40:20.233Z CLI info  [princetonbaretto_BH6h3C]   [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-10-30T17:40:20.692Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  startBuild: response=ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd
+2025-10-30T17:40:20.694Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:40:23.455Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-10-30T17:40:23.500Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-10-30T17:40:23.544Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-10-30T17:40:24.053Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-10-30T17:40:25.671Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://www.browserstack.com/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-10-30T17:40:25.654Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 25484:0
+2025-10-30T17:40:26.696Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-10-30T17:40:25.654Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 25484:0
+2025-10-30T17:40:26.696Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:40:35.041Z CLI info [sdk:service]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Driver initialized as primary driver: platformIndex=0
+2025-10-30T17:40:35.612Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+    integrations: { browserstack: [Object] }
+  }
+} to 25484:0
+2025-10-30T17:40:36.700Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+      integrations: [Object]
+    }
+  }
+] to 25484:0
+2025-10-30T17:40:36.702Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:40:39.042Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+    integrations: { browserstack: [Object] }
+  }
+} to 25484:0
+2025-10-30T17:40:39.430Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+    integrations: { browserstack: [Object] }
+  }
+} to 25484:0
+2025-10-30T17:40:39.840Z CLI info [TEST REPORTING AND ANALYTICS:node]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  onLogCreatedEvent: LogCreated promise={}
+2025-10-30T17:40:39.842Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:40:36.033Z',
+      uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+      kind: 'TEST_STEP',
+      message: 'Navigate to "/"',
+      level: 'failed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:40:39.812Z',
+      uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:40:39.812Z',
+      uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+      kind: 'TEST_STEP',
+      message: 'Fixture "browser"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.56.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:40:39.815Z',
+      uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+      kind: 'TEST_STEP',
+      message: 'Fixture "__browserstack_workerHook"',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a'
+    }
+  ]
+} to 25484:0
+2025-10-30T17:40:39.848Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://www.browserstack.com/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'failed',
+    duration_in_ms: 4773,
+    started_at: '2025-10-30T17:40:25.654Z',
+    finished_at: '2025-10-30T17:40:30.427Z',
+    failure: [ [Object], [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 25484:0
+2025-10-30T17:40:40.702Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [ [Object], [Object], [Object], [Object] ]
+  },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'failed',
+      duration_in_ms: 4773,
+      started_at: '2025-10-30T17:40:25.654Z',
+      finished_at: '2025-10-30T17:40:30.427Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 25484:0
+2025-10-30T17:40:40.703Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:40:42.512Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-10-30T17:40:43.319Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  stopBuild: ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd request={"finished_at":"2025-10-30T17:40:39.887Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-10-30T17:40:43.320Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:40:43.321Z CLI info [TEST REPORTING AND ANALYTICS:module]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Visit https://automation.browserstack.com/builds/ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd to view build report, insights, and many more debugging information all at one place!
+2025-10-30T17:40:43.688Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-10-30T17:40:44.077Z CLI info  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-10-30T17:40:50.126Z CLI info [main]  [princetonbaretto_BH6h3C]  [ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd]  [b76ee7ac-29d9-43c1-8290-ce889eeb2397]  Received graceful signal termination, performing cleanup
+2025-10-30T17:43:49.587Z CLI info     Config : {"userName":"princetonbaretto_BH6h3C","accessKey":"dzHFiSHDYXyfRzZGA7QM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":"11","browserName":"chrome","browserVersion":"138"}],"parallelsPerPlatform":1,"browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testReporting":true}
+2025-10-30T17:43:49.589Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Starting testhub from 28068:0
+2025-10-30T17:43:49.590Z CLI info  [princetonbaretto_BH6h3C]   [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-10-30T17:43:50.091Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [83bb0bab-45e6-460d-85fe-7e81a6944c03]  startBuild: response=4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi
+2025-10-30T17:43:50.092Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:43:52.746Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-10-30T17:43:52.795Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-10-30T17:43:52.840Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-10-30T17:43:53.454Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-10-30T17:43:54.760Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://www.browserstack.com/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-10-30T17:43:54.750Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 28068:0
+2025-10-30T17:43:56.095Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-10-30T17:43:54.750Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 28068:0
+2025-10-30T17:43:56.096Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:44:04.868Z CLI info [sdk:service]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Driver initialized as primary driver: platformIndex=0
+2025-10-30T17:44:05.718Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+    integrations: { browserstack: [Object] }
+  }
+} to 28068:0
+2025-10-30T17:44:06.099Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+      integrations: [Object]
+    }
+  }
+] to 28068:0
+2025-10-30T17:44:06.099Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:44:24.838Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+    integrations: { browserstack: [Object] }
+  }
+} to 28068:0
+2025-10-30T17:44:25.192Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+    integrations: { browserstack: [Object] }
+  }
+} to 28068:0
+2025-10-30T17:44:25.626Z CLI info [TEST REPORTING AND ANALYTICS:node]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  onLogCreatedEvent: LogCreated promise={}
+2025-10-30T17:44:25.626Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.47.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:44:06.110Z',
+      uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+      kind: 'TEST_STEP',
+      message: 'page.goto(https://www.browserstack.com/)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.47.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:44:14.470Z',
+      uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+      kind: 'TEST_STEP',
+      message: 'expect.toHaveTitle',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.47.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:44:14.606Z',
+      uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+      kind: 'TEST_STEP',
+      message: 'page.waitForTimeout',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6'
+    }
+  ]
+} to 28068:0
+2025-10-30T17:44:25.632Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://www.browserstack.com/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'passed',
+    duration_in_ms: 20716,
+    started_at: '2025-10-30T17:43:54.750Z',
+    finished_at: '2025-10-30T17:44:15.466Z',
+    failure: null,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 28068:0
+2025-10-30T17:44:26.110Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'passed',
+      duration_in_ms: 20716,
+      started_at: '2025-10-30T17:43:54.750Z',
+      finished_at: '2025-10-30T17:44:15.466Z',
+      failure: null,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 28068:0
+2025-10-30T17:44:26.111Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:44:26.980Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-10-30T17:44:27.789Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  stopBuild: 4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi request={"finished_at":"2025-10-30T17:44:25.668Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-10-30T17:44:27.792Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:44:27.793Z CLI info [TEST REPORTING AND ANALYTICS:module]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Visit https://automation.browserstack.com/builds/4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi to view build report, insights, and many more debugging information all at one place!
+2025-10-30T17:44:28.136Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-10-30T17:44:29.192Z CLI info  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-10-30T17:44:35.261Z CLI info [main]  [princetonbaretto_BH6h3C]  [4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi]  [83bb0bab-45e6-460d-85fe-7e81a6944c03]  Received graceful signal termination, performing cleanup
+2025-10-30T17:44:57.436Z CLI info     Config : {"userName":"princetonbaretto_BH6h3C","accessKey":"dzHFiSHDYXyfRzZGA7QM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":"11","browserName":"chrome","browserVersion":"138"}],"accessibility":true,"parallelsPerPlatform":1,"browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testReporting":true}
+2025-10-30T17:44:57.438Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [164735a2-8c70-4151-baae-be23d20610b4]  Starting testhub from 29041:0
+2025-10-30T17:44:57.439Z CLI info  [princetonbaretto_BH6h3C]   [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-10-30T17:44:58.806Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [164735a2-8c70-4151-baae-be23d20610b4]  startBuild: response=jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf
+2025-10-30T17:44:58.809Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:45:01.295Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-10-30T17:45:01.351Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-10-30T17:45:01.408Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-10-30T17:45:01.964Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-10-30T17:45:03.234Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://www.browserstack.com/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-10-30T17:45:03.223Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 29041:0
+2025-10-30T17:45:04.812Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-10-30T17:45:03.223Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 29041:0
+2025-10-30T17:45:04.812Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:45:16.754Z CLI info [accessibility:module]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  onDriverInit: 164735a2-8c70-4151-baae-be23d20610b4 platformIndex=0
+2025-10-30T17:45:16.756Z CLI info [accessibility:module]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  onDriverInit: 164735a2-8c70-4151-baae-be23d20610b4 platformIndex=0 isSupported=true
+2025-10-30T17:45:16.757Z CLI info [accessibility:module]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  onDriverInit: platformIndex=0 stored capabilities
+2025-10-30T17:45:16.761Z CLI info [sdk:service]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Driver initialized as primary driver: platformIndex=0
+2025-10-30T17:45:17.599Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+    integrations: { browserstack: [Object] }
+  }
+} to 29041:0
+2025-10-30T17:45:18.817Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+      integrations: [Object]
+    }
+  }
+] to 29041:0
+2025-10-30T17:45:18.819Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:45:51.433Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+    integrations: { browserstack: [Object] }
+  }
+} to 29041:0
+2025-10-30T17:45:51.779Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+    integrations: { browserstack: [Object] }
+  }
+} to 29041:0
+2025-10-30T17:45:52.206Z CLI info [TEST REPORTING AND ANALYTICS:node]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  onLogCreatedEvent: LogCreated promise={}
+2025-10-30T17:45:52.207Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.47.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:45:18.140Z',
+      uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+      kind: 'TEST_STEP',
+      message: 'page.goto(https://www.browserstack.com/)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '740f0546-a1f5-4922-901d-2238bb5f939f'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.47.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:45:25.082Z',
+      uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+      kind: 'TEST_STEP',
+      message: 'expect.toHaveTitle',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '740f0546-a1f5-4922-901d-2238bb5f939f'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.47.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:45:25.441Z',
+      uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+      kind: 'TEST_STEP',
+      message: 'page.waitForTimeout',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '740f0546-a1f5-4922-901d-2238bb5f939f'
+    }
+  ]
+} to 29041:0
+2025-10-30T17:45:52.213Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://www.browserstack.com/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'passed',
+    duration_in_ms: 35411,
+    started_at: '2025-10-30T17:45:03.223Z',
+    finished_at: '2025-10-30T17:45:38.634Z',
+    failure: null,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 29041:0
+2025-10-30T17:45:52.876Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'passed',
+      duration_in_ms: 35411,
+      started_at: '2025-10-30T17:45:03.223Z',
+      finished_at: '2025-10-30T17:45:38.634Z',
+      failure: null,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 29041:0
+2025-10-30T17:45:52.877Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:45:53.791Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-10-30T17:45:54.640Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  stopBuild: jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf request={"finished_at":"2025-10-30T17:45:52.275Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-10-30T17:45:54.642Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:45:54.645Z CLI info [TEST REPORTING AND ANALYTICS:module]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Visit https://automation.browserstack.com/builds/jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf to view build report, insights, and many more debugging information all at one place!
+2025-10-30T17:45:55.021Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-10-30T17:45:55.441Z CLI info  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-10-30T17:46:01.529Z CLI info [main]  [princetonbaretto_BH6h3C]  [jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf]  [164735a2-8c70-4151-baae-be23d20610b4]  Received graceful signal termination, performing cleanup
+2025-10-30T17:49:51.460Z CLI info     Config : {"userName":"princetonbaretto_BH6h3C","accessKey":"dzHFiSHDYXyfRzZGA7QM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":"11","browserName":"chrome","browserVersion":"138"}],"accessibility":true,"parallelsPerPlatform":1,"browserstackLocal":false,"debug":false,"networkLogs":false,"consoleLogs":"errors","testReporting":true}
+2025-10-30T17:49:51.463Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Starting testhub from 32333:0
+2025-10-30T17:49:51.465Z CLI info  [princetonbaretto_BH6h3C]   [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-10-30T17:49:53.386Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]   [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  startBuild: response=ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f
+2025-10-30T17:49:53.388Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:49:56.111Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-10-30T17:49:56.170Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-10-30T17:49:56.248Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-10-30T17:49:56.819Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-10-30T17:49:58.238Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://www.browserstack.com/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-10-30T17:49:58.229Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 32333:0
+2025-10-30T17:49:59.391Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-10-30T17:49:58.229Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 32333:0
+2025-10-30T17:49:59.392Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:50:13.238Z CLI info [accessibility:module]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  onDriverInit: 36330a71-dbae-46a9-b4d7-45ad7cb51e4c platformIndex=0
+2025-10-30T17:50:13.238Z CLI info [accessibility:module]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  onDriverInit: 36330a71-dbae-46a9-b4d7-45ad7cb51e4c platformIndex=0 isSupported=true
+2025-10-30T17:50:13.238Z CLI info [accessibility:module]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  onDriverInit: platformIndex=0 stored capabilities
+2025-10-30T17:50:13.238Z CLI info [sdk:service]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Driver initialized as primary driver: platformIndex=0
+2025-10-30T17:50:13.816Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+    integrations: { browserstack: [Object] }
+  }
+} to 32333:0
+2025-10-30T17:50:15.399Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+      integrations: [Object]
+    }
+  }
+] to 32333:0
+2025-10-30T17:50:15.401Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:50:44.620Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+    integrations: { browserstack: [Object] }
+  }
+} to 32333:0
+2025-10-30T17:50:44.974Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+    integrations: { browserstack: [Object] }
+  }
+} to 32333:0
+2025-10-30T17:50:45.397Z CLI info [TEST REPORTING AND ANALYTICS:node]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  onLogCreatedEvent: LogCreated promise={}
+2025-10-30T17:50:45.397Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.47.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:50:14.206Z',
+      uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+      kind: 'TEST_STEP',
+      message: 'page.goto(https://www.browserstack.com/)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.47.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:50:22.876Z',
+      uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+      kind: 'TEST_STEP',
+      message: 'expect.toHaveTitle',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.47.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-10-30T17:50:23.148Z',
+      uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+      kind: 'TEST_STEP',
+      message: 'page.waitForTimeout',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009'
+    }
+  ]
+} to 32333:0
+2025-10-30T17:50:45.402Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+    name: 'visits browserstack.com and validates title',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        "  await page.goto('https://www.browserstack.com/');\n" +
+        '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+        '  await page.waitForTimeout(10000);\n' +
+        '}'
+    },
+    identifier: 'visits browserstack.com and validates title',
+    scope: 'visits browserstack.com and validates title',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    vc_filepath: '',
+    location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+    result: 'passed',
+    duration_in_ms: 32124,
+    started_at: '2025-10-30T17:49:58.229Z',
+    finished_at: '2025-10-30T17:50:30.353Z',
+    failure: null,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: true,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 32333:0
+2025-10-30T17:50:45.412Z CLI info [testhub:request-queue-handler]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+      integrations: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+      name: 'visits browserstack.com and validates title',
+      body: [Object],
+      identifier: 'visits browserstack.com and validates title',
+      scope: 'visits browserstack.com and validates title',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      vc_filepath: '',
+      location: 'apps/browserstack-e2e/tests/browserstack.spec.ts',
+      result: 'passed',
+      duration_in_ms: 32124,
+      started_at: '2025-10-30T17:49:58.229Z',
+      finished_at: '2025-10-30T17:50:30.353Z',
+      failure: null,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 32333:0
+2025-10-30T17:50:45.414Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-10-30T17:50:46.286Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-10-30T17:50:47.084Z CLI info [testhub:module]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  stopBuild: ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f request={"finished_at":"2025-10-30T17:50:45.453Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-10-30T17:50:47.086Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-10-30T17:50:47.087Z CLI info [TEST REPORTING AND ANALYTICS:module]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Visit https://automation.browserstack.com/builds/ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f to view build report, insights, and many more debugging information all at one place!
+2025-10-30T17:50:47.445Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-10-30T17:50:47.749Z CLI info  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-10-30T17:50:53.784Z CLI info [main]  [princetonbaretto_BH6h3C]  [ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f]  [36330a71-dbae-46a9-b4d7-45ad7cb51e4c]  Received graceful signal termination, performing cleanup

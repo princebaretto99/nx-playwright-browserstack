@@ -1,0 +1,11 @@
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  Ensuring Playwright is installed.
+
+use --skipInstall to skip installation.
+
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+  [32m✓[39m  [2m1 [22m[chromium] › apps/browserstack-e2e/tests/browserstack.spec.ts:3:5 › visits browserstack.com and validates title[2m (1.5s)[22m
+
+[32m  1 passed[39m[2m (3.0s)[22m

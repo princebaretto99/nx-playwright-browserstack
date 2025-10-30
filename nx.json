@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "npmScope": "bestow",
+  "targetDefaults": {
+    "e2e": {
+      "cache": false
+    }
+  }
+}
+
+

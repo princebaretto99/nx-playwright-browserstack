@@ -1,0 +1,106 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.8.14",
+  "deps": {
+    "@nx/playwright": "^19.8.6",
+    "@playwright/test": "1.47.2",
+    "@types/node": "^24.9.2",
+    "browserstack-node-sdk": "^1.45.4",
+    "nx": "^19.8.6",
+    "typescript": "^5.4.5"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "log/usage.log",
+        "hash": "7939288120547844633"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14022267939979960331"
+      },
+      {
+        "file": "executors.json",
+        "hash": "17337914398787310589"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "9196281002566044291"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "4896474778247512878"
+      },
+      {
+        "file": "log/performance-report/performance-report-32402-0.json",
+        "hash": "12785399869330447927"
+      },
+      {
+        "file": "log/sdk-cli.log",
+        "hash": "7871747319710617036"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9660400896634819802"
+      },
+      {
+        "file": "package.json",
+        "hash": "4943629265661768905"
+      },
+      {
+        "file": "README.md",
+        "hash": "16630836668796244156"
+      },
+      {
+        "file": "log/events.json",
+        "hash": "6528968394641898455"
+      },
+      {
+        "file": "test-results/.last-run.json",
+        "hash": "11141884120100644736"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "5566286921977447571"
+      },
+      {
+        "file": "log/performance-report/modified-key-metrics.json",
+        "hash": "13318010088445209132"
+      }
+    ],
+    "projectFileMap": {
+      "browserstack-e2e": [
+        {
+          "file": "apps/browserstack-e2e/browserstack.yml",
+          "hash": "16893584013348584805"
+        },
+        {
+          "file": "apps/browserstack-e2e/playwright.config.ts",
+          "hash": "16425037141446000107"
+        },
+        {
+          "file": "apps/browserstack-e2e/project.json",
+          "hash": "11150895384110750391"
+        },
+        {
+          "file": "apps/browserstack-e2e/tests/browserstack.spec.ts",
+          "hash": "13603888535021075692"
+        },
+        {
+          "file": "apps/browserstack-e2e/tests/executors/playwright/playwright.ts",
+          "hash": "1455589443799124723"
+        },
+        {
+          "file": "apps/browserstack-e2e/tests/executors/playwright/schema.json",
+          "hash": "12964813046685109776"
+        },
+        {
+          "file": "apps/browserstack-e2e/tsconfig.json",
+          "hash": "15402726496843688552"
+        }
+      ]
+    }
+  }
+}

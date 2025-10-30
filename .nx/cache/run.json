@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx e2e browserstack-e2e -- --headed",
+    "startTime": "2025-10-30T17:49:44.173Z",
+    "endTime": "2025-10-30T17:50:59.792Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "browserstack-e2e:e2e",
+      "target": "e2e",
+      "projectName": "browserstack-e2e",
+      "hash": "10756919524669428985",
+      "startTime": "2025-10-30T17:49:44.183Z",
+      "endTime": "2025-10-30T17:50:59.791Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

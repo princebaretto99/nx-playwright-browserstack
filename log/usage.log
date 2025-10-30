@@ -1,0 +1,1102 @@
+2025-10-30 23:03:52 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/browserstack.yml
+2025-10-30 23:03:52 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:03:52 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:03:52 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:03:52 - [32minfo[39m: SDK run started with id: fae56adb-4da1-40c5-a4e6-55c021ac082d
+2025-10-30 23:03:52 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:03:52 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:03:52 - [32minfo[39m: SDK run started with id: fae56adb-4da1-40c5-a4e6-55c021ac082d
+2025-10-30 23:03:52 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:03:53 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:03:53 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:03:53 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:03:53 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:03:54 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:03:54 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:03:54 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"b03dbe77-0d44-4a94-9f65-8edf38d86331","listen":"unix:/tmp/sdk-platform-b03dbe77-0d44-4a94-9f65-8edf38d86331.sock"}
+2025-10-30 23:03:54 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"b03dbe77-0d44-4a94-9f65-8edf38d86331","listen":"unix:/tmp/sdk-platform-b03dbe77-0d44-4a94-9f65-8edf38d86331.sock"}
+2025-10-30 23:03:54 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-b03dbe77-0d44-4a94-9f65-8edf38d86331.sock
+2025-10-30 23:03:54 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: b03dbe77-0d44-4a94-9f65-8edf38d86331 and listen address: unix:/tmp/sdk-platform-b03dbe77-0d44-4a94-9f65-8edf38d86331.sock
+2025-10-30 23:03:54 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:03:54 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:03:54 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-b03dbe77-0d44-4a94-9f65-8edf38d86331.sock
+2025-10-30 23:03:54 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: b03dbe77-0d44-4a94-9f65-8edf38d86331 and listen address: unix:/tmp/sdk-platform-b03dbe77-0d44-4a94-9f65-8edf38d86331.sock
+2025-10-30 23:03:54 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:03:54 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:03:55 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:03:55 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=b03dbe77-0d44-4a94-9f65-8edf38d86331
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=b03dbe77-0d44-4a94-9f65-8edf38d86331
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:03:55 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:03:58 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: b03dbe77-0d44-4a94-9f65-8edf38d86331
+2025-10-30 23:03:58 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-b03dbe77-0d44-4a94-9f65-8edf38d86331.sock
+2025-10-30 23:03:58 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:03:58 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:03:58 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:03:58 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=b03dbe77-0d44-4a94-9f65-8edf38d86331
+2025-10-30 23:03:58 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:03:58 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:03:58 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:03:58 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:03:58 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/Bestow/log/.obs_test_details-default
+2025-10-30 23:03:58 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=18406:0, state=TestFrameworkState.INIT_TEST
+2025-10-30 23:03:58 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=c9a29de0e4dd76a5a3897ca08fa01ad4afbf2f8b45c8633201b0708f2a75fd15 target=18406:0
+2025-10-30 23:04:00 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: b03dbe77-0d44-4a94-9f65-8edf38d86331
+2025-10-30 23:04:00 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-b03dbe77-0d44-4a94-9f65-8edf38d86331.sock
+2025-10-30 23:04:00 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:04:00 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:04:00 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:04:00 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=b03dbe77-0d44-4a94-9f65-8edf38d86331
+2025-10-30 23:04:00 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:04:00 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:04:00 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:04:00 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:04:00 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:04:00 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: b03dbe77-0d44-4a94-9f65-8edf38d86331
+2025-10-30 23:04:00 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:04:00 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-10-30 23:04:00 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=18447:0, state=AutomationFrameworkState.CREATE
+2025-10-30 23:04:00 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=a44a3c7d9e8072fe1c08978ee5c4e36999bfd68ad3862a136c207d906819ff6b target=18447:0
+2025-10-30 23:04:02 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:04:02 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-632fd8185a55744988e6
+2025-10-30 23:04:02 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.56.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '76a810ea-b630-4e94-a062-778bb8dbfd54',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-632fd8185a55744988e6',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-10-30T17:34:00.593Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-10-30 23:04:02 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:04:02 - [32minfo[39m: getting screenshots results.
+2025-10-30 23:04:02 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:04:02 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-10-30 23:04:02 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-10-30 23:04:02 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:04:02 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:04:02 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:04:02 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:04:02 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:04:02 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:04:06 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:04:06 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:04:06 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a
+2025-10-30 23:04:06 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:04:06 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:04:06 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:04:06 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:04:11 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:04:11 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:04:11 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:04:11 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:04:11 - [32minfo[39m: Visit https://automation.browserstack.com/builds/lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a to view build report, insights, and many more debugging information all at one place!
+
+2025-10-30 23:04:12 - [32minfo[39m: SDK run ended for id: fae56adb-4da1-40c5-a4e6-55c021ac082d, testhub id: lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a
+2025-10-30 23:04:12 - [32minfo[39m: SDK run ended for id: fae56adb-4da1-40c5-a4e6-55c021ac082d, testhub id: lvhfyvc9qdhtitjrblprdoe6q7cu8ydbjg4vrc2a
+2025-10-30 23:04:15 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:04:15 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:04:15 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:04:15 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:05:14 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/browserstack.yml
+2025-10-30 23:05:14 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:05:14 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:05:14 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:05:14 - [32minfo[39m: SDK run started with id: 73f0b63b-76ad-46fd-9aa2-a4fd1067c5fe
+2025-10-30 23:05:14 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:05:14 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:05:14 - [32minfo[39m: SDK run started with id: 73f0b63b-76ad-46fd-9aa2-a4fd1067c5fe
+2025-10-30 23:05:14 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:05:15 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:05:15 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:05:15 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:05:15 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:05:18 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:05:18 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:05:18 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"049937ff-0a16-42eb-a9be-445248d7db8a","listen":"unix:/tmp/sdk-platform-049937ff-0a16-42eb-a9be-445248d7db8a.sock"}
+2025-10-30 23:05:18 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"049937ff-0a16-42eb-a9be-445248d7db8a","listen":"unix:/tmp/sdk-platform-049937ff-0a16-42eb-a9be-445248d7db8a.sock"}
+2025-10-30 23:05:18 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-049937ff-0a16-42eb-a9be-445248d7db8a.sock
+2025-10-30 23:05:18 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 049937ff-0a16-42eb-a9be-445248d7db8a and listen address: unix:/tmp/sdk-platform-049937ff-0a16-42eb-a9be-445248d7db8a.sock
+2025-10-30 23:05:18 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:05:18 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:05:18 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-049937ff-0a16-42eb-a9be-445248d7db8a.sock
+2025-10-30 23:05:18 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 049937ff-0a16-42eb-a9be-445248d7db8a and listen address: unix:/tmp/sdk-platform-049937ff-0a16-42eb-a9be-445248d7db8a.sock
+2025-10-30 23:05:18 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:05:18 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:05:19 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:05:19 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=049937ff-0a16-42eb-a9be-445248d7db8a
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=049937ff-0a16-42eb-a9be-445248d7db8a
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:05:19 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:05:23 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 049937ff-0a16-42eb-a9be-445248d7db8a
+2025-10-30 23:05:23 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-049937ff-0a16-42eb-a9be-445248d7db8a.sock
+2025-10-30 23:05:23 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:05:23 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:05:23 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:05:23 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=049937ff-0a16-42eb-a9be-445248d7db8a
+2025-10-30 23:05:23 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:05:23 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:05:23 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:05:23 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:05:23 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/Bestow/log/.obs_test_details-default
+2025-10-30 23:05:23 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=22331:0, state=TestFrameworkState.INIT_TEST
+2025-10-30 23:05:23 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=6370bec98233e836258d6254e42c23d2d13f82c48e8a5d914d5df9184ac5c2f2 target=22331:0
+2025-10-30 23:05:26 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 049937ff-0a16-42eb-a9be-445248d7db8a
+2025-10-30 23:05:26 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-049937ff-0a16-42eb-a9be-445248d7db8a.sock
+2025-10-30 23:05:26 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:05:26 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:05:26 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:05:26 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=049937ff-0a16-42eb-a9be-445248d7db8a
+2025-10-30 23:05:26 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:05:26 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:05:26 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:05:26 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:05:26 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 049937ff-0a16-42eb-a9be-445248d7db8a
+2025-10-30 23:05:26 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:05:27 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:05:26 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-10-30 23:05:27 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=22394:0, state=AutomationFrameworkState.CREATE
+2025-10-30 23:05:27 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=2563b2e813627216e55e1cac44fc11ee72c36598590bc202cb02d24566df1688 target=22394:0
+2025-10-30 23:05:28 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:05:28 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-632fd8185a55744988e6
+2025-10-30 23:05:28 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.56.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '83346f98-27a9-4771-8f7b-bae603829d7a',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-632fd8185a55744988e6',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-10-30T17:35:26.986Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-10-30 23:05:28 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:05:28 - [32minfo[39m: getting screenshots results.
+2025-10-30 23:05:28 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:05:28 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-10-30 23:05:28 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-10-30 23:05:28 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:05:28 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:05:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:05:28 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:05:28 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:05:28 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:05:33 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:05:33 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:05:33 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb
+2025-10-30 23:05:33 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:05:33 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:05:33 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:05:33 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:05:38 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:05:38 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:05:38 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:05:38 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:05:38 - [32minfo[39m: Visit https://automation.browserstack.com/builds/sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb to view build report, insights, and many more debugging information all at one place!
+
+2025-10-30 23:05:38 - [32minfo[39m: SDK run ended for id: 73f0b63b-76ad-46fd-9aa2-a4fd1067c5fe, testhub id: sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb
+2025-10-30 23:05:38 - [32minfo[39m: SDK run ended for id: 73f0b63b-76ad-46fd-9aa2-a4fd1067c5fe, testhub id: sa85j2atpo8twm03fhhldaiwidu9qhmbpai2rumb
+2025-10-30 23:05:42 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:05:42 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:05:43 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:05:43 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:06:58 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/browserstack.yml
+2025-10-30 23:06:58 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:06:58 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:06:58 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:06:58 - [32minfo[39m: SDK run started with id: d25c0e22-6dc3-49a6-beec-f6f953d15f0c
+2025-10-30 23:06:58 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:06:58 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:06:58 - [32minfo[39m: SDK run started with id: d25c0e22-6dc3-49a6-beec-f6f953d15f0c
+2025-10-30 23:06:58 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:06:59 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:06:59 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:06:59 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:06:59 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:07:00 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:07:00 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:07:00 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"546eac29-4241-4dc1-bbc0-bc5068df869a","listen":"unix:/tmp/sdk-platform-546eac29-4241-4dc1-bbc0-bc5068df869a.sock"}
+2025-10-30 23:07:00 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"546eac29-4241-4dc1-bbc0-bc5068df869a","listen":"unix:/tmp/sdk-platform-546eac29-4241-4dc1-bbc0-bc5068df869a.sock"}
+2025-10-30 23:07:00 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-546eac29-4241-4dc1-bbc0-bc5068df869a.sock
+2025-10-30 23:07:00 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 546eac29-4241-4dc1-bbc0-bc5068df869a and listen address: unix:/tmp/sdk-platform-546eac29-4241-4dc1-bbc0-bc5068df869a.sock
+2025-10-30 23:07:00 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:07:00 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:07:00 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-546eac29-4241-4dc1-bbc0-bc5068df869a.sock
+2025-10-30 23:07:00 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 546eac29-4241-4dc1-bbc0-bc5068df869a and listen address: unix:/tmp/sdk-platform-546eac29-4241-4dc1-bbc0-bc5068df869a.sock
+2025-10-30 23:07:00 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:07:00 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:07:01 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:07:01 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=546eac29-4241-4dc1-bbc0-bc5068df869a
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=546eac29-4241-4dc1-bbc0-bc5068df869a
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:07:01 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:07:04 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 546eac29-4241-4dc1-bbc0-bc5068df869a
+2025-10-30 23:07:04 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-546eac29-4241-4dc1-bbc0-bc5068df869a.sock
+2025-10-30 23:07:04 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:07:04 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:07:04 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:07:04 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=546eac29-4241-4dc1-bbc0-bc5068df869a
+2025-10-30 23:07:04 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:07:04 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:07:04 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:07:04 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:07:04 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/Bestow/log/.obs_test_details-default
+2025-10-30 23:07:04 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=23476:0, state=TestFrameworkState.INIT_TEST
+2025-10-30 23:07:04 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=2e5282973fa7cd75f046359c69143630f8425d6d1f1ca711c1f18afe0f226048 target=23476:0
+2025-10-30 23:07:06 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 546eac29-4241-4dc1-bbc0-bc5068df869a
+2025-10-30 23:07:06 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-546eac29-4241-4dc1-bbc0-bc5068df869a.sock
+2025-10-30 23:07:06 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:07:06 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:07:06 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:07:06 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=546eac29-4241-4dc1-bbc0-bc5068df869a
+2025-10-30 23:07:06 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:07:06 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:07:06 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:07:06 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:07:06 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:07:06 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 546eac29-4241-4dc1-bbc0-bc5068df869a
+2025-10-30 23:07:06 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:07:06 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-10-30 23:07:06 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=23505:0, state=AutomationFrameworkState.CREATE
+2025-10-30 23:07:06 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=45122881864bdbda3258cd2906ed6b1a5d0e293a67059fbdfea48437c2126140 target=23505:0
+2025-10-30 23:07:07 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:07:07 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-632fd8185a55744988e6
+2025-10-30 23:07:07 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.56.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '5ffd1861-8d83-4cd8-a63a-fb83a10ebeab',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-632fd8185a55744988e6',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-10-30T17:37:06.527Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-10-30 23:07:07 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:07:07 - [32minfo[39m: getting screenshots results.
+2025-10-30 23:07:07 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:07:07 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-10-30 23:07:07 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-10-30 23:07:07 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:07:07 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:07:08 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:07:08 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:07:08 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:07:08 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:07:13 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:07:13 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:07:13 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz
+2025-10-30 23:07:13 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:07:13 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:07:13 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:07:13 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:07:18 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:07:18 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:07:18 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:07:18 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:07:18 - [32minfo[39m: Visit https://automation.browserstack.com/builds/to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz to view build report, insights, and many more debugging information all at one place!
+
+2025-10-30 23:07:19 - [32minfo[39m: SDK run ended for id: d25c0e22-6dc3-49a6-beec-f6f953d15f0c, testhub id: to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz
+2025-10-30 23:07:19 - [32minfo[39m: SDK run ended for id: d25c0e22-6dc3-49a6-beec-f6f953d15f0c, testhub id: to1fjunlzo32nrema7ao3pinxp7siq89rlawiiiz
+2025-10-30 23:07:22 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:07:22 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:07:22 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:07:22 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:09:09 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/browserstack.yml
+2025-10-30 23:09:09 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:09:09 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:09:09 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:09:09 - [32minfo[39m: SDK run started with id: 036be069-32b6-41d5-81da-ac71c6c2f658
+2025-10-30 23:09:09 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:09:09 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:09:09 - [32minfo[39m: SDK run started with id: 036be069-32b6-41d5-81da-ac71c6c2f658
+2025-10-30 23:09:09 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:09:10 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:09:10 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:09:10 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:09:10 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:09:10 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:09:10 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"5a26e127-50ab-448f-be57-8f2f917ce823","listen":"unix:/tmp/sdk-platform-5a26e127-50ab-448f-be57-8f2f917ce823.sock"}
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"5a26e127-50ab-448f-be57-8f2f917ce823","listen":"unix:/tmp/sdk-platform-5a26e127-50ab-448f-be57-8f2f917ce823.sock"}
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5a26e127-50ab-448f-be57-8f2f917ce823.sock
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 5a26e127-50ab-448f-be57-8f2f917ce823 and listen address: unix:/tmp/sdk-platform-5a26e127-50ab-448f-be57-8f2f917ce823.sock
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5a26e127-50ab-448f-be57-8f2f917ce823.sock
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 5a26e127-50ab-448f-be57-8f2f917ce823 and listen address: unix:/tmp/sdk-platform-5a26e127-50ab-448f-be57-8f2f917ce823.sock
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:09:11 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5a26e127-50ab-448f-be57-8f2f917ce823
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5a26e127-50ab-448f-be57-8f2f917ce823
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:09:11 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:09:14 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5a26e127-50ab-448f-be57-8f2f917ce823
+2025-10-30 23:09:14 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5a26e127-50ab-448f-be57-8f2f917ce823.sock
+2025-10-30 23:09:14 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:09:14 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:09:14 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:09:14 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5a26e127-50ab-448f-be57-8f2f917ce823
+2025-10-30 23:09:14 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:09:14 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:09:14 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:09:14 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:09:14 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/Bestow/log/.obs_test_details-default
+2025-10-30 23:09:14 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=24762:0, state=TestFrameworkState.INIT_TEST
+2025-10-30 23:09:14 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=086eebdf34da4c4c9f61814b9ea2a8982d4d8b7d5227208364c7436b87dfc16e target=24762:0
+2025-10-30 23:09:16 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5a26e127-50ab-448f-be57-8f2f917ce823
+2025-10-30 23:09:16 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-5a26e127-50ab-448f-be57-8f2f917ce823.sock
+2025-10-30 23:09:16 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:09:16 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:09:16 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:09:16 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=5a26e127-50ab-448f-be57-8f2f917ce823
+2025-10-30 23:09:16 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:09:16 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:09:16 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:09:16 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:09:16 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 5a26e127-50ab-448f-be57-8f2f917ce823
+2025-10-30 23:09:16 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:09:16 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:09:16 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-10-30 23:09:16 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=24789:0, state=AutomationFrameworkState.CREATE
+2025-10-30 23:09:16 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=8745b9a50ed8696456086df1074500e909234241fd4d11c6ebd91d976699c068 target=24789:0
+2025-10-30 23:09:27 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:09:27 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:09:27 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2025-10-30 23:09:27 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2025-10-30 23:09:27 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:09:27 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:09:27 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:09:27 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:09:28 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:09:31 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:09:31 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:09:31 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:09:31 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:09:31 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-632fd8185a55744988e6
+2025-10-30 23:09:31 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.56.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '1075e4cf-e88c-41f8-9745-f9ac98bf97ff',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-632fd8185a55744988e6',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-10-30T17:39:16.742Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-10-30 23:09:31 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:09:31 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:09:32 - [32minfo[39m: getting screenshots results.
+2025-10-30 23:09:32 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-10-30 23:09:32 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-10-30 23:09:32 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:09:32 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:09:32 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:09:32 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:09:32 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:09:32 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:09:38 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:09:38 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:09:38 - [32minfo[39m: stop: stopBinSession build_link=https://automate.browserstack.com/dashboard/v2/builds/4d94b7b7fb92ec9181e4a9c53df62b0556be4c83 hashed_id=4d94b7b7fb92ec9181e4a9c53df62b0556be4c83 o11y_uuid=kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi
+2025-10-30 23:09:38 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:09:38 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:09:38 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:09:38 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:09:43 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:09:43 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:09:43 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:09:43 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:09:43 - [32minfo[39m: Visit https://automation.browserstack.com/builds/kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi to view build report, insights, and many more debugging information all at one place!
+
+2025-10-30 23:09:43 - [32minfo[39m: SDK run ended for id: 036be069-32b6-41d5-81da-ac71c6c2f658, testhub id: kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi
+2025-10-30 23:09:43 - [32minfo[39m: SDK run ended for id: 036be069-32b6-41d5-81da-ac71c6c2f658, testhub id: kpgunzwdeuo2pqows0efs5eu3nvzt9pvi6fc1qvi
+2025-10-30 23:09:47 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:09:47 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:09:47 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:09:47 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:10:17 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/browserstack.yml
+2025-10-30 23:10:17 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:10:17 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:10:17 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:10:17 - [32minfo[39m: SDK run started with id: 89e8dc6f-7666-48d0-ae83-aa41a1ef5b9c
+2025-10-30 23:10:17 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:10:17 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:10:17 - [32minfo[39m: SDK run started with id: 89e8dc6f-7666-48d0-ae83-aa41a1ef5b9c
+2025-10-30 23:10:17 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:10:19 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:10:19 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:10:19 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:10:19 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:10:19 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:10:19 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"b76ee7ac-29d9-43c1-8290-ce889eeb2397","listen":"unix:/tmp/sdk-platform-b76ee7ac-29d9-43c1-8290-ce889eeb2397.sock"}
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"b76ee7ac-29d9-43c1-8290-ce889eeb2397","listen":"unix:/tmp/sdk-platform-b76ee7ac-29d9-43c1-8290-ce889eeb2397.sock"}
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-b76ee7ac-29d9-43c1-8290-ce889eeb2397.sock
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: b76ee7ac-29d9-43c1-8290-ce889eeb2397 and listen address: unix:/tmp/sdk-platform-b76ee7ac-29d9-43c1-8290-ce889eeb2397.sock
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-b76ee7ac-29d9-43c1-8290-ce889eeb2397.sock
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: b76ee7ac-29d9-43c1-8290-ce889eeb2397 and listen address: unix:/tmp/sdk-platform-b76ee7ac-29d9-43c1-8290-ce889eeb2397.sock
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:10:20 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=b76ee7ac-29d9-43c1-8290-ce889eeb2397
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=b76ee7ac-29d9-43c1-8290-ce889eeb2397
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:10:20 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:10:23 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: b76ee7ac-29d9-43c1-8290-ce889eeb2397
+2025-10-30 23:10:23 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-b76ee7ac-29d9-43c1-8290-ce889eeb2397.sock
+2025-10-30 23:10:23 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:10:23 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:10:23 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:10:23 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=b76ee7ac-29d9-43c1-8290-ce889eeb2397
+2025-10-30 23:10:23 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:10:23 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:10:23 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:10:23 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:10:23 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/Bestow/log/.obs_test_details-default
+2025-10-30 23:10:23 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=25508:0, state=TestFrameworkState.INIT_TEST
+2025-10-30 23:10:23 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=577472c8d1e52aa6c8dc70d7a2a0547220d8d93dfb83be2d5df75e60fcdfff0a target=25508:0
+2025-10-30 23:10:25 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: b76ee7ac-29d9-43c1-8290-ce889eeb2397
+2025-10-30 23:10:25 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-b76ee7ac-29d9-43c1-8290-ce889eeb2397.sock
+2025-10-30 23:10:25 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:10:25 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:10:25 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:10:25 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=b76ee7ac-29d9-43c1-8290-ce889eeb2397
+2025-10-30 23:10:25 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:10:25 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:10:25 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:10:25 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:10:25 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:10:25 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: b76ee7ac-29d9-43c1-8290-ce889eeb2397
+2025-10-30 23:10:25 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:10:25 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-10-30 23:10:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=25536:0, state=AutomationFrameworkState.CREATE
+2025-10-30 23:10:25 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=c246c02283e253e6147498bbbd814fb732840a2c6f81bbf580ed121243462ac0 target=25536:0
+2025-10-30 23:10:35 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:10:35 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:10:35 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2025-10-30 23:10:35 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2025-10-30 23:10:35 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:10:35 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:10:35 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:10:35 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:10:35 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:10:39 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:10:39 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:10:39 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-632fd8185a55744988e6
+2025-10-30 23:10:39 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.56.1',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: 'a119cf6e-941d-4377-ba48-5ec513651b4a',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-632fd8185a55744988e6',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://www.browserstack.com/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-10-30T17:40:25.654Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:10:39 - [32minfo[39m: getting screenshots results.
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:10:39 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:10:39 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:10:39 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:10:45 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:10:45 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:10:45 - [32minfo[39m: stop: stopBinSession build_link=https://automate.browserstack.com/dashboard/v2/builds/ceaa1c4bf97bbb1c5eb9968703345b43bd20c66d hashed_id=ceaa1c4bf97bbb1c5eb9968703345b43bd20c66d o11y_uuid=ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd
+2025-10-30 23:10:45 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:10:45 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:10:45 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:10:45 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:10:50 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:10:50 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:10:50 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:10:50 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:10:50 - [32minfo[39m: Visit https://automation.browserstack.com/builds/ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd to view build report, insights, and many more debugging information all at one place!
+
+2025-10-30 23:10:51 - [32minfo[39m: SDK run ended for id: 89e8dc6f-7666-48d0-ae83-aa41a1ef5b9c, testhub id: ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd
+2025-10-30 23:10:51 - [32minfo[39m: SDK run ended for id: 89e8dc6f-7666-48d0-ae83-aa41a1ef5b9c, testhub id: ji2amiggaij4kgkw1lithlcmwzwestfzwa7ybayd
+2025-10-30 23:10:54 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:10:54 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:10:54 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:10:54 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:13:47 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/browserstack.yml
+2025-10-30 23:13:47 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:13:47 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:13:47 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:13:47 - [32minfo[39m: SDK run started with id: aa74f6d8-f820-4794-b49b-fe1c206735c1
+2025-10-30 23:13:47 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:13:47 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:13:47 - [32minfo[39m: SDK run started with id: aa74f6d8-f820-4794-b49b-fe1c206735c1
+2025-10-30 23:13:47 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:13:48 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:13:48 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:13:48 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:13:48 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:13:49 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:13:49 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:13:49 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"83bb0bab-45e6-460d-85fe-7e81a6944c03","listen":"unix:/tmp/sdk-platform-83bb0bab-45e6-460d-85fe-7e81a6944c03.sock"}
+2025-10-30 23:13:49 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"83bb0bab-45e6-460d-85fe-7e81a6944c03","listen":"unix:/tmp/sdk-platform-83bb0bab-45e6-460d-85fe-7e81a6944c03.sock"}
+2025-10-30 23:13:49 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-83bb0bab-45e6-460d-85fe-7e81a6944c03.sock
+2025-10-30 23:13:49 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 83bb0bab-45e6-460d-85fe-7e81a6944c03 and listen address: unix:/tmp/sdk-platform-83bb0bab-45e6-460d-85fe-7e81a6944c03.sock
+2025-10-30 23:13:49 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:13:49 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:13:49 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-83bb0bab-45e6-460d-85fe-7e81a6944c03.sock
+2025-10-30 23:13:49 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 83bb0bab-45e6-460d-85fe-7e81a6944c03 and listen address: unix:/tmp/sdk-platform-83bb0bab-45e6-460d-85fe-7e81a6944c03.sock
+2025-10-30 23:13:49 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:13:49 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:13:50 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:13:50 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=83bb0bab-45e6-460d-85fe-7e81a6944c03
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=83bb0bab-45e6-460d-85fe-7e81a6944c03
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:13:50 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:13:52 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 83bb0bab-45e6-460d-85fe-7e81a6944c03
+2025-10-30 23:13:52 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-83bb0bab-45e6-460d-85fe-7e81a6944c03.sock
+2025-10-30 23:13:52 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:13:52 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:13:52 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:13:52 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=83bb0bab-45e6-460d-85fe-7e81a6944c03
+2025-10-30 23:13:52 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:13:52 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:13:52 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:13:52 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:13:52 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/Bestow/log/.obs_test_details-default
+2025-10-30 23:13:52 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=28099:0, state=TestFrameworkState.INIT_TEST
+2025-10-30 23:13:52 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=93cf7f12c5cd295aea97a35811a51668ffa89998ea35674914713ae25f6fb733 target=28099:0
+2025-10-30 23:13:54 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 83bb0bab-45e6-460d-85fe-7e81a6944c03
+2025-10-30 23:13:54 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-83bb0bab-45e6-460d-85fe-7e81a6944c03.sock
+2025-10-30 23:13:54 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:13:54 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:13:54 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:13:54 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=83bb0bab-45e6-460d-85fe-7e81a6944c03
+2025-10-30 23:13:54 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:13:54 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-10-30 23:13:54 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:13:54 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:13:54 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:13:54 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 83bb0bab-45e6-460d-85fe-7e81a6944c03
+2025-10-30 23:13:54 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:13:54 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-10-30 23:13:54 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=28143:0, state=AutomationFrameworkState.CREATE
+2025-10-30 23:13:54 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=0307ca070ec69e6db25c6f8af452a794046facb4700ca14b9333eb6c7287a7af target=28143:0
+2025-10-30 23:14:04 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:14:04 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:14:04 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2025-10-30 23:14:04 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2025-10-30 23:14:04 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:14:05 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:14:05 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:14:05 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:14:05 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:14:24 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:14:24 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:14:24 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:14:24 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:14:25 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-632fd8185a55744988e6
+2025-10-30 23:14:25 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.47.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '38ace7ea-a472-472c-91dd-f2975c7581c6',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-632fd8185a55744988e6',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://www.browserstack.com/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-10-30T17:43:54.750Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-10-30 23:14:25 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:14:25 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:14:25 - [32minfo[39m: getting screenshots results.
+2025-10-30 23:14:25 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-10-30 23:14:25 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-10-30 23:14:25 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:14:25 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:14:25 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:14:25 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:14:25 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:14:25 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:14:30 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:14:30 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:14:30 - [32minfo[39m: stop: stopBinSession build_link=https://automate.browserstack.com/dashboard/v2/builds/a872b03ea5f302a4c9a6f958540550812ef33547 hashed_id=a872b03ea5f302a4c9a6f958540550812ef33547 o11y_uuid=4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi
+2025-10-30 23:14:30 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:14:30 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:14:30 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:14:30 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:14:35 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:14:35 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:14:35 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:14:35 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:14:35 - [32minfo[39m: Visit https://automation.browserstack.com/builds/4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi to view build report, insights, and many more debugging information all at one place!
+
+2025-10-30 23:14:35 - [32minfo[39m: SDK run ended for id: aa74f6d8-f820-4794-b49b-fe1c206735c1, testhub id: 4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi
+2025-10-30 23:14:35 - [32minfo[39m: SDK run ended for id: aa74f6d8-f820-4794-b49b-fe1c206735c1, testhub id: 4duddm8avnfsjxpj5gutidcrn94kctaocpexdgsi
+2025-10-30 23:14:38 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:14:38 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:14:39 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:14:39 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:14:55 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/browserstack.yml
+2025-10-30 23:14:55 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:14:55 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:14:55 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:14:55 - [32minfo[39m: SDK run started with id: 0eaeae88-388d-4739-91ae-b15ed96d0926
+2025-10-30 23:14:55 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:14:55 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:14:55 - [32minfo[39m: SDK run started with id: 0eaeae88-388d-4739-91ae-b15ed96d0926
+2025-10-30 23:14:55 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:14:56 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:14:56 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:14:56 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:14:56 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:14:57 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:14:57 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:14:57 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"164735a2-8c70-4151-baae-be23d20610b4","listen":"unix:/tmp/sdk-platform-164735a2-8c70-4151-baae-be23d20610b4.sock"}
+2025-10-30 23:14:57 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"164735a2-8c70-4151-baae-be23d20610b4","listen":"unix:/tmp/sdk-platform-164735a2-8c70-4151-baae-be23d20610b4.sock"}
+2025-10-30 23:14:57 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-164735a2-8c70-4151-baae-be23d20610b4.sock
+2025-10-30 23:14:57 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 164735a2-8c70-4151-baae-be23d20610b4 and listen address: unix:/tmp/sdk-platform-164735a2-8c70-4151-baae-be23d20610b4.sock
+2025-10-30 23:14:57 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:14:57 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:14:57 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-164735a2-8c70-4151-baae-be23d20610b4.sock
+2025-10-30 23:14:57 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 164735a2-8c70-4151-baae-be23d20610b4 and listen address: unix:/tmp/sdk-platform-164735a2-8c70-4151-baae-be23d20610b4.sock
+2025-10-30 23:14:57 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:14:57 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:14:58 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:14:58 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:14:58 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:14:58 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=164735a2-8c70-4151-baae-be23d20610b4
+2025-10-30 23:14:58 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:14:58 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQwMTA3MiwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI0LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0MDEwNzIsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjAxOTA5OH0.vns9ZKZefw2HBtVjp9h2JLh8bRreG_VEDDJdawYCQFg
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.24.0.0.zip?Expires=1762019098&Signature=cu~TPA5-hQrPigiaka4zfskRyxJyh1hfoLamJBq1aPIs7vaNpSjAD5OwTNDEfMT5bgbfnq84c5lPsKo7xdF3yZVmG4KlfsGw6MXhig43AJ5aNvs-ET~gsJgJPtOeLNdPFOpuNuAK7XNw2DT7FHgk2qsiveeJL7cSln6pzQV7Wd~Zgya-AJqlxgOvmbRZAmULGXN0LINToGeKexk04vYI0YfrhmXVjKsYkO0hnlDkMG4D5n~h4MFQ~406NKSBZjs35-~4sOrw3CKiHPfMLmbPxt07Pb16-e6641aCo-2Xz0O6IUWZ7E3hBDcrgQJtOsKY9yETwA2UPbFRYYd2sHhiHw__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1401072
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-10-30 23:14:58 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:14:58 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=164735a2-8c70-4151-baae-be23d20610b4
+2025-10-30 23:14:58 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:14:58 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQwMTA3MiwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI0LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0MDEwNzIsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjAxOTA5OH0.vns9ZKZefw2HBtVjp9h2JLh8bRreG_VEDDJdawYCQFg
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.24.0.0.zip?Expires=1762019098&Signature=cu~TPA5-hQrPigiaka4zfskRyxJyh1hfoLamJBq1aPIs7vaNpSjAD5OwTNDEfMT5bgbfnq84c5lPsKo7xdF3yZVmG4KlfsGw6MXhig43AJ5aNvs-ET~gsJgJPtOeLNdPFOpuNuAK7XNw2DT7FHgk2qsiveeJL7cSln6pzQV7Wd~Zgya-AJqlxgOvmbRZAmULGXN0LINToGeKexk04vYI0YfrhmXVjKsYkO0hnlDkMG4D5n~h4MFQ~406NKSBZjs35-~4sOrw3CKiHPfMLmbPxt07Pb16-e6641aCo-2Xz0O6IUWZ7E3hBDcrgQJtOsKY9yETwA2UPbFRYYd2sHhiHw__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1401072
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf
+2025-10-30 23:14:58 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-10-30 23:15:01 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 164735a2-8c70-4151-baae-be23d20610b4
+2025-10-30 23:15:01 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-164735a2-8c70-4151-baae-be23d20610b4.sock
+2025-10-30 23:15:01 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:15:01 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:15:01 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:15:01 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=164735a2-8c70-4151-baae-be23d20610b4
+2025-10-30 23:15:01 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:15:01 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQwMTA3MiwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI0LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0MDEwNzIsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjAxOTA5OH0.vns9ZKZefw2HBtVjp9h2JLh8bRreG_VEDDJdawYCQFg
+2025-10-30 23:15:01 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.24.0.0.zip?Expires=1762019098&Signature=cu~TPA5-hQrPigiaka4zfskRyxJyh1hfoLamJBq1aPIs7vaNpSjAD5OwTNDEfMT5bgbfnq84c5lPsKo7xdF3yZVmG4KlfsGw6MXhig43AJ5aNvs-ET~gsJgJPtOeLNdPFOpuNuAK7XNw2DT7FHgk2qsiveeJL7cSln6pzQV7Wd~Zgya-AJqlxgOvmbRZAmULGXN0LINToGeKexk04vYI0YfrhmXVjKsYkO0hnlDkMG4D5n~h4MFQ~406NKSBZjs35-~4sOrw3CKiHPfMLmbPxt07Pb16-e6641aCo-2Xz0O6IUWZ7E3hBDcrgQJtOsKY9yETwA2UPbFRYYd2sHhiHw__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-10-30 23:15:01 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1401072
+2025-10-30 23:15:01 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf
+2025-10-30 23:15:01 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-10-30 23:15:01 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:15:01 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:15:01 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/Bestow/log/.obs_test_details-default
+2025-10-30 23:15:01 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=29089:0, state=TestFrameworkState.INIT_TEST
+2025-10-30 23:15:01 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=0f12ace700164c1e9f3438e38e5b2078bd7cd2a2f39261b0d3b02793f84fe80d target=29089:0
+2025-10-30 23:15:03 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 164735a2-8c70-4151-baae-be23d20610b4
+2025-10-30 23:15:03 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-164735a2-8c70-4151-baae-be23d20610b4.sock
+2025-10-30 23:15:03 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:15:03 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:15:03 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:15:03 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=164735a2-8c70-4151-baae-be23d20610b4
+2025-10-30 23:15:03 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:15:03 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQwMTA3MiwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI0LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0MDEwNzIsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjAxOTA5OH0.vns9ZKZefw2HBtVjp9h2JLh8bRreG_VEDDJdawYCQFg
+2025-10-30 23:15:03 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.24.0.0.zip?Expires=1762019098&Signature=cu~TPA5-hQrPigiaka4zfskRyxJyh1hfoLamJBq1aPIs7vaNpSjAD5OwTNDEfMT5bgbfnq84c5lPsKo7xdF3yZVmG4KlfsGw6MXhig43AJ5aNvs-ET~gsJgJPtOeLNdPFOpuNuAK7XNw2DT7FHgk2qsiveeJL7cSln6pzQV7Wd~Zgya-AJqlxgOvmbRZAmULGXN0LINToGeKexk04vYI0YfrhmXVjKsYkO0hnlDkMG4D5n~h4MFQ~406NKSBZjs35-~4sOrw3CKiHPfMLmbPxt07Pb16-e6641aCo-2Xz0O6IUWZ7E3hBDcrgQJtOsKY9yETwA2UPbFRYYd2sHhiHw__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-10-30 23:15:03 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1401072
+2025-10-30 23:15:03 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf
+2025-10-30 23:15:03 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-10-30 23:15:03 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:15:03 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:15:03 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 164735a2-8c70-4151-baae-be23d20610b4
+2025-10-30 23:15:03 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:15:03 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:15:03 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-10-30 23:15:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=29123:0, state=AutomationFrameworkState.CREATE
+2025-10-30 23:15:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=39e757a1670a0e71f7feb0017a2053d21447bad0cc6536189bc4aefe9cb87735 target=29123:0
+2025-10-30 23:15:16 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:15:16 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2025-10-30 23:15:16 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2025-10-30 23:15:16 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:15:17 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:15:17 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:15:17 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:15:17 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:15:18 - [32minfo[39m: Accessibility scan succeeded on attempt 1.
+2025-10-30 23:15:18 - [32minfo[39m: Page Scan result=true
+2025-10-30 23:15:35 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-10-30 23:15:47 - [32minfo[39m: Accessibility scan succeeded on attempt 1.
+2025-10-30 23:15:51 - [32minfo[39m: Accessibility results saved successfully on attempt 1 (playwright-page)
+2025-10-30 23:15:51 - [32minfo[39m: Accessibility testing for this test case has ended.
+2025-10-30 23:15:51 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:15:51 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:15:51 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:15:51 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:15:51 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-632fd8185a55744988e6
+2025-10-30 23:15:51 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.47.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '740f0546-a1f5-4922-901d-2238bb5f939f',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-632fd8185a55744988e6',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://www.browserstack.com/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-10-30T17:45:03.223Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-10-30 23:15:51 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:15:51 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:15:52 - [32minfo[39m: getting screenshots results.
+2025-10-30 23:15:52 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-10-30 23:15:52 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-10-30 23:15:52 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:15:52 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:15:52 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:15:52 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:15:52 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:15:52 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:15:56 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:15:56 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:15:56 - [32minfo[39m: stop: stopBinSession build_link=https://automate.browserstack.com/dashboard/v2/builds/0c32db3ad515c447fba4fee3cb515951b7f01cea hashed_id=0c32db3ad515c447fba4fee3cb515951b7f01cea o11y_uuid=jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf
+2025-10-30 23:15:56 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:15:56 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:15:56 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:15:56 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:16:01 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:16:01 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:16:01 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:16:01 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:16:01 - [32minfo[39m: Visit https://automation.browserstack.com/builds/jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf to view build report, insights, and many more debugging information all at one place!
+
+2025-10-30 23:16:02 - [32minfo[39m: SDK run ended for id: 0eaeae88-388d-4739-91ae-b15ed96d0926, testhub id: jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf
+2025-10-30 23:16:02 - [32minfo[39m: SDK run ended for id: 0eaeae88-388d-4739-91ae-b15ed96d0926, testhub id: jrt36pxcno6kdcbvug1tw6v3n8ssoojdwq7dj2tf
+2025-10-30 23:16:07 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:16:07 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:16:07 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:16:07 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:19:48 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/browserstack.yml
+2025-10-30 23:19:48 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:19:48 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/Bestow/log
+2025-10-30 23:19:48 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:19:48 - [32minfo[39m: SDK run started with id: 5ff56d64-5d4d-4074-b7f4-51ed40ff4fd7
+2025-10-30 23:19:48 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:19:48 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/Bestow/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --headed --pass-with-no-tests
+2025-10-30 23:19:48 - [32minfo[39m: SDK run started with id: 5ff56d64-5d4d-4074-b7f4-51ed40ff4fd7
+2025-10-30 23:19:48 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2025-10-30 23:19:49 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:19:49 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-10-30 23:19:49 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:19:49 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-10-30 23:19:51 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:19:51 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-10-30 23:19:51 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"36330a71-dbae-46a9-b4d7-45ad7cb51e4c","listen":"unix:/tmp/sdk-platform-36330a71-dbae-46a9-b4d7-45ad7cb51e4c.sock"}
+2025-10-30 23:19:51 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"36330a71-dbae-46a9-b4d7-45ad7cb51e4c","listen":"unix:/tmp/sdk-platform-36330a71-dbae-46a9-b4d7-45ad7cb51e4c.sock"}
+2025-10-30 23:19:51 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-36330a71-dbae-46a9-b4d7-45ad7cb51e4c.sock
+2025-10-30 23:19:51 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 36330a71-dbae-46a9-b4d7-45ad7cb51e4c and listen address: unix:/tmp/sdk-platform-36330a71-dbae-46a9-b4d7-45ad7cb51e4c.sock
+2025-10-30 23:19:51 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:19:51 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:19:51 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-36330a71-dbae-46a9-b4d7-45ad7cb51e4c.sock
+2025-10-30 23:19:51 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 36330a71-dbae-46a9-b4d7-45ad7cb51e4c and listen address: unix:/tmp/sdk-platform-36330a71-dbae-46a9-b4d7-45ad7cb51e4c.sock
+2025-10-30 23:19:51 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-10-30 23:19:51 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"], parsedConfig=[]
+2025-10-30 23:19:53 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:19:53 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-10-30 23:19:53 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:19:53 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=36330a71-dbae-46a9-b4d7-45ad7cb51e4c
+2025-10-30 23:19:53 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:19:53 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQwMTA4MiwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI0LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0MDEwODIsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjAxOTM5M30.Km8F5yAqNOFDqOihUG6GEVw8WIdOpKoe38cz99sZtkE
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.24.0.0.zip?Expires=1762019392&Signature=FJhHCzgQRQaevtiAkCWvpBd-X~MXpPDIb8vIjHFockPNAEm2HN4M0c3Yjs1M3wTyaUVAZQdHeuz8Ex-GJ11pBu8b~Dn5oRxa7tAPLZaG4akdE8VJujcFP5yv2FyvYP88ULKuyZuI4elCnVEb9ar3OsbCmKrZvWB4ItqEUE7hAf3IcwEmISC-sbEMenrfzrI-PD8XrdnwtayGcQdww3cf0CjR4OrqK4fX5YqRkCiCn2GbC7PeARHZSnuieJ8TsEKdtZjwy7v4xuwVL2WYgCnWN370G3WcGA~kALh-YLRYBXypG-2IZf0ZfsiE4TdXByMEJuxYhbn4GqW7vhz7pWaCdw__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1401082
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-10-30 23:19:53 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:19:53 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=36330a71-dbae-46a9-b4d7-45ad7cb51e4c
+2025-10-30 23:19:53 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:19:53 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--headed","--pass-with-no-tests"]
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQwMTA4MiwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI0LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0MDEwODIsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjAxOTM5M30.Km8F5yAqNOFDqOihUG6GEVw8WIdOpKoe38cz99sZtkE
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.24.0.0.zip?Expires=1762019392&Signature=FJhHCzgQRQaevtiAkCWvpBd-X~MXpPDIb8vIjHFockPNAEm2HN4M0c3Yjs1M3wTyaUVAZQdHeuz8Ex-GJ11pBu8b~Dn5oRxa7tAPLZaG4akdE8VJujcFP5yv2FyvYP88ULKuyZuI4elCnVEb9ar3OsbCmKrZvWB4ItqEUE7hAf3IcwEmISC-sbEMenrfzrI-PD8XrdnwtayGcQdww3cf0CjR4OrqK4fX5YqRkCiCn2GbC7PeARHZSnuieJ8TsEKdtZjwy7v4xuwVL2WYgCnWN370G3WcGA~kALh-YLRYBXypG-2IZf0ZfsiE4TdXByMEJuxYhbn4GqW7vhz7pWaCdw__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1401082
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f
+2025-10-30 23:19:53 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-10-30 23:19:56 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 36330a71-dbae-46a9-b4d7-45ad7cb51e4c
+2025-10-30 23:19:56 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-36330a71-dbae-46a9-b4d7-45ad7cb51e4c.sock
+2025-10-30 23:19:56 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:19:56 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:19:56 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:19:56 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=36330a71-dbae-46a9-b4d7-45ad7cb51e4c
+2025-10-30 23:19:56 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:19:56 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQwMTA4MiwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI0LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0MDEwODIsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjAxOTM5M30.Km8F5yAqNOFDqOihUG6GEVw8WIdOpKoe38cz99sZtkE
+2025-10-30 23:19:56 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.24.0.0.zip?Expires=1762019392&Signature=FJhHCzgQRQaevtiAkCWvpBd-X~MXpPDIb8vIjHFockPNAEm2HN4M0c3Yjs1M3wTyaUVAZQdHeuz8Ex-GJ11pBu8b~Dn5oRxa7tAPLZaG4akdE8VJujcFP5yv2FyvYP88ULKuyZuI4elCnVEb9ar3OsbCmKrZvWB4ItqEUE7hAf3IcwEmISC-sbEMenrfzrI-PD8XrdnwtayGcQdww3cf0CjR4OrqK4fX5YqRkCiCn2GbC7PeARHZSnuieJ8TsEKdtZjwy7v4xuwVL2WYgCnWN370G3WcGA~kALh-YLRYBXypG-2IZf0ZfsiE4TdXByMEJuxYhbn4GqW7vhz7pWaCdw__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-10-30 23:19:56 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1401082
+2025-10-30 23:19:56 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f
+2025-10-30 23:19:56 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-10-30 23:19:56 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:19:56 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:19:56 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/Bestow/log/.obs_test_details-default
+2025-10-30 23:19:56 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=32382:0, state=TestFrameworkState.INIT_TEST
+2025-10-30 23:19:56 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=a3ebbed99afe5537c05d1d4244b500fafef1e4727dc7086218a7ed0188728863 target=32382:0
+2025-10-30 23:19:58 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 36330a71-dbae-46a9-b4d7-45ad7cb51e4c
+2025-10-30 23:19:58 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-36330a71-dbae-46a9-b4d7-45ad7cb51e4c.sock
+2025-10-30 23:19:58 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-10-30 23:19:58 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-10-30 23:19:58 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-10-30 23:19:58 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=36330a71-dbae-46a9-b4d7-45ad7cb51e4c
+2025-10-30 23:19:58 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-10-30 23:19:58 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQwMTA4MiwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI0LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0MDEwODIsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MjAxOTM5M30.Km8F5yAqNOFDqOihUG6GEVw8WIdOpKoe38cz99sZtkE
+2025-10-30 23:19:58 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.24.0.0.zip?Expires=1762019392&Signature=FJhHCzgQRQaevtiAkCWvpBd-X~MXpPDIb8vIjHFockPNAEm2HN4M0c3Yjs1M3wTyaUVAZQdHeuz8Ex-GJ11pBu8b~Dn5oRxa7tAPLZaG4akdE8VJujcFP5yv2FyvYP88ULKuyZuI4elCnVEb9ar3OsbCmKrZvWB4ItqEUE7hAf3IcwEmISC-sbEMenrfzrI-PD8XrdnwtayGcQdww3cf0CjR4OrqK4fX5YqRkCiCn2GbC7PeARHZSnuieJ8TsEKdtZjwy7v4xuwVL2WYgCnWN370G3WcGA~kALh-YLRYBXypG-2IZf0ZfsiE4TdXByMEJuxYhbn4GqW7vhz7pWaCdw__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-10-30 23:19:58 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1401082
+2025-10-30 23:19:58 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f
+2025-10-30 23:19:58 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-10-30 23:19:58 - [32minfo[39m: [GrpcClient] Getting Playwright config
+2025-10-30 23:19:58 - [32minfo[39m: [GrpcClient] PlaywrightConfig request successful
+2025-10-30 23:19:58 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:19:58 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 36330a71-dbae-46a9-b4d7-45ad7cb51e4c
+2025-10-30 23:19:58 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:19:58 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-10-30 23:19:58 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=32402:0, state=AutomationFrameworkState.CREATE
+2025-10-30 23:19:58 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=b430249a3ffc5cf8b9bf9b9fc65f4e8fd7c10a6c09cfe909f001cf1df34c6da8 target=32402:0
+2025-10-30 23:20:13 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:20:13 - [32minfo[39m: [GrpcClient] Sending DriverInit
+2025-10-30 23:20:13 - [32minfo[39m: [GrpcClient] DriverInit request successful
+2025-10-30 23:20:13 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:20:13 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:20:13 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:20:13 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:20:13 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:20:14 - [32minfo[39m: Accessibility scan succeeded on attempt 1.
+2025-10-30 23:20:14 - [32minfo[39m: Page Scan result=true
+2025-10-30 23:20:33 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2025-10-30 23:20:40 - [32minfo[39m: Accessibility scan succeeded on attempt 1.
+2025-10-30 23:20:44 - [32minfo[39m: Accessibility results saved successfully on attempt 1 (playwright-page)
+2025-10-30 23:20:44 - [32minfo[39m: Accessibility testing for this test case has ended.
+2025-10-30 23:20:44 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-10-30 23:20:44 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:20:44 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:20:44 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-10-30 23:20:44 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-632fd8185a55744988e6
+2025-10-30 23:20:44 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.47.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '1a134c93-f334-4d59-a7e8-7a99f0063009',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-632fd8185a55744988e6',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/tests/browserstack.spec.ts:3',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://www.browserstack.com/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [],
+  test_started_at: '2025-10-30T17:49:58.229Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' -138:Windows 11-browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-10-30 23:20:44 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-10-30 23:20:44 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-10-30 23:20:45 - [32minfo[39m: getting screenshots results.
+2025-10-30 23:20:45 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-10-30 23:20:45 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-10-30 23:20:45 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-10-30 23:20:45 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-10-30 23:20:45 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:20:45 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-10-30 23:20:45 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:20:45 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-10-30 23:20:48 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:20:48 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-10-30 23:20:48 - [32minfo[39m: stop: stopBinSession build_link=https://automate.browserstack.com/dashboard/v2/builds/dbb2ea1cc0f210f057100ed47bd7da79956c05eb hashed_id=dbb2ea1cc0f210f057100ed47bd7da79956c05eb o11y_uuid=ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f
+2025-10-30 23:20:48 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:20:48 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:20:48 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-10-30 23:20:48 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-10-30 23:20:53 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:20:53 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-10-30 23:20:53 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:20:53 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-10-30 23:20:53 - [32minfo[39m: Visit https://automation.browserstack.com/builds/ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f to view build report, insights, and many more debugging information all at one place!
+
+2025-10-30 23:20:54 - [32minfo[39m: SDK run ended for id: 5ff56d64-5d4d-4074-b7f4-51ed40ff4fd7, testhub id: ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f
+2025-10-30 23:20:54 - [32minfo[39m: SDK run ended for id: 5ff56d64-5d4d-4074-b7f4-51ed40ff4fd7, testhub id: ltnkvzeptu8ejvhhajqsokrubsq0nl04fp6wvd0f
+2025-10-30 23:20:58 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:20:58 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/Bestow/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-10-30 23:20:58 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2025-10-30 23:20:58 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop

@@ -1,0 +1,9 @@
+{
+    "executors": {
+      "playwright": {
+        "implementation": "./apps/browserstack-e2e/tests/executors/playwright/playwright.ts",
+        "schema": "./apps/browserstack-e2e/tests/executors/playwright/schema.json",
+        "description": "Run Playwright tests."
+      }
+    }
+  }

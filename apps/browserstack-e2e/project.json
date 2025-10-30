@@ -1,0 +1,18 @@
+{
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "name": "browserstack-e2e",
+  "projectType": "application",
+  "sourceRoot": "apps/browserstack-e2e",
+  "targets": {
+    "e2e": {
+      "executor": "./:playwright",
+      "outputs": ["{workspaceRoot}/dist/.playwright/playwright"],
+      "options": {
+        "config": "apps/browserstack-e2e/playwright.config.ts",
+        "browserstackConfig":"apps/browserstack-e2e/browserstack.yml"
+      }
+    }
+  }
+}
+
+
