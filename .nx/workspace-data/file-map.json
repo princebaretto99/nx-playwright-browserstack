@@ -1,0 +1,76 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.8.14",
+  "deps": {
+    "@nx/playwright": "^19.8.6",
+    "@playwright/test": "^1.47.2",
+    "browserstack-node-sdk": "^1.45.4",
+    "nx": "^19.8.6"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "test-results/.last-run.json",
+        "hash": "11141884120100644736"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9660400896634819802"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14022267939979960331"
+      },
+      {
+        "file": "package.json",
+        "hash": "6277438464974345107"
+      },
+      {
+        "file": "log/sdk-cli-debug.log",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "log/usage-debug.log",
+        "hash": "16264043013305471272"
+      },
+      {
+        "file": "README.md",
+        "hash": "16630836668796244156"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "17040006695352762311"
+      },
+      {
+        "file": "browserstack.yml",
+        "hash": "15707916783964921435"
+      },
+      {
+        "file": ".yarnrc.yml",
+        "hash": "5566286921977447571"
+      },
+      {
+        "file": "log/usage.log",
+        "hash": "16940962531695351698"
+      }
+    ],
+    "projectFileMap": {
+      "browserstack-e2e": [
+        {
+          "file": "apps/browserstack-e2e/playwright.config.js",
+          "hash": "4957620918068154241"
+        },
+        {
+          "file": "apps/browserstack-e2e/project.json",
+          "hash": "16978327668591942665"
+        },
+        {
+          "file": "apps/browserstack-e2e/tests/browserstack.spec.js",
+          "hash": "8717156082281365792"
+        }
+      ]
+    }
+  }
+}

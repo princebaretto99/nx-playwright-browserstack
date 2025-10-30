@@ -1,0 +1,23 @@
+{
+  "name": "bestow",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "yarn@3.6.4",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "nx": "nx",
+    "e2e": "nx e2e browserstack-e2e",
+    "e2e:headed": "nx e2e browserstack-e2e -- --headed",
+    "e2e:bstack": "nx browserstack-node-sdk e2e browserstack-e2e",
+    "postinstall": "npm update browserstack-node-sdk"
+  },
+  "devDependencies": {
+    "@nx/playwright": "^19.8.6",
+    "@playwright/test": "^1.47.2",
+    "browserstack-node-sdk": "^1.45.4",
+    "nx": "^19.8.6"
+  }
+}
