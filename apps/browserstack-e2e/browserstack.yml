@@ -32,6 +32,9 @@ platforms:
     osVersion: 11
     browserName: chrome
     browserVersion: 138
+    playwrightConfigOptions:
+      use:
+        trace: 'on'
     
 accessibility: true
 # =======================
@@ -62,7 +65,7 @@ browserstackLocal: false # <boolean> (Default false)
 # Debugging features
 # ===================
 debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
-networkLogs: false # <boolean> Set to true to enable HAR logs capturing
+networkLogs: true # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
 # CUSTOM_TAG_<INT>: # <string> (Default: parent folder name of the test file) Custom tag for your test suite
