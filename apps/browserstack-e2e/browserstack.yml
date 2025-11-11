@@ -31,11 +31,8 @@ platforms:
   - os: Windows
     osVersion: 11
     browserName: chrome
-    browserVersion: 138
-    playwrightConfigOptions:
-      use:
-        trace: 'on'
-    
+    browserVersion: 135
+
 accessibility: true
 # =======================
 # Parallels per Platform
