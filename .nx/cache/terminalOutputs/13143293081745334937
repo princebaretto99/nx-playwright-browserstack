@@ -1,0 +1,22 @@
+[1m[33m[7m[1m[36m NX [39m[33m[22m[1m[27m Falling back to ts-node for local typescript execution. This may be a little slower.[39m[22m
+[1m[33m  - To fix this, ensure @swc-node/register and @swc/core have been installed[39m[22m
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  Ensuring Playwright is installed.
+
+use --skipInstall to skip installation.
+
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+
+  [31m✘[39m  [2m1 [22m[31m[chrome@135:Windows 10@browserstack] › browserstack.spec.ts:4:1 › visits browserstack.com and validates title[39m[2m (30.0s)[22m
+
+
+[31m  1) [chrome@135:Windows 10@browserstack] › browserstack.spec.ts:4:1 › visits browserstack.com and validates title [39m
+
+    [31mTest timeout of 30000ms exceeded while setting up "page".[39m
+
+[33m  Slow test file: [39m[chrome@135:Windows 10@browserstack] › browserstack.spec.ts[33m (30.0s)[39m
+[33m  Consider splitting slow test files to speed up parallel execution[39m
+[31m  1 failed[39m
+[31m    [chrome@135:Windows 10@browserstack] › browserstack.spec.ts:4:1 › visits browserstack.com and validates title [39m

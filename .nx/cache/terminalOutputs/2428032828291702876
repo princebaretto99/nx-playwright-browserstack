@@ -1,0 +1,124 @@
+[1m[33m[7m[1m[36m NX [39m[33m[22m[1m[27m Falling back to ts-node for local typescript execution. This may be a little slower.[39m[22m
+[1m[33m  - To fix this, ensure @swc-node/register and @swc/core have been installed[39m[22m
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  Ensuring Playwright is installed.
+
+use --skipInstall to skip installation.
+
+2025-11-12 00:37:22 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/browserstack.yml
+2025-11-12 00:37:22 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/log
+2025-11-12 00:37:22 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/runner.js playwright test --config=apps/browserstack-e2e/playwright.config.ts --pass-with-no-tests
+2025-11-12 00:37:22 - [32minfo[39m: SDK run started with id: e4c85fad-75ea-4223-8150-46d440a2d2b0
+2025-11-12 00:37:23 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-11-12 00:37:23 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-11-12 00:37:23 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-11-12 00:37:24 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"e47b90ec-6ebf-47e6-bd6e-18c3da50939d","listen":"unix:/tmp/sdk-platform-e47b90ec-6ebf-47e6-bd6e-18c3da50939d.sock"}
+2025-11-12 00:37:24 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e47b90ec-6ebf-47e6-bd6e-18c3da50939d.sock
+2025-11-12 00:37:24 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: e47b90ec-6ebf-47e6-bd6e-18c3da50939d and listen address: unix:/tmp/sdk-platform-e47b90ec-6ebf-47e6-bd6e-18c3da50939d.sock
+2025-11-12 00:37:24 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-11-12 00:37:24 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--pass-with-no-tests"], parsedConfig=[]
+2025-11-12 00:37:24 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-11-12 00:37:24 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-11-12 00:37:24 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e47b90ec-6ebf-47e6-bd6e-18c3da50939d
+2025-11-12 00:37:24 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-11-12 00:37:24 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--pass-with-no-tests"]
+2025-11-12 00:37:24 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-11-12 00:37:26 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e47b90ec-6ebf-47e6-bd6e-18c3da50939d
+2025-11-12 00:37:26 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e47b90ec-6ebf-47e6-bd6e-18c3da50939d.sock
+2025-11-12 00:37:26 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-11-12 00:37:26 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-11-12 00:37:26 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-11-12 00:37:26 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e47b90ec-6ebf-47e6-bd6e-18c3da50939d
+2025-11-12 00:37:26 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-11-12 00:37:26 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+2025-11-12 00:37:27 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/log/.obs_test_details-default
+2025-11-12 00:37:27 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=65328:0, state=TestFrameworkState.INIT_TEST
+2025-11-12 00:37:27 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=09553fb2d02e29130a9aa7ebbbb612fc98dfa58048fefd71a0a2ab55d7d4f328 target=65328:0
+2025-11-12 00:37:29 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e47b90ec-6ebf-47e6-bd6e-18c3da50939d
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-e47b90ec-6ebf-47e6-bd6e-18c3da50939d.sock
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-11-12 00:37:29 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-11-12 00:37:29 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=e47b90ec-6ebf-47e6-bd6e-18c3da50939d
+2025-11-12 00:37:29 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-11-12 00:37:29 - [32minfo[39m: [BrowserstackCLI] Accessibility success=false
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-11-12 00:37:29 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: e47b90ec-6ebf-47e6-bd6e-18c3da50939d
+2025-11-12 00:37:29 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-11-12 00:37:29 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=65369:0, state=AutomationFrameworkState.CREATE
+2025-11-12 00:37:29 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=84553485d6b19b5184763314bc4fe570429a98507d85e7f1a23a8272c3fedf8e target=65369:0
+2025-11-12 00:37:29 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-11-12 00:37:29 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:37:29 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '6f399e8d-7986-4980-af50-41a3a2aa8403',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.47.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '6f399e8d-7986-4980-af50-41a3a2aa8403',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-49aee2ae168977f8f4dc',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/tests/browserstack.spec.ts:4',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://www.browserstack.com/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [ '135:Windows', 'browserstack' ],
+  test_started_at: '2025-11-11T19:07:29.895Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' chrome@135:Windows 10@browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+  [31m✘[39m  [2m1 [22m[31m[chrome@135:Windows 10@browserstack] › browserstack.spec.ts:4:1 › visits browserstack.com and validates title[39m[2m (11ms)[22m
+2025-11-12 00:37:29 - [32minfo[39m: getting screenshots results.
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+
+
+[31m  1) [chrome@135:Windows 10@browserstack] › browserstack.spec.ts:4:1 › visits browserstack.com and validates title [39m
+
+    Error: browserType.launch: Target page, context or browser has been closed
+    Browser logs:
+
+    <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-use-zoom-for-dsf=false --use-angle --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/tr/btrg4by958q2gn1px131s4fc0000gp/T/playwright_chromiumdev_profile-20QJ9m --remote-debugging-pipe --no-startup-window
+    <launched> pid=65401
+    [pid=65401][err] Old Headless mode has been removed from the Chrome binary. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).
+    [pid=65401][err] 
+    Call log:
+      [2m- <launching> /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=ImprovedCookieControls,LazyFrameLoading,GlobalMediaControls,DestroyProfileOnBrowserClose,MediaRouter,DialMediaRouteProvider,AcceptCHFrame,AutoExpandDetailsElement,CertificateTransparencyComponentUpdater,AvoidUnnecessaryBeforeUnloadCheckSync,Translate,HttpsUpgrades,PaintHolding,PlzDedicatedWorker --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --enable-automation --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --enable-use-zoom-for-dsf=false --use-angle --headless=old --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/var/folders/tr/btrg4by958q2gn1px131s4fc0000gp/T/playwright_chromiumdev_profile-20QJ9m --remote-debugging-pipe --no-startup-window[22m
+    [2m  - <launched> pid=65401[22m
+    [2m  - [pid=65401][err] Old Headless mode has been removed from the Chrome binary. Please use the new Headless mode (https://developer.chrome.com/docs/chromium/new-headless) or the chrome-headless-shell which is a standalone implementation of the old Headless mode (https://developer.chrome.com/blog/chrome-headless-shell).[22m
+    [2m  - [pid=65401][err] [22m
+
+
+    [2m    at BrowserType._0x2a84ac (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/mock-process.js:1:33758)[22m
+
+[31m  1 failed[39m
+[31m    [chrome@135:Windows 10@browserstack] › browserstack.spec.ts:4:1 › visits browserstack.com and validates title [39m
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-11-12 00:37:29 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-11-12 00:37:29 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-11-12 00:37:34 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-11-12 00:37:34 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=qvvph5vrfqoaya421ciqyt8y7d9fuj4oghn0h8ly
+2025-11-12 00:37:34 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-11-12 00:37:34 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-11-12 00:37:39 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-11-12 00:37:39 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-11-12 00:37:39 - [32minfo[39m: Visit https://automation.browserstack.com/builds/qvvph5vrfqoaya421ciqyt8y7d9fuj4oghn0h8ly to view build report, insights, and many more debugging information all at one place!
+
+2025-11-12 00:37:39 - [32minfo[39m: SDK run ended for id: e4c85fad-75ea-4223-8150-46d440a2d2b0, testhub id: qvvph5vrfqoaya421ciqyt8y7d9fuj4oghn0h8ly
+2025-11-12 00:37:41 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts

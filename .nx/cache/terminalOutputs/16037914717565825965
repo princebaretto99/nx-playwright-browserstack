@@ -1,0 +1,1522 @@
+[1m[33m[7m[1m[36m NX [39m[33m[22m[1m[27m Falling back to ts-node for local typescript execution. This may be a little slower.[39m[22m
+[1m[33m  - To fix this, ensure @swc-node/register and @swc/core have been installed[39m[22m
+
+[0m[7m[1m[36m NX [39m[22m[27m[0m  Ensuring Playwright is installed.
+
+use --skipInstall to skip installation.
+
+2025-11-12 00:50:53 - [32minfo[39m: Reading configs from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/browserstack.yml
+2025-11-12 00:50:53 - [32minfo[39m: Log Directory has been set to /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/log
+2025-11-12 00:50:53 - [34mdebug[39m: Log level set to debug
+2025-11-12 00:50:53 - [32minfo[39m: Running SDK with args /Users/princetonbaretto/.nvm/versions/node/v22.16.0/bin/node /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/.bin/browserstack-node-sdk playwright test --config=apps/browserstack-e2e/playwright.config.ts --pass-with-no-tests
+2025-11-12 00:50:53 - [32minfo[39m: SDK run started with id: 6d2dd05d-1935-46ec-bb6f-f27ef1fc119e
+2025-11-12 00:50:53 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-11-12 00:50:53 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/@playwright/test/package.json
+2025-11-12 00:50:53 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-11-12 00:50:53 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/helpers/helper.js
+- /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/runner.js
+2025-11-12 00:50:53 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-11-12 00:50:53 - [34mdebug[39m: Getting selenium-webdriver/package.json from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:50:53 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:50:53 - [34mdebug[39m: Getting selenium-webdriver/package.json from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:50:53 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-11-12 00:50:53 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-11-12 00:50:53 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-11-12 00:50:53 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright/lib/transform/transform.js
+2025-11-12 00:50:53 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestAttempted","detectedFramework":"Playwright","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","sdkRunId":"6d2dd05d-1935-46ec-bb6f-f27ef1fc119e","product_map":{"observability":true,"accessibility":true,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":true,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"Playwright-nodeagent/1.45.4","frameworkVersion":"1.47.2","automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v22.16.0","product":["observability"],"buildName":"playwright-build-testing","buildIdentifier":"#2","os":"Darwin","hostname":"PrincetonBaretto-T5XQRQ34F2","playwrightVersion":{}}}
+2025-11-12 00:50:53 - [34mdebug[39m: Sending request to https://api.browserstack.com/sdk/v1/event
+2025-11-12 00:50:53 - [34mdebug[39m: Sending request to https://hub.browserstack.com/next_hubs
+2025-11-12 00:50:53 - [34mdebug[39m: Response from https://hub.browserstack.com/next_hubs: 200 OK
+2025-11-12 00:50:53 - [34mdebug[39m: Response: {"hubs":["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]}
+2025-11-12 00:50:53 - [34mdebug[39m: NEAREST HUBS: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+2025-11-12 00:50:53 - [34mdebug[39m: Sending request to https://hub-aps.browserstack.com/check
+2025-11-12 00:50:53 - [34mdebug[39m: Sending request to https://hub-euw.browserstack.com/check
+2025-11-12 00:50:53 - [34mdebug[39m: Sending request to https://hub-apse.browserstack.com/check
+2025-11-12 00:50:53 - [34mdebug[39m: Response from https://hub-aps.browserstack.com/check: 200 OK
+2025-11-12 00:50:53 - [34mdebug[39m: Execution time for https://hub-aps.browserstack.com is: 66ms
+2025-11-12 00:50:54 - [34mdebug[39m: Response from https://api.browserstack.com/sdk/v1/event: 200 OK
+2025-11-12 00:50:54 - [34mdebug[39m: API Event SDKTestAttempted response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2025-11-12 00:50:54 - [34mdebug[39m: Response from https://hub-euw.browserstack.com/check: 200 OK
+2025-11-12 00:50:54 - [34mdebug[39m: Execution time for https://hub-euw.browserstack.com is: 557ms
+2025-11-12 00:50:54 - [34mdebug[39m: Response from https://hub-apse.browserstack.com/check: 200 OK
+2025-11-12 00:50:54 - [34mdebug[39m: Execution time for https://hub-apse.browserstack.com is: 712ms
+2025-11-12 00:50:54 - [34mdebug[39m: HUB URL SET TO - https://hub-aps.browserstack.com
+2025-11-12 00:50:54 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2025-11-12 00:50:54 - [34mdebug[39m: [BrowserstackCLI] Setting up CLI binary path...
+2025-11-12 00:50:54 - [34mdebug[39m: [CLIUtils] Configuring Cli path.
+2025-11-12 00:50:54 - [34mdebug[39m: [CLIUtils] Folder /Users/princetonbaretto/.browserstack already exists
+2025-11-12 00:50:54 - [32minfo[39m: [CLIUtils] Current CLI Path Found: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-11-12 00:50:54 - [34mdebug[39m: Sending request to https://api.browserstack.com/sdk/v1/update_cli
+2025-11-12 00:50:55 - [34mdebug[39m: Response from https://api.browserstack.com/sdk/v1/update_cli: 200 OK
+2025-11-12 00:50:55 - [34mdebug[39m: [CLIUtils] response {"data":{"success":true},"body":"{\"success\":true}","statusCode":200}
+2025-11-12 00:50:55 - [34mdebug[39m: [CLIUtils] Resolved binary path: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-11-12 00:50:55 - [34mdebug[39m: [BrowserstackCLI] CLI binary path resolved to: /Users/princetonbaretto/.browserstack/cli/binary-macos-arm64
+2025-11-12 00:50:55 - [32minfo[39m: [BrowserstackCLI] spawning command='/Users/princetonbaretto/.browserstack/cli/binary-macos-arm64,sdk'
+2025-11-12 00:50:55 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"c229f9f9-cfa3-48fb-957b-4f484d6d1c11","listen":"unix:/tmp/sdk-platform-c229f9f9-cfa3-48fb-957b-4f484d6d1c11.sock"}
+2025-11-12 00:50:55 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-c229f9f9-cfa3-48fb-957b-4f484d6d1c11.sock
+2025-11-12 00:50:55 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: c229f9f9-cfa3-48fb-957b-4f484d6d1c11 and listen address: unix:/tmp/sdk-platform-c229f9f9-cfa3-48fb-957b-4f484d6d1c11.sock
+2025-11-12 00:50:55 - [34mdebug[39m: [BrowserstackCLI] startMain: main-process started
+2025-11-12 00:50:55 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2025-11-12 00:50:55 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--pass-with-no-tests"], parsedConfig=[]
+2025-11-12 00:50:57 - [32minfo[39m: [GrpcClient] StartBinSession successful
+2025-11-12 00:50:57 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-11-12 00:50:57 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11
+2025-11-12 00:50:57 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-11-12 00:50:57 - [32minfo[39m: [BrowserstackCLI] setCliArgs: cliArgs=["playwright","test","--config=apps/browserstack-e2e/playwright.config.ts","--pass-with-no-tests"]
+2025-11-12 00:50:57 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQ1OTY4NSwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI1LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0NTk2ODUsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MzA2MTY1Nn0.vZk5O8_D3if0YXfnpOJT5kl4pOUAJz08OESe_fxwre0
+2025-11-12 00:50:57 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1763061656&Signature=jXCy3X~ECPh6cORk8cSOQH4SubKCcDsVQKlRUNQPISLKX301oikOWolHGo2-OAMtBIUfK8c7O7H9lrbIksNulBeT5A4FONBzoR5UDRLcNebpjAWOp8jFY9PoeJg-IDz7tbGYS5rWNn06uunRKuDdUysOD3EEtPqKaxeBiBrEDxuV6cE5UbzIQsHJ-U4kPreqcCEfygsQrNRLbPu4VeaUT1Z2ZcJlcBCKCvqIwcR5qFBuVmhCZZ4yILHflIa0xj5NI~UbPzwefws1Z42OplHy2gjppi51TNG7mcrANb5NwSIH6qD93koEZYUjU-GNkFxBjOU4gXpBubLFeWIke6B2bg__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-11-12 00:50:57 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1459685
+2025-11-12 00:50:57 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=z4pf4poubirqbjjh4ro7vf18inxwtooxjbfanlxj
+2025-11-12 00:50:57 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-11-12 00:50:57 - [32minfo[39m: [TrackedInstance] name: goog:chromeOptions value=[object Object]
+2025-11-12 00:50:57 - [34mdebug[39m: Configured module TestHubModule with binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11, platformIndex=0
+2025-11-12 00:50:57 - [34mdebug[39m: Configured module ObservabilityModule with binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11, platformIndex=0
+2025-11-12 00:50:57 - [34mdebug[39m: Configured module AccessibilityModule with binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11, platformIndex=0
+2025-11-12 00:50:57 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/configLoader.js, package - playwright
+2025-11-12 00:50:57 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright/lib/common/configLoader.js
+2025-11-12 00:50:57 - [34mdebug[39m: Configured module PlaywrightDriverModule with binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11, platformIndex=0
+2025-11-12 00:50:57 - [34mdebug[39m: Updated config file name to - playwright-browserstack-sdk.config.ts
+2025-11-12 00:50:57 - [34mdebug[39m: Proxy url : null
+2025-11-12 00:50:57 - [34mdebug[39m: No Proxy : null
+2025-11-12 00:50:59 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: c229f9f9-cfa3-48fb-957b-4f484d6d1c11
+2025-11-12 00:50:59 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-c229f9f9-cfa3-48fb-957b-4f484d6d1c11.sock
+2025-11-12 00:50:59 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-11-12 00:50:59 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-11-12 00:50:59 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-11-12 00:50:59 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11
+2025-11-12 00:50:59 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-11-12 00:50:59 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQ1OTY4NSwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI1LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0NTk2ODUsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MzA2MTY1Nn0.vZk5O8_D3if0YXfnpOJT5kl4pOUAJz08OESe_fxwre0
+2025-11-12 00:50:59 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1763061656&Signature=jXCy3X~ECPh6cORk8cSOQH4SubKCcDsVQKlRUNQPISLKX301oikOWolHGo2-OAMtBIUfK8c7O7H9lrbIksNulBeT5A4FONBzoR5UDRLcNebpjAWOp8jFY9PoeJg-IDz7tbGYS5rWNn06uunRKuDdUysOD3EEtPqKaxeBiBrEDxuV6cE5UbzIQsHJ-U4kPreqcCEfygsQrNRLbPu4VeaUT1Z2ZcJlcBCKCvqIwcR5qFBuVmhCZZ4yILHflIa0xj5NI~UbPzwefws1Z42OplHy2gjppi51TNG7mcrANb5NwSIH6qD93koEZYUjU-GNkFxBjOU4gXpBubLFeWIke6B2bg__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-11-12 00:50:59 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1459685
+2025-11-12 00:50:59 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=z4pf4poubirqbjjh4ro7vf18inxwtooxjbfanlxj
+2025-11-12 00:50:59 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-11-12 00:50:59 - [32minfo[39m: [TrackedInstance] name: goog:chromeOptions value=[object Object]
+2025-11-12 00:50:59 - [34mdebug[39m: Log level set to debug
+
+[2mRunning [22m1[2m test using [22m1[2m worker[22m
+
+2025-11-12 00:51:00 - [32minfo[39m: Setting up TestInfo directory at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/log/.obs_test_details-default
+2025-11-12 00:51:00 - [34mdebug[39m: [TestFramework] trackEvent: testFrameworkState=TestFrameworkState.INIT_TEST; hookState=HookState.PRE
+2025-11-12 00:51:00 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: created instance for target=70702:0, state=TestFrameworkState.INIT_TEST
+2025-11-12 00:51:00 - [32minfo[39m: [PlaywrightTestFramework] trackPlaywrightInstance: saved instance contextId=8eb44adefa5c41f6725d4f3c1100d3120165a3d6e69b71f0792a0422a8dc67e3 target=70702:0
+2025-11-12 00:51:00 - [34mdebug[39m: [PlaywrightTestFramework] trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instanceId=8eb44adefa5c41f6725d4f3c1100d3120165a3d6e69b71f0792a0422a8dc67e3
+2025-11-12 00:51:02 - [34mdebug[39m: Log level set to debug
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2025-11-12 00:51:02 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/@playwright/test/package.json
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2025-11-12 00:51:02 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright/lib/common/process.js
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2025-11-12 00:51:02 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/@playwright/test/index.js
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:02 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:02 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from null
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-11-12 00:51:02 - [34mdebug[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/connection.js, package - null
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:02 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:02 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:02 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from null
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-11-12 00:51:02 - [34mdebug[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/server/chromium/crConnection.js, package - null
+2025-11-12 00:51:02 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: c229f9f9-cfa3-48fb-957b-4f484d6d1c11
+2025-11-12 00:51:02 - [32minfo[39m: [GrpcClient] Connected to gRPC server at unix:/tmp/sdk-platform-c229f9f9-cfa3-48fb-957b-4f484d6d1c11.sock
+2025-11-12 00:51:02 - [32minfo[39m: [GrpcClient] Connecting bin session
+2025-11-12 00:51:02 - [32minfo[39m: [GrpcClient] ConnectBinSession successful
+2025-11-12 00:51:02 - [34mdebug[39m: [GrpcClient] connect-bin-session response: N {
+  f: {
+    '3': N {
+      f: null,
+      b: undefined,
+      D: -1,
+      u: [Array],
+      G: 1.7976931348623157e+308,
+      a: {}
+    },
+    '4': N {
+      f: null,
+      b: undefined,
+      D: -1,
+      u: [Array],
+      G: 1.7976931348623157e+308,
+      a: {}
+    },
+    '5': N {
+      f: [Object],
+      b: undefined,
+      D: -1,
+      u: [Array],
+      G: 1.7976931348623157e+308,
+      a: {}
+    }
+  },
+  b: undefined,
+  D: -1,
+  u: [
+    'c229f9f9-cfa3-48fb-957b-4f484d6d1c11',
+    '{"userName":"[REDACTED]","accessKey":"[REDACTED]","projectName":"Nx Playwright BrowserStack","buildName":"playwright-build-testing","buildIdentifier":"#2","accessibility":true,"browserstackAutomation":false,"logLevel":"debug","testReporting":true,"testObservability":true,"browserstackLocal":false,"selfHeal":false,"disableAutoCaptureLogs":false,"testhub":true,"platforms":[],"additionalPlatforms":[],"additionalParams":{},"testContextOptions":{"skipSessionStatus":true,"skipSessionName":true},"browserStackLocalOptions":{"key":"[REDACTED]","skipBinaryInitialisation":false},"turboScale":false,"turboScaleOptions":{},"isPlaywright":true,"testOrchestrationOptions":{"retryTestsOnFailure":{},"abortBuildOnFailure":{}},"apis":{"automate":{"hub":"https://hub.browserstack.com","cdp":"https://cdp.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"appAutomate":{"hub":"https://hub.browserstack.com","api":"https://api.browserstack.com","upload":"https://api-cloud.browserstack.com"},"percy":{"api":"https://api.browserstack.com"},"turboScale":{"api":"https://grid.browserstack.com"},"accessibility":{"api":"https://accessibility.browserstack.com"},"appAccessibility":{"api":"https://app-accessibility.browserstack.com"},"observability":{"api":"https://collector-observability.browserstack.com","upload":"https://upload-observability.browserstack.com"},"configServer":{"api":"https://sdk.browserstack.com"},"edsInstrumentation":{"api":"https://eds.browserstack.com"},"tcg":{"api":"https://tcg.browserstack.com"}},"hubUrl":""}',
+    [
+      'eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzYyODk5NjU1IiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjc2NDI1NjUsInNjb3BlIjp7InByb2R1Y3QiOiJzZGsiLCJ1c2VyX2FjY2VzcyI6eyJ0ZXN0X29ic2VydmFiaWxpdHkiOjEsImF1dG9tYXRlIjoxLCJhcHBfYXV0b21hdGUiOjEsInBlcmN5IjoxLCJhcHBfcGVyY3kiOjEsImFjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXBwX2FjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXV0b21hdGVfdHVyYm9zY2FsZSI6MSwibG93X2NvZGVfYXV0b21hdGlvbiI6MX0sImlhYW1fcm9sZSI6Im93bmVyIn0sImdyb3VwX2lkIjo3NTUxMzM4LCJ0ZWFtX2lkIjpudWxsLCJ1ZGFjX2FjY2VzcyI6Imdsb2JhbCJ9.NNAXZudhwJdfDyAvKdsr9lYZM-5fSOh0xT5Wnu2pv8zi9PFrlkIZ5-Pwx1xz5Af8bg-7_Mt-hpYa2C-Krf3AsxJpITwr6KtExIdnmldLzMhZj31Frt2aeQPyFOtaAH79lP_ZFUOnwKV4OsgptuUE0Cjvg-qrgiEy8vySz_JkrGbM530vAgUJxPffp7x5a-DYA8q521ZjcW4dqI8FIxgfz5Oe_f3QdHtBHgqZ0cq2YIzjHNTGrrp6AElJZeUAphJfEsLQ2E3jWh7mbCLfzhpEXJRHV0shIr746-ipfghebw8h1ErNKZgy1tJXLWL0X1Q8S_kPLoj_Mr3XWUZb3O2smw',
+      'z4pf4poubirqbjjh4ro7vf18inxwtooxjbfanlxj',
+      true
+    ],
+    [ true, <3 empty items>, [] ],
+    [ true, [Array], <2 empty items>, [] ]
+  ],
+  G: 1.7976931348623157e+308,
+  a: {}
+}
+2025-11-12 00:51:02 - [32minfo[39m: [BrowserstackCLI] loadModules: Loading modules
+2025-11-12 00:51:02 - [32minfo[39m: [BrowserstackCLI] loadModules: binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11
+2025-11-12 00:51:02 - [32minfo[39m: [BrowserstackCLI] loading Modules.
+2025-11-12 00:51:02 - [32minfo[39m: [TrackedInstance] name: accessibilityToken value=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo3NjQyNTY1LCJ0ZXN0X3J1bl9pZCI6MTQ1OTY4NSwiYTExeV9jb3JlX2NvbmZpZyI6eyJkaXNhYmxlX2ExMXlfZW5naW5lX2NvbmZpZyI6ZmFsc2UsImRpc2FibGVfYTExeV9lbmdpbmVfZXhwZXJpbWVudGFsX3J1bGVzIjpmYWxzZSwiZG9tRm9yZ2UiOnRydWUsImV4Y2x1ZGVfcnVsZXMiOltdLCJhZHZhbmNlZCI6dHJ1ZSwiYWkiOnRydWUsImNvbG9yQ29udHJhc3RBSSI6dHJ1ZSwiaW50ZXJtZWRpYXRlU2NhblByaW9yaXRpemVkIjpmYWxzZSwidXNlRXh0Q3R4IjpmYWxzZSwicnVuVHlwZUFPcHQiOmZhbHNlLCJhbGxvd0Nyb3NzT3JpZ2luSWZyYW1lIjpmYWxzZSwidGFyZ2V0Rm9ybWF0IjoiY3NzIiwiZW5hYmxlQ3lwcmVzc1NQQSI6ZmFsc2V9LCJzY2FubmVyX3ZlcnNpb24iOiI0LjI1LjAuMCIsImFkdmFuY2VkX3NjYW5fdGltZW91dCI6MTUsInJjdCI6MjUsImdyb3VwX2lkIjo3NTUxMzM4LCJhdXRvbWF0aW9uIjp0cnVlLCJydW5uZXIiOiJBVVQiLCJvcHRpbWl6YXRpb24iOnRydWUsInNjb3JlIjp0cnVlLCJxdWVyeV9wYXJhbXMiOmZhbHNlLCJzY29wZV9rZXkiOjE0NTk2ODUsInByaW9yaXRpemVkIjpmYWxzZSwiZ3JyX3pvbmUiOiIiLCJ3aW4xMzdmaXgiOnRydWUsInVybF9jb3VudCI6MCwiY29uc29saWRhdGVfcnVsZXMiOnRydWUsImV4cCI6MTc2MzA2MTY1Nn0.vZk5O8_D3if0YXfnpOJT5kl4pOUAJz08OESe_fxwre0
+2025-11-12 00:51:02 - [32minfo[39m: [TrackedInstance] name: scannerVersion value=https://assets-accessibility.browserstack.com/headless-extension/chrome/release-versions/4.25.0.0.zip?Expires=1763061656&Signature=jXCy3X~ECPh6cORk8cSOQH4SubKCcDsVQKlRUNQPISLKX301oikOWolHGo2-OAMtBIUfK8c7O7H9lrbIksNulBeT5A4FONBzoR5UDRLcNebpjAWOp8jFY9PoeJg-IDz7tbGYS5rWNn06uunRKuDdUysOD3EEtPqKaxeBiBrEDxuV6cE5UbzIQsHJ-U4kPreqcCEfygsQrNRLbPu4VeaUT1Z2ZcJlcBCKCvqIwcR5qFBuVmhCZZ4yILHflIa0xj5NI~UbPzwefws1Z42OplHy2gjppi51TNG7mcrANb5NwSIH6qD93koEZYUjU-GNkFxBjOU4gXpBubLFeWIke6B2bg__&Key-Pair-Id=KAD1XVTFMDAOD
+2025-11-12 00:51:02 - [32minfo[39m: [TrackedInstance] name: test_run_id value=1459685
+2025-11-12 00:51:02 - [32minfo[39m: [TrackedInstance] name: testhub_build_uuid value=z4pf4poubirqbjjh4ro7vf18inxwtooxjbfanlxj
+2025-11-12 00:51:02 - [32minfo[39m: [TrackedInstance] name: scannerProcessingTimeout value=30
+2025-11-12 00:51:02 - [32minfo[39m: [TrackedInstance] name: goog:chromeOptions value=[object Object]
+2025-11-12 00:51:02 - [34mdebug[39m: Configured module TestHubModule with binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11, platformIndex=0
+2025-11-12 00:51:02 - [34mdebug[39m: Configured module ObservabilityModule with binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11, platformIndex=0
+2025-11-12 00:51:02 - [34mdebug[39m: Configured module AccessibilityModule with binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11, platformIndex=0
+2025-11-12 00:51:02 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-11-12 00:51:02 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright/lib/transform/transform.js
+2025-11-12 00:51:02 - [34mdebug[39m: Configured module PlaywrightDriverModule with binSessionId=c229f9f9-cfa3-48fb-957b-4f484d6d1c11, platformIndex=0
+2025-11-12 00:51:03 - [34mdebug[39m: [TestFramework] trackEvent: testFrameworkState=TestFrameworkState.TEST; hookState=HookState.PRE
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightTestFramework] trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instanceId=8eb44adefa5c41f6725d4f3c1100d3120165a3d6e69b71f0792a0422a8dc67e3
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightTestFramework] trackEvent loading testData for testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc}
+2025-11-12 00:51:03 - [34mdebug[39m: setTestDetails 
+2025-11-12 00:51:03 - [34mdebug[39m: processId: 70702 Setting  test details for chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0 with details: {"test_framework_name":"Playwright","test_framework_version":"1.47.2","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"0bf6f4d7-6aa0-458c-a14a-b4d125c36443","test_result":"pending","automate_session_name":"browserstack.spec.ts - visits browserstack.com and validates title","test_file_path":"/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/tests/browserstack.spec.ts","test_id":"51f8d40a272cb921b96a-49aee2ae168977f8f4dc","test_name":"visits browserstack.com and validates title","test_location":"/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/tests/browserstack.spec.ts:4","test_code":"async ({\n  page\n}) => {\n  await page.goto('https://www.browserstack.com/');\n  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n  await page.waitForTimeout(10000);\n}","test_tags":["135:Windows","browserstack"],"test_started_at":"2025-11-11T19:21:03.353Z","test_scope":"browserstack.spec.ts - visits browserstack.com and validates title","test_scopes":[],"test_rerun_name":" chrome@135:Windows 10@browserstack browserstack.spec.ts visits browserstack.com and validates title"}
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightTestFramework] trackEvent: loaded testData for testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc, testFrameworkState=TestFrameworkState.TEST testHookState=HookState.PRE instance=8eb44adefa5c41f6725d4f3c1100d3120165a3d6e69b71f0792a0422a8dc67e3
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightTestFramework] createTestFrameworkEventPayload testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightTestFramework] createTestFrameworkEventPayload: complete for testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc testState: TEST hookState: PRE
+2025-11-12 00:51:03 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+2025-11-12 00:51:03 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: c229f9f9-cfa3-48fb-957b-4f484d6d1c11
+2025-11-12 00:51:03 - [32minfo[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here
+2025-11-12 00:51:03 - [34mdebug[39m: Log level set to debug
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/browserType.js, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/browserContext.js, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/android.js, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/page.js, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-11-12 00:51:03 - [34mdebug[39m: [TestHubModule] sendTestFrameworkEvent complete for testState: TEST hookState: PRE
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting @playwright/test/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:03 - [34mdebug[39m: Getting playwright/node_modules/playwright-core from null
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core
+2025-11-12 00:51:03 - [34mdebug[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/page.js, package - null
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.CREATE hookState=HookState.PRE
+2025-11-12 00:51:03 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.CREATE hookState=HookState.PRE
+2025-11-12 00:51:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=70746:0, state=AutomationFrameworkState.CREATE
+2025-11-12 00:51:03 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=674d3c8ad76ebde29ab4471f36922492638213121a21225ab82ec32528fc0fd5 target=70746:0
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightDriverModule] onBeforeDriverCreate: Playwright driver is about to be created
+2025-11-12 00:51:03 - [34mdebug[39m: Exception in validation for launch browser for accessibility. Error: TypeError: Cannot set properties of undefined (setting 'wsEndpoint')
+    at Object.exports.<computed> [as processAccessibilityCaps] (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/accessibility-helper.js:1:13373)
+    at BrowserType._0xee4560 (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/mock-process.js:1:27735)
+    at Object.page [as fn] (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/fixture.js:138:20)
+    at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright/lib/worker/fixtureRunner.js:121:9
+2025-11-12 00:51:03 - [34mdebug[39m: Processed accessibility caps false {"browserName":"chrome","name":"visits browserstack.com and validates title","build":"playwright-build-testing","browserstack.username":"princetonbaretto_BH6h3C","browserstack.accessKey":"dzHFiSHDYXyfRzZGA7QM","browserstack.local":false,"browser":"chrome","browser_version":"135","os":"Windows","os_version":"10","project":"Nx Playwright BrowserStack","browserstack.accessibility":false}
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:03 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:03 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:03 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:03 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:03 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightDriverModule] onDispatchExecute: Playwright driver is executing tests {
+  sessionId: '96226bde4ab434f9bb483491aca027643be1b411',
+  platformDetails: { platformName: 'Windows', platformVersion: '10' },
+  browserName: 'chrome'
+} || undefined
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightDriverModule] onDispatchExecute: Playwright sessionId: 96226bde4ab434f9bb483491aca027643be1b411
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: Device Model is not available
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:13 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:14 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:15 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:16 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:16 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:16 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:16 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:17 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:17 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:17 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:17 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:17 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:17 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:17 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:17 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:18 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:19 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:22 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:23 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:23 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:23 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:23 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:23 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:23 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:23 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:23 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.CREATE hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.CREATE hookState=HookState.POST
+2025-11-12 00:51:30 - [32minfo[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists
+2025-11-12 00:51:30 - [34mdebug[39m: [TestHubModule] onPageCreate Sending CBT for testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:51:30 - [34mdebug[39m: [TestHubModule] onPageCreate CBTSession payload: {
+  platformIndex: undefined,
+  testFrameworkName: 'Playwright',
+  testFrameworkVersion: '1.47.2',
+  testFrameworkState: 'TEST',
+  testHookState: 'POST',
+  testUuid: '0bf6f4d7-6aa0-458c-a14a-b4d125c36443',
+  automationSession: {
+    provider: 'browserstack',
+    frameworkName: 'Playwright',
+    frameworkVersion: '1.47.2',
+    frameworkSessionId: '96226bde4ab434f9bb483491aca027643be1b411',
+    ref: '674d3c8ad76ebde29ab4471f36922492638213121a21225ab82ec32528fc0fd5',
+    hubUrl: 'wss://cdp.browserstack.com/playwright?caps='
+  },
+  capabilities: 'eyJicm93c2VyTmFtZSI6ImNocm9tZSIsIm5hbWUiOiJ2aXNpdHMgYnJvd3NlcnN0YWNrLmNvbSBhbmQgdmFsaWRhdGVzIHRpdGxlIiwiYnVpbGQiOiJwbGF5d3JpZ2h0LWJ1aWxkLXRlc3RpbmciLCJicm93c2Vyc3RhY2sudXNlcm5hbWUiOiJwcmluY2V0b25iYXJldHRvX0JINmgzQyIsImJyb3dzZXJzdGFjay5hY2Nlc3NLZXkiOiJkekhGaVNIRFlYeWZSelpHQTdRTSIsImJyb3dzZXJzdGFjay5sb2NhbCI6ZmFsc2UsImJyb3dzZXIiOiJjaHJvbWUiLCJicm93c2VyX3ZlcnNpb24iOiIxMzUiLCJvcyI6IldpbmRvd3MiLCJvc192ZXJzaW9uIjoiMTAiLCJwcm9qZWN0IjoiTnggUGxheXdyaWdodCBCcm93c2VyU3RhY2siLCJicm93c2Vyc3RhY2suYWNjZXNzaWJpbGl0eSI6ZmFsc2V9',
+  executionContext: {
+    hash: '674d3c8ad76ebde29ab4471f36922492638213121a21225ab82ec32528fc0fd5',
+    threadId: '0',
+    processId: '70746'
+  }
+}
+2025-11-12 00:51:30 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST
+2025-11-12 00:51:30 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-11-12 00:51:30 - [34mdebug[39m: [TestHubModule] onPageCreate CBTSession complete for testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:51:30 - [34mdebug[39m: Error in browserstack js executor page.evaluate: Target page, context or browser has been closed
+    at Page._0x9d466f (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/mock-process.js:1:17405)
+    at Object.exports.<computed> (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/helpers/helper.js:1:165625)
+    at exports.<computed> (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/helpers/helper.js:1:166750)
+    at Object.IGgaS (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/modules/observabilityModule.js:1:2087)
+    at ObservabilityModule.onBeforeTest (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/modules/observabilityModule.js:1:2431)
+    at Object.XsqsH (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/eventDispatcher.js:1:1793)
+    at EventDispatcher.notifyObserver (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/eventDispatcher.js:1:1943)
+    at PlaywrightAutomationFramework.runHooks (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/framework/automationFramework.js:1:2602)
+    at PlaywrightAutomationFramework.trackEvent (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/v2/framework/playwrightAutomationFramework.js:1:2758)
+    at afterTestHook (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/mock-process.js:1:42480)
+    at Object.base.<computed>.<computed>.__browserstack_testHook (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/mock-process.js:1:51225)
+2025-11-12 00:51:30 - [32minfo[39m: [ObservabilityModule] onBeforeTest: TEST REPORTING AND ANALYTICS sync done
+2025-11-12 00:51:30 - [34mdebug[39m: [TrackedInstance] onBeforeTest: Skipping accessibility check - not a cucumber test framework
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] onAfterDriverCreate: Playwright driver is about to be created
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] onAfterDriverCreate: Setting page object
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] onAfterDriverCreate: Setting Session Name from testInfo
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] markSessionName: Skipping session name marking
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.EXECUTE hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.EXECUTE hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] Automation onAfterTest: Test completed
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] Automation onAfterTest: Test status: passed failure reason: null
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] Automation onAfterTest: Test status: passed
+2025-11-12 00:51:30 - [32minfo[39m: [PlaywrightDriverModule] testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:51:30 - [32minfo[39m: [PlaywrightDriverModule] testData from onAfterTest: {
+  uuid: '0bf6f4d7-6aa0-458c-a14a-b4d125c36443',
+  test_framework_name: 'Playwright',
+  test_framework_version: '1.47.2',
+  test_logs: [],
+  test_hooks_finished: {},
+  test_hooks_started: {},
+  test_uuid: '0bf6f4d7-6aa0-458c-a14a-b4d125c36443',
+  test_result: 'pending',
+  automate_session_name: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_file_path: '/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/tests/browserstack.spec.ts',
+  test_id: '51f8d40a272cb921b96a-49aee2ae168977f8f4dc',
+  test_name: 'visits browserstack.com and validates title',
+  test_location: '/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/tests/browserstack.spec.ts:4',
+  test_code: 'async ({\n' +
+    '  page\n' +
+    '}) => {\n' +
+    "  await page.goto('https://www.browserstack.com/');\n" +
+    '  await (0, _test.expect)(page).toHaveTitle(/BrowserStack/i);\n' +
+    '  await page.waitForTimeout(10000);\n' +
+    '}',
+  test_tags: [ '135:Windows', 'browserstack' ],
+  test_started_at: '2025-11-11T19:21:03.353Z',
+  test_scope: 'browserstack.spec.ts - visits browserstack.com and validates title',
+  test_scopes: [],
+  test_rerun_name: ' chrome@135:Windows 10@browserstack browserstack.spec.ts visits browserstack.com and validates title'
+}
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] onAfterTest CBTSession payload: {
+  platformIndex: undefined,
+  testFrameworkName: 'Playwright',
+  testFrameworkVersion: '1.47.2',
+  testFrameworkState: 'TEST',
+  testHookState: 'POST',
+  testUuid: '0bf6f4d7-6aa0-458c-a14a-b4d125c36443',
+  automationSession: {
+    provider: 'browserstack',
+    frameworkName: 'Playwright',
+    frameworkVersion: '1.51.0',
+    frameworkSessionId: '96226bde4ab434f9bb483491aca027643be1b411',
+    ref: '674d3c8ad76ebde29ab4471f36922492638213121a21225ab82ec32528fc0fd5',
+    hubUrl: 'wss://cdp.browserstack.com/playwright?caps='
+  },
+  capabilities: 'eyJicm93c2VyTmFtZSI6ImNocm9tZSIsIm5hbWUiOiJ2aXNpdHMgYnJvd3NlcnN0YWNrLmNvbSBhbmQgdmFsaWRhdGVzIHRpdGxlIiwiYnVpbGQiOiJwbGF5d3JpZ2h0LWJ1aWxkLXRlc3RpbmciLCJicm93c2Vyc3RhY2sudXNlcm5hbWUiOiJwcmluY2V0b25iYXJldHRvX0JINmgzQyIsImJyb3dzZXJzdGFjay5hY2Nlc3NLZXkiOiJkekhGaVNIRFlYeWZSelpHQTdRTSIsImJyb3dzZXJzdGFjay5sb2NhbCI6ZmFsc2UsImJyb3dzZXIiOiJjaHJvbWUiLCJicm93c2VyX3ZlcnNpb24iOiIxMzUiLCJvcyI6IldpbmRvd3MiLCJvc192ZXJzaW9uIjoiMTAiLCJwcm9qZWN0IjoiTnggUGxheXdyaWdodCBCcm93c2VyU3RhY2siLCJicm93c2Vyc3RhY2suYWNjZXNzaWJpbGl0eSI6ZmFsc2V9',
+  executionContext: {
+    hash: '674d3c8ad76ebde29ab4471f36922492638213121a21225ab82ec32528fc0fd5',
+    threadId: '0',
+    processId: '70746'
+  }
+}
+2025-11-12 00:51:30 - [32minfo[39m: [GrpcClient] Sending TestSessionEvent
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] onAfterTest CBTSession complete for testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] Automation onAfterTest: Setting session status for testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightDriverModule] markSessionStatus: Skipping session status marking
+  [32m✓[39m  [2m1 [22m[chrome@135:Windows 10@browserstack] › browserstack.spec.ts:4:1 › visits browserstack.com and validates title[2m (26.7s)[22m
+2025-11-12 00:51:30 - [34mdebug[39m: [TestFramework] trackEvent: testFrameworkState=TestFrameworkState.TEST; hookState=HookState.POST
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightTestFramework] trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instanceId=8eb44adefa5c41f6725d4f3c1100d3120165a3d6e69b71f0792a0422a8dc67e3
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightTestFramework] trackEvent loading testResults for testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightTestFramework] parsePlaywrightTestResult: testId=51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:51:30 - [34mdebug[39m: Searching for key: path
+2025-11-12 00:51:30 - [34mdebug[39m: setTestDetails 
+2025-11-12 00:51:30 - [34mdebug[39m: processId: 70702 Setting  test details for chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0 with details: {"test_failure":null,"logs":[],"test_result":"passed","test_ended_at":"2025-11-11T19:21:30.102Z","test_result_at":"2025-11-11T19:21:30.119Z","custom_metadata":{}}
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightTestFramework] sendLogCreatedEvent: testId=chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0 result={
+  retry: 0,
+  parallelIndex: 0,
+  workerIndex: 0,
+  duration: 26749,
+  startTime: 2025-11-11T19:21:03.353Z,
+  stdout: [
+    '2025-11-12 00:51:03 - \x1B[32minfo\x1B[39m: [BrowserstackCLI] Starting as child process with session ID: c229f9f9-cfa3-48fb-957b-4f484d6d1c11\n',
+    '2025-11-12 00:51:03 - \x1B[32minfo\x1B[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Log level set to debug\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/browserType.js, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/browserContext.js, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/android.js, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/page.js, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/page.js, package - null\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.CREATE hookState=HookState.PRE\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.CREATE hookState=HookState.PRE\n',
+    '2025-11-12 00:51:03 - \x1B[32minfo\x1B[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=70746:0, state=AutomationFrameworkState.CREATE\n',
+    '2025-11-12 00:51:03 - \x1B[32minfo\x1B[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=674d3c8ad76ebde29ab4471f36922492638213121a21225ab82ec32528fc0fd5 target=70746:0\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightDriverModule] onBeforeDriverCreate: Playwright driver is about to be created\n',
+    "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Exception in validation for launch browser for accessibility. Error: TypeError: Cannot set properties of undefined (setting 'wsEndpoint')\n" +
+      '    at Object.exports.<computed> [as processAccessibilityCaps] (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/accessibility-helper.js:1:13373)\n' +
+      '    at BrowserType._0xee4560 (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/mock-process.js:1:27735)\n' +
+      '    at Object.page [as fn] (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/fixture.js:138:20)\n' +
+      '    at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright/lib/worker/fixtureRunner.js:121:9\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Processed accessibility caps false {"browserName":"chrome","name":"visits browserstack.com and validates title","build":"playwright-build-testing","browserstack.username":"princetonbaretto_BH6h3C","browserstack.accessKey":"dzHFiSHDYXyfRzZGA7QM","browserstack.local":false,"browser":"chrome","browser_version":"135","os":"Windows","os_version":"10","project":"Nx Playwright BrowserStack","browserstack.accessibility":false}\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+    '2025-11-12 00:51:13 - \x1B[32minfo\x1B[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists\n',
+    '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [PlaywrightDriverModule] onDispatchExecute: Playwright driver is executing tests {\n' +
+      "  sessionId: '96226bde4ab434f9bb483491aca027643be1b411',\n" +
+      "  platformDetails: { platformName: 'Windows', platformVersion: '10' },\n" +
+      "  browserName: 'chrome'\n" +
+      '} || undefined\n',
+    '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [PlaywrightDriverModule] onDispatchExecute: Playwright sessionId: 96226bde4ab434f9bb483491aca027643be1b411\n',
+    ... 410 more items
+  ],
+  stderr: [],
+  attachments: [],
+  status: 'passed',
+  steps: [
+    {
+      title: 'Before Hooks',
+      titlePath: [Function: titlePath],
+      parent: undefined,
+      category: 'hook',
+      startTime: 2025-11-11T19:21:03.357Z,
+      duration: 10781,
+      steps: [Array],
+      location: undefined
+    },
+    {
+      title: 'page.goto(https://www.browserstack.com/)',
+      titlePath: [Function: titlePath],
+      parent: undefined,
+      category: 'pw:api',
+      startTime: 2025-11-11T19:21:14.141Z,
+      duration: 5669,
+      steps: [],
+      location: [Object]
+    },
+    {
+      title: 'expect.toHaveTitle',
+      titlePath: [Function: titlePath],
+      parent: undefined,
+      category: 'expect',
+      startTime: 2025-11-11T19:21:19.814Z,
+      duration: 105,
+      steps: [],
+      location: [Object]
+    },
+    {
+      title: 'page.waitForTimeout',
+      titlePath: [Function: titlePath],
+      parent: undefined,
+      category: 'pw:api',
+      startTime: 2025-11-11T19:21:19.922Z,
+      duration: 10094,
+      steps: [],
+      location: [Object]
+    },
+    {
+      title: 'After Hooks',
+      titlePath: [Function: titlePath],
+      parent: undefined,
+      category: 'hook',
+      startTime: 2025-11-11T19:21:30.017Z,
+      duration: 97,
+      steps: [Array],
+      location: undefined
+    }
+  ],
+  errors: [],
+  error: undefined,
+  [Symbol(output)]: [
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[32minfo\x1B[39m: [BrowserstackCLI] Starting as child process with session ID: c229f9f9-cfa3-48fb-957b-4f484d6d1c11\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[32minfo\x1B[39m: [BrowserstackCLI] startChild: client and channel already exist, stopping here\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Log level set to debug\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/browserType.js, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/browserContext.js, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/android.js, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/page.js, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - @playwright/test/node_modules/playwright-core, package - @playwright/test\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: @playwright/test/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting @playwright/test/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV3 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright/node_modules/playwright-core, package - playwright\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: playwright/node_modules/playwright-core doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n",
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Getting playwright/node_modules/playwright-core from null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - playwright-core, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Resolved path for playwright-core is /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: requireModuleV2 :: module - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright-core/lib/client/page.js, package - null\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.CREATE hookState=HookState.PRE\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.CREATE hookState=HookState.PRE\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[32minfo\x1B[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: created instance for target=70746:0, state=AutomationFrameworkState.CREATE\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[32minfo\x1B[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: saved instance contextId=674d3c8ad76ebde29ab4471f36922492638213121a21225ab82ec32528fc0fd5 target=70746:0\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightDriverModule] onBeforeDriverCreate: Playwright driver is about to be created\n',
+      type: 'stdout'
+    },
+    {
+      chunk: "2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Exception in validation for launch browser for accessibility. Error: TypeError: Cannot set properties of undefined (setting 'wsEndpoint')\n" +
+        '    at Object.exports.<computed> [as processAccessibilityCaps] (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/accessibility-helper.js:1:13373)\n' +
+        '    at BrowserType._0xee4560 (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/playwright/mock-process.js:1:27735)\n' +
+        '    at Object.page [as fn] (/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/fixture.js:138:20)\n' +
+        '    at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright/lib/worker/fixtureRunner.js:121:9\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: Processed accessibility caps false {"browserName":"chrome","name":"visits browserstack.com and validates title","build":"playwright-build-testing","browserstack.username":"princetonbaretto_BH6h3C","browserstack.accessKey":"dzHFiSHDYXyfRzZGA7QM","browserstack.local":false,"browser":"chrome","browser_version":"135","os":"Windows","os_version":"10","project":"Nx Playwright BrowserStack","browserstack.accessibility":false}\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:03 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [PlaywrightAutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [AutomationFramework] trackEvent: automationFrameworkState=AutomationFrameworkState.PLAYWRIGHT_DISPATCH hookState=HookState.POST\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:13 - \x1B[32minfo\x1B[39m: [PlaywrightAutomationFramework] trackPlaywrightInstance: instance already exists\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [PlaywrightDriverModule] onDispatchExecute: Playwright driver is executing tests {\n' +
+        "  sessionId: '96226bde4ab434f9bb483491aca027643be1b411',\n" +
+        "  platformDetails: { platformName: 'Windows', platformVersion: '10' },\n" +
+        "  browserName: 'chrome'\n" +
+        '} || undefined\n',
+      type: 'stdout'
+    },
+    {
+      chunk: '2025-11-12 00:51:13 - \x1B[34mdebug\x1B[39m: [PlaywrightDriverModule] onDispatchExecute: Playwright sessionId: 96226bde4ab434f9bb483491aca027643be1b411\n',
+      type: 'stdout'
+    },
+    ... 410 more items
+  ]
+}
+2025-11-12 00:51:30 - [34mdebug[39m: Checking if trace is enabled for test: 0bf6f4d7-6aa0-458c-a14a-b4d125c36443
+2025-11-12 00:51:30 - [34mdebug[39m: Searching for key: path
+2025-11-12 00:51:30 - [32minfo[39m: getting screenshots results.
+2025-11-12 00:51:30 - [34mdebug[39m: getting video results.
+2025-11-12 00:51:30 - [34mdebug[39m: getVideos: result.attachments=[]
+2025-11-12 00:51:30 - [34mdebug[39m: Searching for key: path
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightTestFramework] sendLogCreatedEvent for testId: chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0 batch 1/1 payload={
+  platformIndex: '0',
+  logs: [
+    {
+      kind: 'TEST_STEP',
+      uuid: '0bf6f4d7-6aa0-458c-a14a-b4d125c36443',
+      message: 'page.goto(https://www.browserstack.com/)',
+      timestamp: '2025-11-11T19:21:14.141Z',
+      level: 'passed',
+      duration: 5669,
+      failure: undefined,
+      failure_type: null
+    },
+    {
+      kind: 'TEST_STEP',
+      uuid: '0bf6f4d7-6aa0-458c-a14a-b4d125c36443',
+      message: 'expect.toHaveTitle',
+      timestamp: '2025-11-11T19:21:19.814Z',
+      level: 'passed',
+      duration: 105,
+      failure: undefined,
+      failure_type: null
+    },
+    {
+      kind: 'TEST_STEP',
+      uuid: '0bf6f4d7-6aa0-458c-a14a-b4d125c36443',
+      message: 'page.waitForTimeout',
+      timestamp: '2025-11-11T19:21:19.922Z',
+      level: 'passed',
+      duration: 10094,
+      failure: undefined,
+      failure_type: null
+    }
+  ],
+  testFrameworkName: 'Playwright',
+  testFrameworkVersion: '1.47.2',
+  testFrameworkState: 'TEST'
+}
+2025-11-12 00:51:30 - [32minfo[39m: [GrpcClient] Sending LogCreatedEvent
+2025-11-12 00:51:30 - [32minfo[39m: [GrpcClient] TestSessionEvent request successful
+2025-11-12 00:51:30 - [32minfo[39m: [GrpcClient] LogCreatedEvent request successful
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightTestFramework] sendLogCreatedEvent for testId: chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0 batch 1/1 response=N {
+  f: null,
+  b: undefined,
+  D: -1,
+  u: [ true ],
+  G: 1.7976931348623157e+308,
+  a: {}
+}
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightTestFramework] createTestFrameworkEventPayload testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc
+2025-11-12 00:51:30 - [34mdebug[39m: [PlaywrightTestFramework] createTestFrameworkEventPayload: complete for testId: 51f8d40a272cb921b96a-49aee2ae168977f8f4dc testState: TEST hookState: POST
+2025-11-12 00:51:30 - [32minfo[39m: [GrpcClient] Sending TestFrameworkEvent
+
+[33m  Slow test file: [39m[chrome@135:Windows 10@browserstack] › browserstack.spec.ts[33m (26.7s)[39m
+[33m  Consider splitting slow test files to speed up parallel execution[39m
+[32m  1 passed[39m[2m (30.4s)[22m
+2025-11-12 00:51:30 - [32minfo[39m: [GrpcClient] TestFrameworkEvent request successful
+2025-11-12 00:51:30 - [34mdebug[39m: [TestHubModule] sendTestFrameworkEvent complete for testState: TEST hookState: POST
+2025-11-12 00:51:30 - [32minfo[39m: [BrowserstackCLI] stop: CLI stop triggered
+2025-11-12 00:51:30 - [32minfo[39m: [GrpcClient] Stopping bin session
+2025-11-12 00:51:30 - [34mdebug[39m: [GrpcClient] Stopping signal null
+2025-11-12 00:51:34 - [32minfo[39m: [GrpcClient] StopBinSession successful
+2025-11-12 00:51:34 - [34mdebug[39m: [GrpcClient] stop-bin-session response: N {
+  f: null,
+  b: undefined,
+  D: -1,
+  u: [ true ],
+  G: 1.7976931348623157e+308,
+  a: {}
+}
+2025-11-12 00:51:34 - [34mdebug[39m: [uploadAttachmentsManager] No attachment folder found for testhubID: z4pf4poubirqbjjh4ro7vf18inxwtooxjbfanlxj
+2025-11-12 00:51:34 - [32minfo[39m: stop: stopBinSession build_link=null hashed_id=null o11y_uuid=z4pf4poubirqbjjh4ro7vf18inxwtooxjbfanlxj
+2025-11-12 00:51:34 - [32minfo[39m: [BrowserstackCLI] Unconfiguring modules
+2025-11-12 00:51:34 - [32minfo[39m: [BrowserstackCLI] stop: channel closed
+2025-11-12 00:51:39 - [32minfo[39m: [BrowserstackCLI] stop: shutting down CLI
+2025-11-12 00:51:39 - [32minfo[39m: [BrowserstackCLI] stop: CLI process exited
+2025-11-12 00:51:39 - [32minfo[39m: Visit https://automation.browserstack.com/builds/z4pf4poubirqbjjh4ro7vf18inxwtooxjbfanlxj to view build report, insights, and many more debugging information all at one place!
+
+2025-11-12 00:51:39 - [34mdebug[39m: Sending request to https://api.browserstack.com/automate/builds.json to get build link
+2025-11-12 00:51:39 - [34mdebug[39m: Sending request to https://api.browserstack.com/automate/builds.json
+2025-11-12 00:51:40 - [34mdebug[39m: Response from https://api.browserstack.com/automate/builds.json: 200 OK
+2025-11-12 00:51:40 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-11-12 00:51:40 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/helpers/helper.js
+- /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/browserstack-node-sdk/src/bin/runner.js
+2025-11-12 00:51:40 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2025-11-12 00:51:40 - [34mdebug[39m: Getting selenium-webdriver/package.json from /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:40 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:40 - [34mdebug[39m: Getting selenium-webdriver/package.json from path /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack
+2025-11-12 00:51:40 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2025-11-12 00:51:40 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2025-11-12 00:51:40 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2025-11-12 00:51:40 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/playwright/lib/transform/transform.js
+2025-11-12 00:51:40 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestSuccessful","detectedFramework":"Playwright","optimalHubUrl":[],"event_properties":{"testhub_uuid":"z4pf4poubirqbjjh4ro7vf18inxwtooxjbfanlxj","sdkRunId":"6d2dd05d-1935-46ec-bb6f-f27ef1fc119e","product_map":{"observability":true,"accessibility":true,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":true,"percy":false,"automate":false,"app_automate":false,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"Playwright-nodeagent/1.45.4","frameworkVersion":"1.47.2","automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v22.16.0","product":["observability"],"buildName":"playwright-build-testing","buildIdentifier":"#2","os":"Darwin","hostname":"PrincetonBaretto-T5XQRQ34F2","browserStackConfig":{"accessibility":true,"browserstackAutomation":false,"logLevel":"debug","testReporting":true,"testObservability":true,"platforms":[],"testContextOptions":{"skipSessionStatus":true,"skipSessionName":true},"browserStackLocalOptions":{"skipBinaryInitialisation":false},"proxySettings":{}},"playwrightVersion":{}}}
+2025-11-12 00:51:40 - [34mdebug[39m: Sending request to https://api.browserstack.com/sdk/v1/event
+2025-11-12 00:51:40 - [34mdebug[39m: Response from https://api.browserstack.com/sdk/v1/event: 200 OK
+2025-11-12 00:51:40 - [34mdebug[39m: API Event SDKTestSuccessful response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2025-11-12 00:51:40 - [32minfo[39m: SDK run ended for id: 6d2dd05d-1935-46ec-bb6f-f27ef1fc119e, testhub id: z4pf4poubirqbjjh4ro7vf18inxwtooxjbfanlxj
+2025-11-12 00:51:40 - [34mdebug[39m: Archiving files: [
+  '/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/package.json',
+  '/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/log/usage-debug.log',
+  'log/sdk-cli-debug.log',
+  '/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/playwright.config.ts',
+  '/Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/playwright-browserstack-sdk.config.temp.json'
+]
+2025-11-12 00:51:40 - [34mdebug[39m: Sending request to https://upload-observability.browserstack.com/client-logs/upload
+2025-11-12 00:51:43 - [34mdebug[39m: Response from https://upload-observability.browserstack.com/client-logs/upload: 200 OK
+2025-11-12 00:51:43 - [34mdebug[39m: Playwright process exited with code 0
+2025-11-12 00:51:43 - [32minfo[39m: Deleting /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+2025-11-12 00:51:43 - [34mdebug[39m: Deleting /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/apps/browserstack-e2e/browserstackSetupConfig.json

@@ -1722,3 +1722,1660 @@
 [NX Daemon Server] - 2025-10-30T17:53:17.499Z - [SYNC]: project graph hash is the same, not collecting task sync generators
 [NX Daemon Server] - 2025-10-30T17:53:17.499Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
 [NX Daemon Server] - 2025-10-30T17:53:17.499Z - Time taken for 'total execution time for createProjectGraph()' 14.90458299999591ms
+[NX Daemon Server] - 2025-11-11T18:50:02.552Z - Started listening on: /private/var/folders/tr/btrg4by958q2gn1px131s4fc0000gp/T/a6f33e8c56b427ef5bf0/d.sock
+[NX Daemon Server] - 2025-11-11T18:50:02.554Z - [WATCHER]: Subscribed to changes within: /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack (native)
+[NX Daemon Server] - 2025-11-11T18:50:02.562Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T18:50:02.562Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-11-11T18:50:02.563Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T18:50:02.564Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T18:50:02.767Z - Time taken for 'Load Nx Plugin: /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/nx/src/plugins/js' 203.11425000000003ms
+[NX Daemon Server] - 2025-11-11T18:50:02.885Z - Time taken for 'Load Nx Plugin: /Users/princetonbaretto/Desktop/GitClone/nx-playwright-browserstack/node_modules/nx/src/plugins/package-json' 319.717792ms
+[NX Daemon Server] - 2025-11-11T18:50:03.005Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:03.005Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:50:03.005Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:50:03.008Z - Time taken for 'loadNxPlugins' 440.93112500000007ms
+[NX Daemon Server] - 2025-11-11T18:50:03.026Z - Time taken for 'build-project-configs' 9.533165999999937ms
+[NX Daemon Server] - 2025-11-11T18:50:03.039Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:03.040Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T18:50:03.040Z - Time taken for 'total for creating and serializing project graph' 475.97204100000005ms
+[NX Daemon Server] - 2025-11-11T18:50:03.043Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T18:50:03.043Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 476. Response time: 3.
+[NX Daemon Server] - 2025-11-11T18:50:03.097Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T18:50:03.097Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T18:50:03.097Z - Handled HASH_TASKS. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2025-11-11T18:50:03.127Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T18:50:03.127Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T18:50:03.127Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 26. Response time: 0.
+[NX Daemon Server] - 2025-11-11T18:50:07.740Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T18:50:07.740Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:07.840Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:07.840Z - [REQUEST]: log/usage-debug.log,log/sdk-cli-debug.log
+[NX Daemon Server] - 2025-11-11T18:50:07.840Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:50:07.842Z - Time taken for 'hash changed files from watcher' 0.15270799999962037ms
+[NX Daemon Server] - 2025-11-11T18:50:07.850Z - Time taken for 'build-project-configs' 7.988792000000103ms
+[NX Daemon Server] - 2025-11-11T18:50:07.866Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:07.866Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:50:07.866Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:50:07.866Z - Time taken for 'total execution time for createProjectGraph()' 13.30120799999986ms
+[NX Daemon Server] - 2025-11-11T18:50:11.553Z - [WATCHER]: 2 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T18:50:11.553Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:11.654Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:11.654Z - [REQUEST]: apps/browserstack-e2e/browserstackSetupConfig.json,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T18:50:11.654Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T18:50:11.655Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T18:50:11.655Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:11.656Z - Time taken for 'hash changed files from watcher' 0.1465410000000702ms
+[NX Daemon Server] - 2025-11-11T18:50:11.661Z - Time taken for 'build-project-configs' 5.269124999998894ms
+[NX Daemon Server] - 2025-11-11T18:50:11.673Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:11.673Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:50:11.673Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:50:11.674Z - Time taken for 'total execution time for createProjectGraph()' 9.603042000000642ms
+[NX Daemon Server] - 2025-11-11T18:50:11.856Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:11.856Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:50:11.856Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:50:11.857Z - Time taken for 'hash changed files from watcher' 0.03191599999991013ms
+[NX Daemon Server] - 2025-11-11T18:50:11.864Z - Time taken for 'build-project-configs' 6.487082999999984ms
+[NX Daemon Server] - 2025-11-11T18:50:11.875Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:11.875Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:50:11.875Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:50:11.875Z - Time taken for 'total execution time for createProjectGraph()' 8.56212499999856ms
+[NX Daemon Server] - 2025-11-11T18:50:13.747Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:13.747Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T18:50:13.848Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:13.848Z - [REQUEST]: playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T18:50:13.848Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T18:50:13.849Z - Time taken for 'hash changed files from watcher' 0.07554199999867706ms
+[NX Daemon Server] - 2025-11-11T18:50:13.854Z - Time taken for 'build-project-configs' 5.092499999998836ms
+[NX Daemon Server] - 2025-11-11T18:50:13.864Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:13.864Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:50:13.864Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:50:13.864Z - Time taken for 'total execution time for createProjectGraph()' 7.228000000000975ms
+[NX Daemon Server] - 2025-11-11T18:50:16.957Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:16.957Z - [WATCHER]: log/.obs_test_details-default/chrome-51f8d40a272cb921b96a-6e0230fd0d8a67e3e183-0.json was created or restored
+[NX Daemon Server] - 2025-11-11T18:50:17.013Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:17.014Z - [WATCHER]: 3 file(s) created or restored, 2 file(s) modified, 3 file(s) deleted
+[NX Daemon Server] - 2025-11-11T18:50:17.057Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:17.057Z - [REQUEST]: log/.obs_test_details-default/chrome-51f8d40a272cb921b96a-6e0230fd0d8a67e3e183-0.json,log/performance-report/performance-report-61163-0.json,test-results/.last-run.json,log/usage-debug.log,log/usage.log
+[NX Daemon Server] - 2025-11-11T18:50:17.057Z - [REQUEST]: log/performance-report/modified-key-metrics.json,log/performance-report/performance-report-32402-0.json,log/performance-report/performance-report-60038-0.json
+[NX Daemon Server] - 2025-11-11T18:50:17.058Z - Time taken for 'hash changed files from watcher' 0.47179099999993923ms
+[NX Daemon Server] - 2025-11-11T18:50:17.065Z - Time taken for 'build-project-configs' 6.465874999999869ms
+[NX Daemon Server] - 2025-11-11T18:50:17.075Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:17.075Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:50:17.075Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:50:17.075Z - Time taken for 'total execution time for createProjectGraph()' 7.5769579999996495ms
+[NX Daemon Server] - 2025-11-11T18:50:20.273Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T18:50:20.273Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:20.473Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:20.474Z - [REQUEST]: log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T18:50:20.474Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T18:50:20.475Z - Time taken for 'hash changed files from watcher' 0.12554199999794946ms
+[NX Daemon Server] - 2025-11-11T18:50:20.485Z - Time taken for 'build-project-configs' 8.335041000002093ms
+[NX Daemon Server] - 2025-11-11T18:50:20.498Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:20.499Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:50:20.499Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:50:20.499Z - Time taken for 'total execution time for createProjectGraph()' 11.542499999999563ms
+[NX Daemon Server] - 2025-11-11T18:50:21.119Z - [WATCHER]: log/.obs_test_details-default/chrome-51f8d40a272cb921b96a-6e0230fd0d8a67e3e183-0.json was deleted
+[NX Daemon Server] - 2025-11-11T18:50:21.119Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:21.520Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:21.520Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:50:21.520Z - [REQUEST]: log/.obs_test_details-default/chrome-51f8d40a272cb921b96a-6e0230fd0d8a67e3e183-0.json
+[NX Daemon Server] - 2025-11-11T18:50:21.522Z - Time taken for 'hash changed files from watcher' 0.11562500000218279ms
+[NX Daemon Server] - 2025-11-11T18:50:21.542Z - Time taken for 'build-project-configs' 17.53154099999665ms
+[NX Daemon Server] - 2025-11-11T18:50:21.562Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:21.562Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:50:21.562Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:50:21.562Z - Time taken for 'total execution time for createProjectGraph()' 18.648417000000336ms
+[NX Daemon Server] - 2025-11-11T18:50:26.134Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T18:50:26.134Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:26.692Z - [WATCHER]: log/bstack-logs.tar.gz was created or restored
+[NX Daemon Server] - 2025-11-11T18:50:26.693Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:26.937Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:26.937Z - [REQUEST]: log/sdk-cli-debug.log,log/sdk-cli.log,log/bstack-logs.tar.gz
+[NX Daemon Server] - 2025-11-11T18:50:26.937Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:50:26.941Z - Time taken for 'hash changed files from watcher' 2.163542000002053ms
+[NX Daemon Server] - 2025-11-11T18:50:26.957Z - Time taken for 'build-project-configs' 14.998541000000841ms
+[NX Daemon Server] - 2025-11-11T18:50:26.979Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:26.980Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:50:26.980Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:50:26.981Z - Time taken for 'total execution time for createProjectGraph()' 19.6807919999992ms
+[NX Daemon Server] - 2025-11-11T18:50:29.466Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX Daemon Server] - 2025-11-11T18:50:29.466Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:29.542Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T18:50:29.542Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T18:50:29.542Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T18:50:29.544Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T18:50:29.544Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T18:50:29.544Z - Handled RECORD_TASK_RUNS. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-11-11T18:50:29.544Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T18:50:29.544Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T18:50:29.544Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T18:50:29.591Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:50:29.591Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T18:50:29.667Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:50:29.667Z - [REQUEST]: log/usage.log
+[NX Daemon Server] - 2025-11-11T18:50:29.667Z - [REQUEST]: log/sdk-cli-debug.log,playwright-browserstack-sdk.config.temp.json,apps/browserstack-e2e/browserstackSetupConfig.json,log/usage-debug.log,log/bstack-logs.tar.gz,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+[NX Daemon Server] - 2025-11-11T18:50:29.667Z - Time taken for 'hash changed files from watcher' 0.09912500000064028ms
+[NX Daemon Server] - 2025-11-11T18:50:29.674Z - Time taken for 'build-project-configs' 5.911207999997714ms
+[NX Daemon Server] - 2025-11-11T18:50:29.683Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:50:29.683Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:50:29.683Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:50:29.683Z - Time taken for 'total execution time for createProjectGraph()' 7.491834000000381ms
+[NX Daemon Server] - 2025-11-11T18:50:29.814Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T18:54:24.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:54:24.389Z - [WATCHER]: apps/browserstack-e2e/playwright.config.js was deleted
+[NX Daemon Server] - 2025-11-11T18:54:24.790Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:54:24.790Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:54:24.790Z - [REQUEST]: apps/browserstack-e2e/playwright.config.js
+[NX Daemon Server] - 2025-11-11T18:54:24.792Z - Time taken for 'hash changed files from watcher' 0.08383400004822761ms
+[NX Daemon Server] - 2025-11-11T18:54:24.802Z - Time taken for 'build-project-configs' 9.500041999970563ms
+[NX Daemon Server] - 2025-11-11T18:54:24.817Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:54:24.817Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:54:24.817Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:54:24.817Z - Time taken for 'total execution time for createProjectGraph()' 12.266333999985363ms
+[NX Daemon Server] - 2025-11-11T18:54:28.151Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:54:28.152Z - [WATCHER]: apps/browserstack-e2e/playwright.config.js was created or restored
+[NX Daemon Server] - 2025-11-11T18:54:28.253Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:54:28.253Z - [REQUEST]: apps/browserstack-e2e/playwright.config.js
+[NX Daemon Server] - 2025-11-11T18:54:28.253Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:54:28.255Z - Time taken for 'hash changed files from watcher' 0.2678340000566095ms
+[NX Daemon Server] - 2025-11-11T18:54:28.275Z - Time taken for 'build-project-configs' 17.925582999945618ms
+[NX Daemon Server] - 2025-11-11T18:54:28.295Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:54:28.295Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:54:28.295Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:54:28.295Z - Time taken for 'total execution time for createProjectGraph()' 17.883082999964245ms
+[NX Daemon Server] - 2025-11-11T18:54:40.679Z - [WATCHER]: apps/browserstack-e2e/playwright.config.ts was modified
+[NX Daemon Server] - 2025-11-11T18:54:40.680Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:54:40.882Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:54:40.882Z - [REQUEST]: apps/browserstack-e2e/playwright.config.ts
+[NX Daemon Server] - 2025-11-11T18:54:40.882Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:54:40.884Z - Time taken for 'hash changed files from watcher' 0.1971250000060536ms
+[NX Daemon Server] - 2025-11-11T18:54:40.900Z - Time taken for 'build-project-configs' 14.429125000024214ms
+[NX Daemon Server] - 2025-11-11T18:54:40.916Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:54:40.916Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:54:40.917Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:54:40.917Z - Time taken for 'total execution time for createProjectGraph()' 14.60658299998613ms
+[NX Daemon Server] - 2025-11-11T18:54:43.274Z - [WATCHER]: apps/browserstack-e2e/playwright.config.ts was modified
+[NX Daemon Server] - 2025-11-11T18:54:43.275Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:54:43.675Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:54:43.675Z - [REQUEST]: apps/browserstack-e2e/playwright.config.ts
+[NX Daemon Server] - 2025-11-11T18:54:43.676Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:54:43.677Z - Time taken for 'hash changed files from watcher' 0.13587500003632158ms
+[NX Daemon Server] - 2025-11-11T18:54:43.689Z - Time taken for 'build-project-configs' 11.300333000021055ms
+[NX Daemon Server] - 2025-11-11T18:54:43.706Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:54:43.707Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:54:43.707Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:54:43.707Z - Time taken for 'total execution time for createProjectGraph()' 15.080290999962017ms
+[NX Daemon Server] - 2025-11-11T18:55:04.380Z - [WATCHER]: apps/browserstack-e2e/playwright.config.js was deleted
+[NX Daemon Server] - 2025-11-11T18:55:04.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T18:55:05.182Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T18:55:05.182Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T18:55:05.182Z - [REQUEST]: apps/browserstack-e2e/playwright.config.js
+[NX Daemon Server] - 2025-11-11T18:55:05.183Z - Time taken for 'hash changed files from watcher' 0.0664579999865964ms
+[NX Daemon Server] - 2025-11-11T18:55:05.196Z - Time taken for 'build-project-configs' 10.843457999988459ms
+[NX Daemon Server] - 2025-11-11T18:55:05.209Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T18:55:05.209Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T18:55:05.210Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T18:55:05.210Z - Time taken for 'total execution time for createProjectGraph()' 12.195458000001963ms
+[NX Daemon Server] - 2025-11-11T19:02:03.093Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:02:03.094Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:02:04.695Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:02:04.695Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:02:04.695Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:02:04.697Z - Time taken for 'hash changed files from watcher' 0.22908299998380244ms
+[NX Daemon Server] - 2025-11-11T19:02:04.712Z - Time taken for 'build-project-configs' 14.487208999926224ms
+[NX Daemon Server] - 2025-11-11T19:02:04.728Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:02:04.729Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:02:04.729Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:02:04.729Z - Time taken for 'total execution time for createProjectGraph()' 13.829000000027008ms
+[NX Daemon Server] - 2025-11-11T19:02:06.831Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:02:06.831Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:02:08.964Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:02:08.964Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:02:10.033Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:02:10.033Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:02:10.033Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:02:10.035Z - Time taken for 'hash changed files from watcher' 0.25704200007021427ms
+[NX Daemon Server] - 2025-11-11T19:02:10.050Z - Time taken for 'build-project-configs' 12.707750000059605ms
+[NX Daemon Server] - 2025-11-11T19:02:10.070Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:02:10.070Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:02:10.070Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:02:10.070Z - Time taken for 'total execution time for createProjectGraph()' 19.182084000087343ms
+[NX Daemon Server] - 2025-11-11T19:02:13.273Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:02:13.273Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:02:17.417Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:02:17.418Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:02:19.673Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:02:19.673Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:02:19.673Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:02:19.674Z - Time taken for 'hash changed files from watcher' 0.06362500006798655ms
+[NX Daemon Server] - 2025-11-11T19:02:19.681Z - Time taken for 'build-project-configs' 6.491666999994777ms
+[NX Daemon Server] - 2025-11-11T19:02:19.693Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:02:19.694Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:02:19.694Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:02:19.694Z - Time taken for 'total execution time for createProjectGraph()' 10.58379199996125ms
+[NX Daemon Server] - 2025-11-11T19:03:58.874Z - [WATCHER]: apps/browserstack-e2e/fixture.js was modified
+[NX Daemon Server] - 2025-11-11T19:03:58.875Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:05.276Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:05.276Z - [REQUEST]: apps/browserstack-e2e/fixture.js
+[NX Daemon Server] - 2025-11-11T19:04:05.276Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:04:05.278Z - Time taken for 'hash changed files from watcher' 0.15824999997857958ms
+[NX Daemon Server] - 2025-11-11T19:04:05.293Z - Time taken for 'build-project-configs' 13.79245800001081ms
+[NX Daemon Server] - 2025-11-11T19:04:05.308Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:05.308Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:05.308Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:05.308Z - Time taken for 'total execution time for createProjectGraph()' 12.66800000006333ms
+[NX Daemon Server] - 2025-11-11T19:04:20.985Z - [WATCHER]: apps/browserstack-e2e/fixture.js was modified
+[NX Daemon Server] - 2025-11-11T19:04:20.985Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:26.500Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:04:26.500Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:04:26.501Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:04:26.501Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T19:04:26.501Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:26.501Z - [REQUEST]: apps/browserstack-e2e/fixture.js
+[NX Daemon Server] - 2025-11-11T19:04:26.501Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:04:26.502Z - Time taken for 'hash changed files from watcher' 0.046292000100947917ms
+[NX Daemon Server] - 2025-11-11T19:04:26.510Z - Time taken for 'build-project-configs' 6.316958000068553ms
+[NX Daemon Server] - 2025-11-11T19:04:26.522Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:26.522Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:26.522Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:26.522Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T19:04:26.523Z - Time taken for 'total for creating and serializing project graph' 21.003750000032596ms
+[NX Daemon Server] - 2025-11-11T19:04:26.524Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T19:04:26.524Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 21. Response time: 2.
+[NX Daemon Server] - 2025-11-11T19:04:26.577Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:04:26.577Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:04:26.577Z - Handled HASH_TASKS. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:04:26.581Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:04:26.581Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:04:26.581Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:04:31.212Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:31.213Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:31.314Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:31.314Z - [REQUEST]: log/usage-debug.log,log/sdk-cli-debug.log
+[NX Daemon Server] - 2025-11-11T19:04:31.314Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:04:31.315Z - Time taken for 'hash changed files from watcher' 0.16825000010430813ms
+[NX Daemon Server] - 2025-11-11T19:04:31.324Z - Time taken for 'build-project-configs' 8.394292000099085ms
+[NX Daemon Server] - 2025-11-11T19:04:31.337Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:31.337Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:31.337Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:31.337Z - Time taken for 'total execution time for createProjectGraph()' 10.297167000011541ms
+[NX Daemon Server] - 2025-11-11T19:04:33.582Z - [WATCHER]: 2 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:33.582Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:33.633Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:33.633Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:33.683Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:33.683Z - [REQUEST]: apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,apps/browserstack-e2e/browserstackSetupConfig.json,log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:04:33.683Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:04:33.684Z - Time taken for 'hash changed files from watcher' 0.16975000000093132ms
+[NX Daemon Server] - 2025-11-11T19:04:33.685Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:33.685Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:33.690Z - Time taken for 'build-project-configs' 5.788124999962747ms
+[NX Daemon Server] - 2025-11-11T19:04:33.706Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:33.706Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:33.706Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:33.706Z - Time taken for 'total execution time for createProjectGraph()' 12.74645800003782ms
+[NX Daemon Server] - 2025-11-11T19:04:33.885Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:33.885Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:04:33.885Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:04:33.886Z - Time taken for 'hash changed files from watcher' 0.028624999918974936ms
+[NX Daemon Server] - 2025-11-11T19:04:33.893Z - Time taken for 'build-project-configs' 6.884083000011742ms
+[NX Daemon Server] - 2025-11-11T19:04:33.906Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:33.906Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:33.906Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:33.906Z - Time taken for 'total execution time for createProjectGraph()' 10.507500000065193ms
+[NX Daemon Server] - 2025-11-11T19:04:35.680Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:35.680Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:35.780Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:35.781Z - [REQUEST]: playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T19:04:35.781Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:04:35.781Z - Time taken for 'hash changed files from watcher' 0.08662499999627471ms
+[NX Daemon Server] - 2025-11-11T19:04:35.788Z - Time taken for 'build-project-configs' 5.606499999994412ms
+[NX Daemon Server] - 2025-11-11T19:04:35.797Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:35.797Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:35.797Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:35.797Z - Time taken for 'total execution time for createProjectGraph()' 6.585542000015266ms
+[NX Daemon Server] - 2025-11-11T19:04:38.962Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was created or restored
+[NX Daemon Server] - 2025-11-11T19:04:38.962Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:39.020Z - [WATCHER]: 3 file(s) created or restored, 2 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:39.020Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:39.063Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:39.064Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json,log/performance-report/performance-report-64930-0.json,test-results/.last-run.json,log/usage-debug.log,log/usage.log
+[NX Daemon Server] - 2025-11-11T19:04:39.064Z - [REQUEST]: log/performance-report/performance-report-61163-0.json
+[NX Daemon Server] - 2025-11-11T19:04:39.064Z - Time taken for 'hash changed files from watcher' 1.2518750000745058ms
+[NX Daemon Server] - 2025-11-11T19:04:39.072Z - Time taken for 'build-project-configs' 6.992500000051223ms
+[NX Daemon Server] - 2025-11-11T19:04:39.082Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:39.082Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:39.082Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:39.082Z - Time taken for 'total execution time for createProjectGraph()' 8.564000000013039ms
+[NX Daemon Server] - 2025-11-11T19:04:41.475Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:41.476Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:41.675Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:41.675Z - [REQUEST]: log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:04:41.675Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:04:41.676Z - Time taken for 'hash changed files from watcher' 0.11512500001117587ms
+[NX Daemon Server] - 2025-11-11T19:04:41.688Z - Time taken for 'build-project-configs' 10.239082999993116ms
+[NX Daemon Server] - 2025-11-11T19:04:41.702Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:41.702Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:41.702Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:41.702Z - Time taken for 'total execution time for createProjectGraph()' 11.967041999916546ms
+[NX Daemon Server] - 2025-11-11T19:04:42.281Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was deleted
+[NX Daemon Server] - 2025-11-11T19:04:42.281Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:42.683Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:42.683Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:04:42.683Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:04:42.686Z - Time taken for 'hash changed files from watcher' 0.11037500004749745ms
+[NX Daemon Server] - 2025-11-11T19:04:42.699Z - Time taken for 'build-project-configs' 13.236583000048995ms
+[NX Daemon Server] - 2025-11-11T19:04:42.708Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:42.709Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:42.709Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:42.709Z - Time taken for 'total execution time for createProjectGraph()' 8.294625000096858ms
+[NX Daemon Server] - 2025-11-11T19:04:47.299Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:47.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:47.859Z - [WATCHER]: log/bstack-logs.tar.gz was created or restored
+[NX Daemon Server] - 2025-11-11T19:04:47.859Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:48.102Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:48.102Z - [REQUEST]: log/sdk-cli-debug.log,log/sdk-cli.log,log/bstack-logs.tar.gz
+[NX Daemon Server] - 2025-11-11T19:04:48.102Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:04:48.106Z - Time taken for 'hash changed files from watcher' 0.8516669999808073ms
+[NX Daemon Server] - 2025-11-11T19:04:48.126Z - Time taken for 'build-project-configs' 20.30854100000579ms
+[NX Daemon Server] - 2025-11-11T19:04:48.141Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:48.141Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:48.141Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:48.141Z - Time taken for 'total execution time for createProjectGraph()' 13.130375000066124ms
+[NX Daemon Server] - 2025-11-11T19:04:49.703Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:49.703Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:49.904Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:49.904Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:04:49.905Z - [REQUEST]: apps/browserstack-e2e/browserstackSetupConfig.json,log/bstack-logs.tar.gz,playwright-browserstack-sdk.config.temp.json,log/usage-debug.log,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,log/sdk-cli-debug.log
+[NX Daemon Server] - 2025-11-11T19:04:49.906Z - Time taken for 'hash changed files from watcher' 0.09091699996497482ms
+[NX Daemon Server] - 2025-11-11T19:04:49.917Z - Time taken for 'build-project-configs' 9.962416999973357ms
+[NX Daemon Server] - 2025-11-11T19:04:49.929Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:49.929Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:49.929Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:49.929Z - Time taken for 'total execution time for createProjectGraph()' 10.405374999972992ms
+[NX Daemon Server] - 2025-11-11T19:04:50.256Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:04:50.256Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:04:50.256Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:04:50.260Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:04:50.260Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:04:50.260Z - Handled RECORD_TASK_RUNS. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:04:50.260Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:04:50.261Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:04:50.261Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-11-11T19:04:50.302Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:04:50.302Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:04:50.578Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:04:50.703Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:04:50.703Z - [REQUEST]: log/usage.log
+[NX Daemon Server] - 2025-11-11T19:04:50.703Z - [REQUEST]: log/usage-debug.log
+[NX Daemon Server] - 2025-11-11T19:04:50.703Z - Time taken for 'hash changed files from watcher' 0.4959159999853ms
+[NX Daemon Server] - 2025-11-11T19:04:50.709Z - Time taken for 'build-project-configs' 5.238916000002064ms
+[NX Daemon Server] - 2025-11-11T19:04:50.718Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:04:50.719Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:04:50.719Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:04:50.719Z - Time taken for 'total execution time for createProjectGraph()' 6.802208000095561ms
+[NX Daemon Server] - 2025-11-11T19:05:01.922Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:05:01.923Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:05:02.724Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:05:02.724Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:05:02.724Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:05:02.727Z - Time taken for 'hash changed files from watcher' 0.37958299997262657ms
+[NX Daemon Server] - 2025-11-11T19:05:02.744Z - Time taken for 'build-project-configs' 15.571915999986231ms
+[NX Daemon Server] - 2025-11-11T19:05:02.763Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:05:02.763Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:05:02.763Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:05:02.763Z - Time taken for 'total execution time for createProjectGraph()' 17.102707999991253ms
+[NX Daemon Server] - 2025-11-11T19:06:17.656Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:06:17.657Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:06:19.261Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:06:19.261Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:06:19.261Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:06:19.263Z - Time taken for 'hash changed files from watcher' 0.4907909999601543ms
+[NX Daemon Server] - 2025-11-11T19:06:19.289Z - Time taken for 'build-project-configs' 24.941749999998137ms
+[NX Daemon Server] - 2025-11-11T19:06:19.314Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:06:19.314Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:06:19.315Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:06:19.315Z - Time taken for 'total execution time for createProjectGraph()' 22.721916000009514ms
+[NX Daemon Server] - 2025-11-11T19:07:11.309Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 5 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:11.309Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:14.511Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:14.511Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:07:14.511Z - [REQUEST]: log/usage.log,log/performance-report/performance-report-64930-0.json,log/sdk-cli.log,log/events.json,log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:07:14.514Z - Time taken for 'hash changed files from watcher' 0.17270899994764477ms
+[NX Daemon Server] - 2025-11-11T19:07:14.535Z - Time taken for 'build-project-configs' 19.05220899998676ms
+[NX Daemon Server] - 2025-11-11T19:07:14.557Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:14.557Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:14.557Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:14.557Z - Time taken for 'total execution time for createProjectGraph()' 17.631832999992184ms
+[NX Daemon Server] - 2025-11-11T19:07:18.354Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:07:18.355Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:07:18.355Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:07:18.355Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T19:07:18.356Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T19:07:18.356Z - Time taken for 'total for creating and serializing project graph' 0.09550000005401671ms
+[NX Daemon Server] - 2025-11-11T19:07:18.357Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T19:07:18.357Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2025-11-11T19:07:18.417Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:07:18.417Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:07:18.417Z - Handled HASH_TASKS. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:07:18.422Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:07:18.422Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:07:18.422Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:07:22.527Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:22.527Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:22.628Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:22.628Z - [REQUEST]: log/sdk-cli-debug.log,log/usage.log,log/usage-debug.log
+[NX Daemon Server] - 2025-11-11T19:07:22.628Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:07:22.628Z - Time taken for 'hash changed files from watcher' 0.12183299998287112ms
+[NX Daemon Server] - 2025-11-11T19:07:22.635Z - Time taken for 'build-project-configs' 5.882542000035755ms
+[NX Daemon Server] - 2025-11-11T19:07:22.645Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:22.646Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:22.646Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:22.646Z - Time taken for 'total execution time for createProjectGraph()' 8.986124999937601ms
+[NX Daemon Server] - 2025-11-11T19:07:24.118Z - [WATCHER]: log/sdk-cli.log was created or restored
+[NX Daemon Server] - 2025-11-11T19:07:24.118Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:24.218Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:24.218Z - [REQUEST]: log/sdk-cli.log
+[NX Daemon Server] - 2025-11-11T19:07:24.218Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:07:24.219Z - Time taken for 'hash changed files from watcher' 0.054625000106170774ms
+[NX Daemon Server] - 2025-11-11T19:07:24.226Z - Time taken for 'build-project-configs' 6.66945799998939ms
+[NX Daemon Server] - 2025-11-11T19:07:24.237Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:24.237Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:24.237Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:24.237Z - Time taken for 'total execution time for createProjectGraph()' 9.198291000095196ms
+[NX Daemon Server] - 2025-11-11T19:07:24.879Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:24.879Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:24.929Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:24.929Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:24.980Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:24.980Z - [REQUEST]: log/key-metrics.json,apps/browserstack-e2e/browserstackSetupConfig.json,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+[NX Daemon Server] - 2025-11-11T19:07:24.980Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:07:24.980Z - Time taken for 'hash changed files from watcher' 0.13720800005830824ms
+[NX Daemon Server] - 2025-11-11T19:07:24.981Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:24.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:24.987Z - Time taken for 'build-project-configs' 5.144124999991618ms
+[NX Daemon Server] - 2025-11-11T19:07:24.997Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:24.997Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:24.998Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:24.998Z - Time taken for 'total execution time for createProjectGraph()' 9.25883300008718ms
+[NX Daemon Server] - 2025-11-11T19:07:25.083Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:25.083Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:07:25.083Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:07:25.083Z - Time taken for 'hash changed files from watcher' 0.027000000001862645ms
+[NX Daemon Server] - 2025-11-11T19:07:25.093Z - Time taken for 'build-project-configs' 8.310124999959953ms
+[NX Daemon Server] - 2025-11-11T19:07:25.103Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:25.103Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:25.103Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:25.103Z - Time taken for 'total execution time for createProjectGraph()' 7.969583000056446ms
+[NX Daemon Server] - 2025-11-11T19:07:26.929Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:26.929Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:27.029Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:27.029Z - [REQUEST]: playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T19:07:27.029Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:07:27.030Z - Time taken for 'hash changed files from watcher' 0.08179200009908527ms
+[NX Daemon Server] - 2025-11-11T19:07:27.040Z - Time taken for 'build-project-configs' 8.79550000000745ms
+[NX Daemon Server] - 2025-11-11T19:07:27.049Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:27.049Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:27.049Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:27.049Z - Time taken for 'total execution time for createProjectGraph()' 7.074000000022352ms
+[NX Daemon Server] - 2025-11-11T19:07:29.960Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was created or restored
+[NX Daemon Server] - 2025-11-11T19:07:29.960Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:30.017Z - [WATCHER]: 3 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:30.017Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:30.060Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:30.060Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json,test-results/.last-run.json,log/performance-report/performance-report-65369-0.json,log/usage-debug.log,log/usage.log
+[NX Daemon Server] - 2025-11-11T19:07:30.060Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:07:30.061Z - Time taken for 'hash changed files from watcher' 0.25437499990221113ms
+[NX Daemon Server] - 2025-11-11T19:07:30.068Z - Time taken for 'build-project-configs' 5.643291000043973ms
+[NX Daemon Server] - 2025-11-11T19:07:30.077Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:30.077Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:30.077Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:30.077Z - Time taken for 'total execution time for createProjectGraph()' 7.521124999970198ms
+[NX Daemon Server] - 2025-11-11T19:07:33.349Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:33.349Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:33.550Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:33.551Z - [REQUEST]: log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:07:33.551Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:07:33.553Z - Time taken for 'hash changed files from watcher' 0.23812499991618097ms
+[NX Daemon Server] - 2025-11-11T19:07:33.568Z - Time taken for 'build-project-configs' 13.600208000047132ms
+[NX Daemon Server] - 2025-11-11T19:07:33.585Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:33.585Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:33.585Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:33.585Z - Time taken for 'total execution time for createProjectGraph()' 14.958499999949709ms
+[NX Daemon Server] - 2025-11-11T19:07:34.160Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:34.161Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was deleted
+[NX Daemon Server] - 2025-11-11T19:07:34.561Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:34.562Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:07:34.562Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:07:34.565Z - Time taken for 'hash changed files from watcher' 0.2347079999744892ms
+[NX Daemon Server] - 2025-11-11T19:07:34.584Z - Time taken for 'build-project-configs' 18.68599999998696ms
+[NX Daemon Server] - 2025-11-11T19:07:34.603Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:34.604Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:34.604Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:34.604Z - Time taken for 'total execution time for createProjectGraph()' 14.12270800000988ms
+[NX Daemon Server] - 2025-11-11T19:07:39.179Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:39.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:39.734Z - [WATCHER]: log/bstack-logs.tar.gz was created or restored
+[NX Daemon Server] - 2025-11-11T19:07:39.734Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:39.982Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:39.983Z - [REQUEST]: log/sdk-cli-debug.log,log/sdk-cli.log,log/bstack-logs.tar.gz
+[NX Daemon Server] - 2025-11-11T19:07:39.983Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:07:39.987Z - Time taken for 'hash changed files from watcher' 0.9571249999571592ms
+[NX Daemon Server] - 2025-11-11T19:07:40.007Z - Time taken for 'build-project-configs' 20.866167000029236ms
+[NX Daemon Server] - 2025-11-11T19:07:40.024Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:40.024Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:40.024Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:40.024Z - Time taken for 'total execution time for createProjectGraph()' 14.132457999978215ms
+[NX Daemon Server] - 2025-11-11T19:07:41.442Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:41.442Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:41.641Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:41.642Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:07:41.642Z - [REQUEST]: log/bstack-logs.tar.gz,apps/browserstack-e2e/browserstackSetupConfig.json,log/sdk-cli-debug.log,playwright-browserstack-sdk.config.temp.json,log/usage-debug.log,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts
+[NX Daemon Server] - 2025-11-11T19:07:41.643Z - Time taken for 'hash changed files from watcher' 0.0516249998472631ms
+[NX Daemon Server] - 2025-11-11T19:07:41.651Z - Time taken for 'build-project-configs' 7.249333999818191ms
+[NX Daemon Server] - 2025-11-11T19:07:41.662Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:41.662Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:41.662Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:41.662Z - Time taken for 'total execution time for createProjectGraph()' 9.506208000006154ms
+[NX Daemon Server] - 2025-11-11T19:07:42.124Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:07:42.124Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:07:42.124Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:07:42.127Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:07:42.127Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:07:42.127Z - Handled RECORD_TASK_RUNS. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:07:42.127Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:07:42.127Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:07:42.127Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:07:42.175Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:07:42.175Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:07:42.400Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:07:42.576Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:07:42.576Z - [REQUEST]: log/usage.log
+[NX Daemon Server] - 2025-11-11T19:07:42.576Z - [REQUEST]: log/usage-debug.log
+[NX Daemon Server] - 2025-11-11T19:07:42.576Z - Time taken for 'hash changed files from watcher' 0.07329199998639524ms
+[NX Daemon Server] - 2025-11-11T19:07:42.584Z - Time taken for 'build-project-configs' 6.412708000047132ms
+[NX Daemon Server] - 2025-11-11T19:07:42.595Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:07:42.596Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:07:42.596Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:07:42.596Z - Time taken for 'total execution time for createProjectGraph()' 10.198499999940395ms
+[NX Daemon Server] - 2025-11-11T19:08:20.128Z - [WATCHER]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts was modified
+[NX Daemon Server] - 2025-11-11T19:08:20.129Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:08:20.930Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:08:20.930Z - [REQUEST]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts
+[NX Daemon Server] - 2025-11-11T19:08:20.930Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:08:20.932Z - Time taken for 'hash changed files from watcher' 0.34487500018440187ms
+[NX Daemon Server] - 2025-11-11T19:08:20.952Z - Time taken for 'build-project-configs' 18.095916000194848ms
+[NX Daemon Server] - 2025-11-11T19:08:20.970Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:08:20.970Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:08:20.970Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:08:20.970Z - Time taken for 'total execution time for createProjectGraph()' 15.169332999968901ms
+[NX Daemon Server] - 2025-11-11T19:08:43.315Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:08:43.315Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:08:43.315Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:08:43.316Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T19:08:43.316Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T19:08:43.317Z - Time taken for 'total for creating and serializing project graph' 0.12283300003036857ms
+[NX Daemon Server] - 2025-11-11T19:08:43.318Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T19:08:43.318Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2025-11-11T19:08:43.374Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:08:43.374Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:08:43.374Z - Handled HASH_TASKS. Handling time: 8. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:08:43.378Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:08:43.378Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:08:43.378Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:08:46.541Z - [WATCHER]: test-results/.last-run.json was deleted
+[NX Daemon Server] - 2025-11-11T19:08:46.542Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:08:46.642Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:08:46.642Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:08:46.642Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:08:46.642Z - Time taken for 'hash changed files from watcher' 0.04099999996833503ms
+[NX Daemon Server] - 2025-11-11T19:08:46.652Z - Time taken for 'build-project-configs' 8.244834000011906ms
+[NX Daemon Server] - 2025-11-11T19:08:46.666Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:08:46.666Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:08:46.666Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:08:46.666Z - Time taken for 'total execution time for createProjectGraph()' 10.803624999942258ms
+[NX Daemon Server] - 2025-11-11T19:08:48.498Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:08:48.498Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:08:48.498Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:08:48.501Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:08:48.501Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:08:48.501Z - Handled RECORD_TASK_RUNS. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:08:48.501Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:08:48.501Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:08:48.501Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:08:48.541Z - [WATCHER]: test-results/.last-run.json was created or restored
+[NX Daemon Server] - 2025-11-11T19:08:48.541Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:08:48.642Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:08:48.642Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:08:48.642Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:08:48.643Z - Time taken for 'hash changed files from watcher' 0.07508399989455938ms
+[NX Daemon Server] - 2025-11-11T19:08:48.651Z - Time taken for 'build-project-configs' 7.1771249999292195ms
+[NX Daemon Server] - 2025-11-11T19:08:48.663Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:08:48.663Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:08:48.663Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:08:48.663Z - Time taken for 'total execution time for createProjectGraph()' 9.38925000000745ms
+[NX Daemon Server] - 2025-11-11T19:08:48.758Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:09:23.538Z - [WATCHER]: apps/browserstack-e2e/fixture.js was modified
+[NX Daemon Server] - 2025-11-11T19:09:23.539Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:09:23.740Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:09:23.740Z - [REQUEST]: apps/browserstack-e2e/fixture.js
+[NX Daemon Server] - 2025-11-11T19:09:23.740Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:09:23.742Z - Time taken for 'hash changed files from watcher' 0.18887499999254942ms
+[NX Daemon Server] - 2025-11-11T19:09:23.758Z - Time taken for 'build-project-configs' 13.663915999932215ms
+[NX Daemon Server] - 2025-11-11T19:09:23.776Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:09:23.776Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:09:23.776Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:09:23.776Z - Time taken for 'total execution time for createProjectGraph()' 17.043957999907434ms
+[NX Daemon Server] - 2025-11-11T19:09:49.305Z - [WATCHER]: chrome-headless-shell/142.0.7444.61-chrome-headless-shell-mac-arm64.zip was created or restored
+[NX Daemon Server] - 2025-11-11T19:09:49.306Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:09:49.407Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:09:49.407Z - [REQUEST]: chrome-headless-shell/142.0.7444.61-chrome-headless-shell-mac-arm64.zip
+[NX Daemon Server] - 2025-11-11T19:09:49.407Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:09:49.408Z - Time taken for 'hash changed files from watcher' 0.17537500010803342ms
+[NX Daemon Server] - 2025-11-11T19:09:49.426Z - Time taken for 'build-project-configs' 16.513999999966472ms
+[NX Daemon Server] - 2025-11-11T19:09:49.436Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:09:49.437Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:09:49.437Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:09:49.437Z - Time taken for 'total execution time for createProjectGraph()' 9.314125000033528ms
+[NX Daemon Server] - 2025-11-11T19:10:09.623Z - [WATCHER]: 5 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:10:09.623Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:10:09.792Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:10:09.792Z - [REQUEST]: chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/PrivacySandboxAttestationsPreloaded/manifest.json,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/ABOUT,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/LICENSE.headless_shell,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/chrome-headless-shell,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/PrivacySandboxAttestationsPreloaded/privacy-sandbox-attestations.dat,chrome-headless-shell/142.0.7444.61-chrome-headless-shell-mac-arm64.zip
+[NX Daemon Server] - 2025-11-11T19:10:09.792Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:10:09.793Z - Time taken for 'hash changed files from watcher' 68.66541599994525ms
+[NX Daemon Server] - 2025-11-11T19:10:09.808Z - Time taken for 'build-project-configs' 13.340874999994412ms
+[NX Daemon Server] - 2025-11-11T19:10:09.822Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:10:09.822Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:10:09.822Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:10:09.822Z - Time taken for 'total execution time for createProjectGraph()' 11.933791999937966ms
+[NX Daemon Server] - 2025-11-11T19:10:10.271Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:10:10.272Z - [WATCHER]: 6 file(s) created or restored, 1 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:10:10.347Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:10:10.348Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:10:10.411Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:10:10.411Z - [REQUEST]: chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/libEGL.dylib,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/libGLESv2.dylib,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/icudtl.dat,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/headless_command_resources.pak,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/headless_lib_data.pak,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/headless_lib_strings.pak,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/chrome-headless-shell,chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/libvk_swiftshader.dylib
+[NX Daemon Server] - 2025-11-11T19:10:10.411Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:10:10.413Z - [WATCHER]: 7 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:10:10.413Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:10:10.413Z - Time taken for 'hash changed files from watcher' 39.84349999995902ms
+[NX Daemon Server] - 2025-11-11T19:10:10.420Z - Time taken for 'build-project-configs' 6.480999999912456ms
+[NX Daemon Server] - 2025-11-11T19:10:10.433Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:10:10.434Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:10:10.434Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:10:10.434Z - Time taken for 'total execution time for createProjectGraph()' 11.729832999873906ms
+[NX Daemon Server] - 2025-11-11T19:10:10.514Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:10:10.514Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:10:10.514Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:10:10.515Z - Time taken for 'hash changed files from watcher' 0.0409580001141876ms
+[NX Daemon Server] - 2025-11-11T19:10:10.522Z - Time taken for 'build-project-configs' 6.807624999899417ms
+[NX Daemon Server] - 2025-11-11T19:10:10.533Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:10:10.533Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:10:10.533Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:10:10.533Z - Time taken for 'total execution time for createProjectGraph()' 8.634583000093699ms
+[NX Daemon Server] - 2025-11-11T19:10:33.556Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:10:33.557Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2025-11-11T19:10:33.557Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:10:33.557Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T19:10:33.558Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T19:10:33.558Z - Time taken for 'total for creating and serializing project graph' 0.1802499999757856ms
+[NX Daemon Server] - 2025-11-11T19:10:33.559Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T19:10:33.559Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 1.
+[NX Daemon Server] - 2025-11-11T19:10:33.607Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:10:33.608Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:10:33.608Z - Handled HASH_TASKS. Handling time: 7. Response time: 1.
+[NX Daemon Server] - 2025-11-11T19:10:33.612Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:10:33.612Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:10:33.612Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:10:34.281Z - [WATCHER]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts was modified
+[NX Daemon Server] - 2025-11-11T19:10:34.281Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:10:34.382Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:10:34.382Z - [REQUEST]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts
+[NX Daemon Server] - 2025-11-11T19:10:34.382Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:10:34.383Z - Time taken for 'hash changed files from watcher' 0.07266699988394976ms
+[NX Daemon Server] - 2025-11-11T19:10:34.396Z - Time taken for 'build-project-configs' 12.443375000031665ms
+[NX Daemon Server] - 2025-11-11T19:10:34.409Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:10:34.409Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:10:34.409Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:10:34.409Z - Time taken for 'total execution time for createProjectGraph()' 9.565166999818757ms
+[NX Daemon Server] - 2025-11-11T19:10:36.356Z - [WATCHER]: apps/browserstack-e2e/fixture.js was modified
+[NX Daemon Server] - 2025-11-11T19:10:36.356Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:10:36.556Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:10:36.556Z - [REQUEST]: apps/browserstack-e2e/fixture.js
+[NX Daemon Server] - 2025-11-11T19:10:36.556Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:10:36.557Z - Time taken for 'hash changed files from watcher' 0.23416700004599988ms
+[NX Daemon Server] - 2025-11-11T19:10:36.563Z - Time taken for 'build-project-configs' 5.833333000075072ms
+[NX Daemon Server] - 2025-11-11T19:10:36.575Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:10:36.575Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:10:36.575Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:10:36.575Z - Time taken for 'total execution time for createProjectGraph()' 8.810250000096858ms
+[NX Daemon Server] - 2025-11-11T19:10:37.291Z - [WATCHER]: test-results/.last-run.json was deleted
+[NX Daemon Server] - 2025-11-11T19:10:37.291Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:10:37.691Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:10:37.691Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:10:37.691Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:10:37.692Z - Time taken for 'hash changed files from watcher' 0.06300000008195639ms
+[NX Daemon Server] - 2025-11-11T19:10:37.701Z - Time taken for 'build-project-configs' 7.201207999838516ms
+[NX Daemon Server] - 2025-11-11T19:10:37.713Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:10:37.713Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:10:37.713Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:10:37.713Z - Time taken for 'total execution time for createProjectGraph()' 10.399833000032231ms
+[NX Daemon Server] - 2025-11-11T19:11:09.217Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:11:09.217Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:11:09.217Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-11-11T19:11:09.219Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:11:09.219Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:11:09.219Z - Handled RECORD_TASK_RUNS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:11:09.220Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:11:09.220Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:11:09.220Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:11:09.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:11:09.252Z - [WATCHER]: test-results/.last-run.json was created or restored
+[NX Daemon Server] - 2025-11-11T19:11:09.352Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:11:09.352Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:11:09.352Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:11:09.354Z - Time taken for 'hash changed files from watcher' 0.1705829999409616ms
+[NX Daemon Server] - 2025-11-11T19:11:09.368Z - Time taken for 'build-project-configs' 13.055542000103742ms
+[NX Daemon Server] - 2025-11-11T19:11:09.410Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:11:09.410Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:11:09.411Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:11:09.411Z - Time taken for 'total execution time for createProjectGraph()' 34.04270899994299ms
+[NX Daemon Server] - 2025-11-11T19:11:09.642Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:11:33.054Z - [WATCHER]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts was modified
+[NX Daemon Server] - 2025-11-11T19:11:33.054Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:11:33.255Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:11:33.255Z - [REQUEST]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts
+[NX Daemon Server] - 2025-11-11T19:11:33.255Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:11:33.257Z - Time taken for 'hash changed files from watcher' 0.16658399999141693ms
+[NX Daemon Server] - 2025-11-11T19:11:33.270Z - Time taken for 'build-project-configs' 12.544915999984369ms
+[NX Daemon Server] - 2025-11-11T19:11:33.287Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:11:33.287Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:11:33.287Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:11:33.287Z - Time taken for 'total execution time for createProjectGraph()' 13.609458999941126ms
+[NX Daemon Server] - 2025-11-11T19:11:35.180Z - [WATCHER]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts was modified
+[NX Daemon Server] - 2025-11-11T19:11:35.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:11:35.581Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:11:35.581Z - [REQUEST]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts
+[NX Daemon Server] - 2025-11-11T19:11:35.581Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:11:35.584Z - Time taken for 'hash changed files from watcher' 0.31825000001117587ms
+[NX Daemon Server] - 2025-11-11T19:11:35.601Z - Time taken for 'build-project-configs' 15.959249999839813ms
+[NX Daemon Server] - 2025-11-11T19:11:35.619Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:11:35.619Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:11:35.619Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:11:35.619Z - Time taken for 'total execution time for createProjectGraph()' 14.851792000001296ms
+[NX Daemon Server] - 2025-11-11T19:11:37.086Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:11:37.086Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:11:37.087Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:11:37.087Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T19:11:37.087Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T19:11:37.088Z - Time taken for 'total for creating and serializing project graph' 0.11037499993108213ms
+[NX Daemon Server] - 2025-11-11T19:11:37.089Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T19:11:37.089Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2025-11-11T19:11:37.147Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:11:37.147Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:11:37.147Z - Handled HASH_TASKS. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:11:37.151Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:11:37.151Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:11:37.151Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:11:41.875Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:11:41.876Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:11:41.976Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:11:41.976Z - [REQUEST]: log/usage-debug.log,log/sdk-cli-debug.log
+[NX Daemon Server] - 2025-11-11T19:11:41.976Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:11:41.977Z - Time taken for 'hash changed files from watcher' 0.13037499994970858ms
+[NX Daemon Server] - 2025-11-11T19:11:41.987Z - Time taken for 'build-project-configs' 9.333499999949709ms
+[NX Daemon Server] - 2025-11-11T19:11:42.001Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:11:42.001Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:11:42.001Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:11:42.001Z - Time taken for 'total execution time for createProjectGraph()' 11.165999999968335ms
+[NX Daemon Server] - 2025-11-11T19:11:44.060Z - [WATCHER]: 2 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:11:44.060Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:11:44.112Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:11:44.112Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:11:44.159Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:11:44.160Z - [REQUEST]: apps/browserstack-e2e/browserstackSetupConfig.json,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:11:44.160Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:11:44.160Z - Time taken for 'hash changed files from watcher' 0.14362500002607703ms
+[NX Daemon Server] - 2025-11-11T19:11:44.164Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:11:44.164Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:11:44.167Z - Time taken for 'build-project-configs' 6.23291700007394ms
+[NX Daemon Server] - 2025-11-11T19:11:44.179Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:11:44.180Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:11:44.180Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:11:44.180Z - Time taken for 'total execution time for createProjectGraph()' 10.64795899996534ms
+[NX Daemon Server] - 2025-11-11T19:11:44.364Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:11:44.364Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:11:44.364Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:11:44.365Z - Time taken for 'hash changed files from watcher' 0.03191700018942356ms
+[NX Daemon Server] - 2025-11-11T19:11:44.374Z - Time taken for 'build-project-configs' 7.641208000015467ms
+[NX Daemon Server] - 2025-11-11T19:11:44.384Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:11:44.384Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:11:44.384Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:11:44.384Z - Time taken for 'total execution time for createProjectGraph()' 8.197292000055313ms
+[NX Daemon Server] - 2025-11-11T19:11:46.212Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:11:46.212Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:11:46.312Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:11:46.312Z - [REQUEST]: playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T19:11:46.312Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:11:46.313Z - Time taken for 'hash changed files from watcher' 0.07600000011734664ms
+[NX Daemon Server] - 2025-11-11T19:11:46.319Z - Time taken for 'build-project-configs' 5.566791999852285ms
+[NX Daemon Server] - 2025-11-11T19:11:46.331Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:11:46.331Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:11:46.331Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:11:46.332Z - Time taken for 'total execution time for createProjectGraph()' 10.047541999956593ms
+[NX Daemon Server] - 2025-11-11T19:11:49.323Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was created or restored
+[NX Daemon Server] - 2025-11-11T19:11:49.323Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:11:49.424Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:11:49.424Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:11:49.424Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:11:49.425Z - Time taken for 'hash changed files from watcher' 0.0775419999845326ms
+[NX Daemon Server] - 2025-11-11T19:11:49.431Z - Time taken for 'build-project-configs' 5.502124999882653ms
+[NX Daemon Server] - 2025-11-11T19:11:49.440Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:11:49.440Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:11:49.440Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:11:49.440Z - Time taken for 'total execution time for createProjectGraph()' 7.504833000013605ms
+[NX Daemon Server] - 2025-11-11T19:12:18.953Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:18.955Z - [WATCHER]: 2 file(s) created or restored, 3 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:12:19.057Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:12:19.057Z - [REQUEST]: log/performance-report/performance-report-69111-0.json,test-results/.last-run.json,log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json,log/usage-debug.log,log/usage.log
+[NX Daemon Server] - 2025-11-11T19:12:19.057Z - [REQUEST]: log/performance-report/performance-report-65369-0.json
+[NX Daemon Server] - 2025-11-11T19:12:19.058Z - Time taken for 'hash changed files from watcher' 0.7469160000327975ms
+[NX Daemon Server] - 2025-11-11T19:12:19.072Z - Time taken for 'build-project-configs' 12.085749999852851ms
+[NX Daemon Server] - 2025-11-11T19:12:19.084Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:12:19.084Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:12:19.084Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:12:19.084Z - Time taken for 'total execution time for createProjectGraph()' 10.361916000023484ms
+[NX Daemon Server] - 2025-11-11T19:12:22.020Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:12:22.020Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:22.222Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:12:22.222Z - [REQUEST]: log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:12:22.222Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:12:22.229Z - Time taken for 'hash changed files from watcher' 0.2807080000638962ms
+[NX Daemon Server] - 2025-11-11T19:12:22.250Z - Time taken for 'build-project-configs' 23.529417000012472ms
+[NX Daemon Server] - 2025-11-11T19:12:22.270Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:12:22.270Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:12:22.270Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:12:22.270Z - Time taken for 'total execution time for createProjectGraph()' 18.35595800005831ms
+[NX Daemon Server] - 2025-11-11T19:12:22.829Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was deleted
+[NX Daemon Server] - 2025-11-11T19:12:22.829Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:23.230Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:12:23.230Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:12:23.231Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:12:23.233Z - Time taken for 'hash changed files from watcher' 0.08950000000186265ms
+[NX Daemon Server] - 2025-11-11T19:12:23.247Z - Time taken for 'build-project-configs' 13.535499999998137ms
+[NX Daemon Server] - 2025-11-11T19:12:23.264Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:12:23.265Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:12:23.265Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:12:23.265Z - Time taken for 'total execution time for createProjectGraph()' 15.202791000017896ms
+[NX Daemon Server] - 2025-11-11T19:12:27.849Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:12:27.850Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:28.397Z - [WATCHER]: log/bstack-logs.tar.gz was created or restored
+[NX Daemon Server] - 2025-11-11T19:12:28.397Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:28.650Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:12:28.650Z - [REQUEST]: log/sdk-cli.log,log/sdk-cli-debug.log,log/bstack-logs.tar.gz
+[NX Daemon Server] - 2025-11-11T19:12:28.650Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:12:28.652Z - Time taken for 'hash changed files from watcher' 0.3518749999348074ms
+[NX Daemon Server] - 2025-11-11T19:12:28.666Z - Time taken for 'build-project-configs' 14.021582999965176ms
+[NX Daemon Server] - 2025-11-11T19:12:28.684Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:12:28.685Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:12:28.685Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:12:28.685Z - Time taken for 'total execution time for createProjectGraph()' 14.876875000074506ms
+[NX Daemon Server] - 2025-11-11T19:12:30.651Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:30.652Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:12:30.796Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:12:30.796Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:12:30.796Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:12:30.798Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:12:30.798Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:12:30.798Z - Handled RECORD_TASK_RUNS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:12:30.799Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:12:30.799Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:12:30.799Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:12:30.841Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:30.842Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:12:30.852Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:12:30.852Z - [REQUEST]: log/usage.log
+[NX Daemon Server] - 2025-11-11T19:12:30.852Z - [REQUEST]: log/sdk-cli-debug.log,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,log/usage-debug.log,apps/browserstack-e2e/browserstackSetupConfig.json,log/bstack-logs.tar.gz,playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T19:12:30.853Z - Time taken for 'hash changed files from watcher' 0.10420800000429153ms
+[NX Daemon Server] - 2025-11-11T19:12:30.860Z - Time taken for 'build-project-configs' 6.365250000031665ms
+[NX Daemon Server] - 2025-11-11T19:12:30.871Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:12:30.871Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:12:30.871Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:12:30.871Z - Time taken for 'total execution time for createProjectGraph()' 8.605083000147715ms
+[NX Daemon Server] - 2025-11-11T19:12:31.089Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:12:49.636Z - [WATCHER]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts was modified
+[NX Daemon Server] - 2025-11-11T19:12:49.637Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:50.037Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:12:50.037Z - [REQUEST]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts
+[NX Daemon Server] - 2025-11-11T19:12:50.038Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:12:50.040Z - Time taken for 'hash changed files from watcher' 0.18637500004842877ms
+[NX Daemon Server] - 2025-11-11T19:12:50.056Z - Time taken for 'build-project-configs' 14.108999999938533ms
+[NX Daemon Server] - 2025-11-11T19:12:50.075Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:12:50.076Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:12:50.076Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:12:50.076Z - Time taken for 'total execution time for createProjectGraph()' 18.335916999960318ms
+[NX Daemon Server] - 2025-11-11T19:12:53.313Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:12:53.313Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:54.115Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:12:54.115Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:12:54.116Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:12:54.119Z - Time taken for 'hash changed files from watcher' 0.44499999983236194ms
+[NX Daemon Server] - 2025-11-11T19:12:54.140Z - Time taken for 'build-project-configs' 19.85016699996777ms
+[NX Daemon Server] - 2025-11-11T19:12:54.159Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:12:54.159Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:12:54.159Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:12:54.159Z - Time taken for 'total execution time for createProjectGraph()' 17.54895900003612ms
+[NX Daemon Server] - 2025-11-11T19:12:55.593Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:12:55.594Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:12:55.594Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:12:55.595Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T19:12:55.595Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T19:12:55.595Z - Time taken for 'total for creating and serializing project graph' 0.08250000001862645ms
+[NX Daemon Server] - 2025-11-11T19:12:55.596Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T19:12:55.596Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-11-11T19:12:55.652Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:12:55.652Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:12:55.652Z - Handled HASH_TASKS. Handling time: 6. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:12:55.656Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:12:55.656Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:12:55.656Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:12:59.831Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:12:59.831Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:12:59.931Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:12:59.931Z - [REQUEST]: log/usage-debug.log,log/sdk-cli-debug.log
+[NX Daemon Server] - 2025-11-11T19:12:59.931Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:12:59.932Z - Time taken for 'hash changed files from watcher' 0.16533300001174212ms
+[NX Daemon Server] - 2025-11-11T19:12:59.942Z - Time taken for 'build-project-configs' 8.512249999912456ms
+[NX Daemon Server] - 2025-11-11T19:12:59.955Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:12:59.955Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:12:59.955Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:12:59.955Z - Time taken for 'total execution time for createProjectGraph()' 11.172541999956593ms
+[NX Daemon Server] - 2025-11-11T19:13:03.230Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:03.230Z - [WATCHER]: 2 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:13:03.281Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:03.281Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:13:03.331Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:13:03.331Z - [REQUEST]: apps/browserstack-e2e/browserstackSetupConfig.json,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:13:03.331Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:13:03.332Z - Time taken for 'hash changed files from watcher' 0.2795829998794943ms
+[NX Daemon Server] - 2025-11-11T19:13:03.333Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:13:03.333Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:03.341Z - Time taken for 'build-project-configs' 8.275374999968335ms
+[NX Daemon Server] - 2025-11-11T19:13:03.352Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:13:03.352Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:13:03.352Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:13:03.352Z - Time taken for 'total execution time for createProjectGraph()' 9.515041999984533ms
+[NX Daemon Server] - 2025-11-11T19:13:03.534Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:13:03.534Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:13:03.534Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:13:03.535Z - Time taken for 'hash changed files from watcher' 0.03820899990387261ms
+[NX Daemon Server] - 2025-11-11T19:13:03.545Z - Time taken for 'build-project-configs' 9.699874999932945ms
+[NX Daemon Server] - 2025-11-11T19:13:03.556Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:13:03.556Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:13:03.556Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:13:03.556Z - Time taken for 'total execution time for createProjectGraph()' 9.568749999860302ms
+[NX Daemon Server] - 2025-11-11T19:13:05.525Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:13:05.525Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:05.625Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:13:05.625Z - [REQUEST]: playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T19:13:05.625Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:13:05.626Z - Time taken for 'hash changed files from watcher' 0.07116700010374188ms
+[NX Daemon Server] - 2025-11-11T19:13:05.631Z - Time taken for 'build-project-configs' 4.779291999991983ms
+[NX Daemon Server] - 2025-11-11T19:13:05.640Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:13:05.640Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:13:05.640Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:13:05.640Z - Time taken for 'total execution time for createProjectGraph()' 7.36345799989067ms
+[NX Daemon Server] - 2025-11-11T19:13:08.710Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:08.711Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was created or restored
+[NX Daemon Server] - 2025-11-11T19:13:08.812Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:13:08.812Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:13:08.812Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:13:08.812Z - Time taken for 'hash changed files from watcher' 0.08258299995213747ms
+[NX Daemon Server] - 2025-11-11T19:13:08.820Z - Time taken for 'build-project-configs' 6.543957999907434ms
+[NX Daemon Server] - 2025-11-11T19:13:08.832Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:13:08.832Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:13:08.832Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:13:08.833Z - Time taken for 'total execution time for createProjectGraph()' 9.435584000078961ms
+[NX Daemon Server] - 2025-11-11T19:13:30.700Z - [WATCHER]: 2 file(s) created or restored, 3 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:13:30.700Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:30.802Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:13:30.802Z - [REQUEST]: log/performance-report/performance-report-69428-0.json,test-results/.last-run.json,log/usage.log,log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json,log/usage-debug.log
+[NX Daemon Server] - 2025-11-11T19:13:30.802Z - [REQUEST]: log/performance-report/performance-report-69111-0.json
+[NX Daemon Server] - 2025-11-11T19:13:30.803Z - Time taken for 'hash changed files from watcher' 0.8743749998975545ms
+[NX Daemon Server] - 2025-11-11T19:13:30.815Z - Time taken for 'build-project-configs' 10.477292000083253ms
+[NX Daemon Server] - 2025-11-11T19:13:30.830Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:13:30.830Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:13:30.830Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:13:30.830Z - Time taken for 'total execution time for createProjectGraph()' 12.683416000101715ms
+[NX Daemon Server] - 2025-11-11T19:13:34.256Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:13:34.256Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:34.457Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:13:34.457Z - [REQUEST]: log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:13:34.457Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:13:34.461Z - Time taken for 'hash changed files from watcher' 0.525292000034824ms
+[NX Daemon Server] - 2025-11-11T19:13:34.480Z - Time taken for 'build-project-configs' 19.17095800000243ms
+[NX Daemon Server] - 2025-11-11T19:13:34.499Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:13:34.499Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:13:34.499Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:13:34.499Z - Time taken for 'total execution time for createProjectGraph()' 16.34091699984856ms
+[NX Daemon Server] - 2025-11-11T19:13:35.079Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was deleted
+[NX Daemon Server] - 2025-11-11T19:13:35.079Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:35.479Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:13:35.480Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:13:35.480Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:13:35.485Z - Time taken for 'hash changed files from watcher' 0.16204200009815395ms
+[NX Daemon Server] - 2025-11-11T19:13:35.502Z - Time taken for 'build-project-configs' 17.787207999965176ms
+[NX Daemon Server] - 2025-11-11T19:13:35.518Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:13:35.518Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:13:35.518Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:13:35.518Z - Time taken for 'total execution time for createProjectGraph()' 14.329625000013039ms
+[NX Daemon Server] - 2025-11-11T19:13:40.108Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:13:40.108Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:40.662Z - [WATCHER]: log/bstack-logs.tar.gz was created or restored
+[NX Daemon Server] - 2025-11-11T19:13:40.663Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:40.912Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:13:40.913Z - [REQUEST]: log/sdk-cli-debug.log,log/sdk-cli.log,log/bstack-logs.tar.gz
+[NX Daemon Server] - 2025-11-11T19:13:40.913Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:13:40.916Z - Time taken for 'hash changed files from watcher' 2.5303749998565763ms
+[NX Daemon Server] - 2025-11-11T19:13:40.935Z - Time taken for 'build-project-configs' 18.496334000024945ms
+[NX Daemon Server] - 2025-11-11T19:13:40.955Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:13:40.955Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:13:40.955Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:13:40.955Z - Time taken for 'total execution time for createProjectGraph()' 17.5353330001235ms
+[NX Daemon Server] - 2025-11-11T19:13:44.198Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:13:44.198Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:44.290Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:13:44.290Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:13:44.291Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 1.
+[NX Daemon Server] - 2025-11-11T19:13:44.293Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:13:44.293Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:13:44.293Z - Handled RECORD_TASK_RUNS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:13:44.294Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:13:44.294Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:13:44.294Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:13:44.323Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:13:44.324Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:13:44.399Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:13:44.399Z - [REQUEST]: log/usage.log
+[NX Daemon Server] - 2025-11-11T19:13:44.399Z - [REQUEST]: apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,apps/browserstack-e2e/browserstackSetupConfig.json,log/bstack-logs.tar.gz,log/usage-debug.log,playwright-browserstack-sdk.config.temp.json,log/sdk-cli-debug.log
+[NX Daemon Server] - 2025-11-11T19:13:44.400Z - Time taken for 'hash changed files from watcher' 0.11229199985973537ms
+[NX Daemon Server] - 2025-11-11T19:13:44.411Z - Time taken for 'build-project-configs' 8.818709000013769ms
+[NX Daemon Server] - 2025-11-11T19:13:44.422Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:13:44.422Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:13:44.422Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:13:44.422Z - Time taken for 'total execution time for createProjectGraph()' 10.680457999929786ms
+[NX Daemon Server] - 2025-11-11T19:13:44.833Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:14:27.993Z - [WATCHER]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts was modified
+[NX Daemon Server] - 2025-11-11T19:14:27.994Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:14:28.395Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:14:28.395Z - [REQUEST]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts
+[NX Daemon Server] - 2025-11-11T19:14:28.395Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:14:28.399Z - Time taken for 'hash changed files from watcher' 0.7422500001266599ms
+[NX Daemon Server] - 2025-11-11T19:14:28.424Z - Time taken for 'build-project-configs' 24.893708999967203ms
+[NX Daemon Server] - 2025-11-11T19:14:28.443Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:14:28.443Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:14:28.443Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:14:28.443Z - Time taken for 'total execution time for createProjectGraph()' 17.014040999813005ms
+[NX Daemon Server] - 2025-11-11T19:16:41.849Z - [WATCHER]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts was modified
+[NX Daemon Server] - 2025-11-11T19:16:41.849Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:16:42.651Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:16:42.651Z - [REQUEST]: apps/browserstack-e2e/tests/executors/playwright/playwright.ts
+[NX Daemon Server] - 2025-11-11T19:16:42.651Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:16:42.654Z - Time taken for 'hash changed files from watcher' 0.4140000001061708ms
+[NX Daemon Server] - 2025-11-11T19:16:42.676Z - Time taken for 'build-project-configs' 20.688625000184402ms
+[NX Daemon Server] - 2025-11-11T19:16:42.697Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:16:42.698Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:16:42.698Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:16:42.698Z - Time taken for 'total execution time for createProjectGraph()' 18.56479199999012ms
+[NX Daemon Server] - 2025-11-11T19:17:16.391Z - [WATCHER]: chrome-headless-shell was deleted
+[NX Daemon Server] - 2025-11-11T19:17:16.392Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:17.993Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:17:17.993Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:17:17.993Z - [REQUEST]: chrome-headless-shell
+[NX Daemon Server] - 2025-11-11T19:17:17.997Z - Time taken for 'hash changed files from watcher' 0.29237499996088445ms
+[NX Daemon Server] - 2025-11-11T19:17:18.017Z - Time taken for 'build-project-configs' 20.148459000047296ms
+[NX Daemon Server] - 2025-11-11T19:17:18.037Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:17:18.037Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:17:18.037Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:17:18.037Z - Time taken for 'total execution time for createProjectGraph()' 18.83029199996963ms
+[NX Daemon Server] - 2025-11-11T19:17:20.635Z - [WATCHER]: log was deleted
+[NX Daemon Server] - 2025-11-11T19:17:20.635Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:23.835Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:17:23.836Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:17:23.836Z - [REQUEST]: log
+[NX Daemon Server] - 2025-11-11T19:17:23.837Z - Time taken for 'hash changed files from watcher' 0.057792000006884336ms
+[NX Daemon Server] - 2025-11-11T19:17:23.848Z - Time taken for 'build-project-configs' 9.364250000100583ms
+[NX Daemon Server] - 2025-11-11T19:17:23.863Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:17:23.863Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:17:23.864Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:17:23.864Z - Time taken for 'total execution time for createProjectGraph()' 11.995624999981374ms
+[NX Daemon Server] - 2025-11-11T19:17:28.938Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:17:28.939Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:32.714Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:17:32.715Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:17:32.715Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:17:32.716Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T19:17:32.716Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:17:32.716Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:17:32.716Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:17:32.716Z - Time taken for 'hash changed files from watcher' 0.053499999921768904ms
+[NX Daemon Server] - 2025-11-11T19:17:32.724Z - Time taken for 'build-project-configs' 6.280375000089407ms
+[NX Daemon Server] - 2025-11-11T19:17:32.739Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:17:32.739Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:17:32.739Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:17:32.739Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T19:17:32.740Z - Time taken for 'total for creating and serializing project graph' 23.53866700013168ms
+[NX Daemon Server] - 2025-11-11T19:17:32.741Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T19:17:32.741Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 23. Response time: 2.
+[NX Daemon Server] - 2025-11-11T19:17:32.795Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:17:32.795Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:17:32.795Z - Handled HASH_TASKS. Handling time: 7. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:17:32.800Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:17:32.800Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:17:32.800Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:17:38.415Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:38.416Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:17:38.517Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:17:38.517Z - [REQUEST]: log/usage.log,log/sdk-cli-debug.log,log/usage-debug.log
+[NX Daemon Server] - 2025-11-11T19:17:38.517Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:17:38.518Z - Time taken for 'hash changed files from watcher' 0.23708399990573525ms
+[NX Daemon Server] - 2025-11-11T19:17:38.528Z - Time taken for 'build-project-configs' 8.728124999906868ms
+[NX Daemon Server] - 2025-11-11T19:17:38.542Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:17:38.543Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:17:38.543Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:17:38.543Z - Time taken for 'total execution time for createProjectGraph()' 11.62679100013338ms
+[NX Daemon Server] - 2025-11-11T19:17:40.120Z - [WATCHER]: log/sdk-cli.log was created or restored
+[NX Daemon Server] - 2025-11-11T19:17:40.120Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:40.220Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:17:40.220Z - [REQUEST]: log/sdk-cli.log
+[NX Daemon Server] - 2025-11-11T19:17:40.220Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:17:40.221Z - Time taken for 'hash changed files from watcher' 0.07462499989196658ms
+[NX Daemon Server] - 2025-11-11T19:17:40.231Z - Time taken for 'build-project-configs' 8.496040999889374ms
+[NX Daemon Server] - 2025-11-11T19:17:40.240Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:17:40.241Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:17:40.241Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:17:40.241Z - Time taken for 'total execution time for createProjectGraph()' 8.448707999894395ms
+[NX Daemon Server] - 2025-11-11T19:17:42.818Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:42.818Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:17:42.869Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:17:42.870Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:42.919Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:17:42.919Z - [REQUEST]: apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,apps/browserstack-e2e/browserstackSetupConfig.json,log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:17:42.919Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:17:42.920Z - Time taken for 'hash changed files from watcher' 0.20349999982863665ms
+[NX Daemon Server] - 2025-11-11T19:17:42.922Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:17:42.922Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:42.930Z - Time taken for 'build-project-configs' 8.969125000061467ms
+[NX Daemon Server] - 2025-11-11T19:17:42.946Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:17:42.946Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:17:42.946Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:17:42.946Z - Time taken for 'total execution time for createProjectGraph()' 12.502458000089973ms
+[NX Daemon Server] - 2025-11-11T19:17:43.023Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:17:43.023Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:17:43.023Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:17:43.033Z - Time taken for 'hash changed files from watcher' 0.03866699989885092ms
+[NX Daemon Server] - 2025-11-11T19:17:43.039Z - Time taken for 'build-project-configs' 4.959792000008747ms
+[NX Daemon Server] - 2025-11-11T19:17:43.066Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:17:43.066Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:17:43.066Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:17:43.066Z - Time taken for 'total execution time for createProjectGraph()' 14.95983300008811ms
+[NX Daemon Server] - 2025-11-11T19:17:45.605Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:17:45.606Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:45.706Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:17:45.707Z - [REQUEST]: playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T19:17:45.707Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:17:45.708Z - Time taken for 'hash changed files from watcher' 0.18295800010673702ms
+[NX Daemon Server] - 2025-11-11T19:17:45.726Z - Time taken for 'build-project-configs' 12.187459000153467ms
+[NX Daemon Server] - 2025-11-11T19:17:45.744Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:17:45.744Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:17:45.744Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:17:45.744Z - Time taken for 'total execution time for createProjectGraph()' 19.050125000067055ms
+[NX Daemon Server] - 2025-11-11T19:17:49.754Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was created or restored
+[NX Daemon Server] - 2025-11-11T19:17:49.754Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:17:49.854Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:17:49.854Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:17:49.854Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:17:49.854Z - Time taken for 'hash changed files from watcher' 0.09566699992865324ms
+[NX Daemon Server] - 2025-11-11T19:17:49.864Z - Time taken for 'build-project-configs' 7.5216669999063015ms
+[NX Daemon Server] - 2025-11-11T19:17:49.875Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:17:49.876Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:17:49.876Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:17:49.876Z - Time taken for 'total execution time for createProjectGraph()' 10.824375000083819ms
+[NX Daemon Server] - 2025-11-11T19:18:12.930Z - [WATCHER]: 2 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:18:12.931Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:18:13.032Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:18:13.032Z - [REQUEST]: log/performance-report/performance-report-69995-0.json,test-results/.last-run.json,log/usage.log,log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json,log/usage-debug.log
+[NX Daemon Server] - 2025-11-11T19:18:13.032Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:18:13.034Z - Time taken for 'hash changed files from watcher' 0.828999999910593ms
+[NX Daemon Server] - 2025-11-11T19:18:13.047Z - Time taken for 'build-project-configs' 10.722583000082523ms
+[NX Daemon Server] - 2025-11-11T19:18:13.060Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:18:13.060Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:18:13.060Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:18:13.060Z - Time taken for 'total execution time for createProjectGraph()' 11.696666999952868ms
+[NX Daemon Server] - 2025-11-11T19:18:17.833Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:18:17.833Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:18:18.033Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:18:18.034Z - [REQUEST]: log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:18:18.034Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:18:18.034Z - Time taken for 'hash changed files from watcher' 0.16483299992978573ms
+[NX Daemon Server] - 2025-11-11T19:18:18.044Z - Time taken for 'build-project-configs' 8.421875ms
+[NX Daemon Server] - 2025-11-11T19:18:18.060Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:18:18.060Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:18:18.061Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:18:18.061Z - Time taken for 'total execution time for createProjectGraph()' 14.089790999889374ms
+[NX Daemon Server] - 2025-11-11T19:18:18.638Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was deleted
+[NX Daemon Server] - 2025-11-11T19:18:18.638Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:18:19.038Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:18:19.038Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:18:19.038Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:18:19.039Z - Time taken for 'hash changed files from watcher' 0.04808400012552738ms
+[NX Daemon Server] - 2025-11-11T19:18:19.054Z - Time taken for 'build-project-configs' 13.629500000039116ms
+[NX Daemon Server] - 2025-11-11T19:18:19.068Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:18:19.068Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:18:19.068Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:18:19.068Z - Time taken for 'total execution time for createProjectGraph()' 10.860290999989957ms
+[NX Daemon Server] - 2025-11-11T19:18:23.647Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:18:23.647Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:18:24.169Z - [WATCHER]: log/bstack-logs.tar.gz was created or restored
+[NX Daemon Server] - 2025-11-11T19:18:24.169Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:18:24.450Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:18:24.451Z - [REQUEST]: log/sdk-cli-debug.log,log/sdk-cli.log,log/bstack-logs.tar.gz
+[NX Daemon Server] - 2025-11-11T19:18:24.451Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:18:24.452Z - Time taken for 'hash changed files from watcher' 2.9168330000247806ms
+[NX Daemon Server] - 2025-11-11T19:18:24.461Z - Time taken for 'build-project-configs' 7.0363340000621974ms
+[NX Daemon Server] - 2025-11-11T19:18:24.479Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:18:24.480Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:18:24.480Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:18:24.480Z - Time taken for 'total execution time for createProjectGraph()' 16.37133300001733ms
+[NX Daemon Server] - 2025-11-11T19:18:27.636Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:18:27.636Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:18:27.724Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:18:27.724Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:18:27.724Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:18:27.726Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:18:27.726Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:18:27.726Z - Handled RECORD_TASK_RUNS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:18:27.727Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:18:27.727Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:18:27.727Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:18:27.762Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:18:27.762Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:18:27.837Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:18:27.837Z - [REQUEST]: log/usage.log
+[NX Daemon Server] - 2025-11-11T19:18:27.837Z - [REQUEST]: apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,apps/browserstack-e2e/browserstackSetupConfig.json,log/bstack-logs.tar.gz,log/sdk-cli-debug.log,playwright-browserstack-sdk.config.temp.json,log/usage-debug.log
+[NX Daemon Server] - 2025-11-11T19:18:27.837Z - Time taken for 'hash changed files from watcher' 0.13162500015459955ms
+[NX Daemon Server] - 2025-11-11T19:18:27.847Z - Time taken for 'build-project-configs' 6.210707999998704ms
+[NX Daemon Server] - 2025-11-11T19:18:27.860Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:18:27.860Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:18:27.860Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:18:27.861Z - Time taken for 'total execution time for createProjectGraph()' 13.931624999968335ms
+[NX Daemon Server] - 2025-11-11T19:18:28.042Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:18:28.277Z - [WATCHER]: apps/browserstack-e2e/fixture.js was modified
+[NX Daemon Server] - 2025-11-11T19:18:28.277Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:18:28.678Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:18:28.678Z - [REQUEST]: apps/browserstack-e2e/fixture.js
+[NX Daemon Server] - 2025-11-11T19:18:28.678Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:18:28.679Z - Time taken for 'hash changed files from watcher' 0.11200000019744039ms
+[NX Daemon Server] - 2025-11-11T19:18:28.691Z - Time taken for 'build-project-configs' 10.862458999967203ms
+[NX Daemon Server] - 2025-11-11T19:18:28.705Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:18:28.705Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:18:28.706Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:18:28.706Z - Time taken for 'total execution time for createProjectGraph()' 11.712792000034824ms
+[NX Daemon Server] - 2025-11-11T19:18:39.567Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:18:39.567Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:18:40.369Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:18:40.369Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:18:40.369Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:18:40.371Z - Time taken for 'hash changed files from watcher' 0.18979099998250604ms
+[NX Daemon Server] - 2025-11-11T19:18:40.385Z - Time taken for 'build-project-configs' 13.132584000006318ms
+[NX Daemon Server] - 2025-11-11T19:18:40.401Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:18:40.401Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:18:40.401Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:18:40.401Z - Time taken for 'total execution time for createProjectGraph()' 12.82716599991545ms
+[NX Daemon Server] - 2025-11-11T19:19:05.512Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:19:05.512Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:19:07.113Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:19:07.113Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:19:07.113Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:19:07.115Z - Time taken for 'hash changed files from watcher' 0.09504100005142391ms
+[NX Daemon Server] - 2025-11-11T19:19:07.125Z - Time taken for 'build-project-configs' 9.173375000013039ms
+[NX Daemon Server] - 2025-11-11T19:19:07.141Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:19:07.141Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:19:07.141Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:19:07.141Z - Time taken for 'total execution time for createProjectGraph()' 13.550041999900714ms
+[NX Daemon Server] - 2025-11-11T19:19:37.140Z - [WATCHER]: apps/browserstack-e2e/fixture.js was modified
+[NX Daemon Server] - 2025-11-11T19:19:37.141Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:19:40.343Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:19:40.344Z - [REQUEST]: apps/browserstack-e2e/fixture.js
+[NX Daemon Server] - 2025-11-11T19:19:40.344Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:19:40.348Z - Time taken for 'hash changed files from watcher' 0.3858340000733733ms
+[NX Daemon Server] - 2025-11-11T19:19:40.370Z - Time taken for 'build-project-configs' 21.648415999952704ms
+[NX Daemon Server] - 2025-11-11T19:19:40.390Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:19:40.390Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:19:40.390Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:19:40.391Z - Time taken for 'total execution time for createProjectGraph()' 18.310749999945983ms
+[NX Daemon Server] - 2025-11-11T19:19:41.559Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:19:41.560Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:19:41.560Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:19:41.560Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T19:19:41.561Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T19:19:41.561Z - Time taken for 'total for creating and serializing project graph' 0.0977919998113066ms
+[NX Daemon Server] - 2025-11-11T19:19:41.563Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T19:19:41.563Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2025-11-11T19:19:41.630Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:19:41.631Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:19:41.631Z - Handled HASH_TASKS. Handling time: 9. Response time: 1.
+[NX Daemon Server] - 2025-11-11T19:19:41.636Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:19:41.636Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:19:41.636Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:19:47.262Z - [WATCHER]: 2 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:19:47.264Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:19:47.364Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:19:47.364Z - [REQUEST]: log/usage-debug.log,log/sdk-cli-debug.log
+[NX Daemon Server] - 2025-11-11T19:19:47.364Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:19:47.366Z - Time taken for 'hash changed files from watcher' 0.20783299999311566ms
+[NX Daemon Server] - 2025-11-11T19:19:47.378Z - Time taken for 'build-project-configs' 11.910042000003159ms
+[NX Daemon Server] - 2025-11-11T19:19:47.394Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:19:47.394Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:19:47.394Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:19:47.394Z - Time taken for 'total execution time for createProjectGraph()' 11.862999999895692ms
+[NX Daemon Server] - 2025-11-11T19:19:50.965Z - [WATCHER]: 2 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:19:50.965Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:19:51.054Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:19:51.054Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:19:51.065Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:19:51.065Z - [REQUEST]: apps/browserstack-e2e/browserstackSetupConfig.json,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:19:51.065Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:19:51.066Z - Time taken for 'hash changed files from watcher' 0.14470799989067018ms
+[NX Daemon Server] - 2025-11-11T19:19:51.075Z - Time taken for 'build-project-configs' 7.426208999939263ms
+[NX Daemon Server] - 2025-11-11T19:19:51.089Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:19:51.089Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:19:51.089Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:19:51.089Z - Time taken for 'total execution time for createProjectGraph()' 11.124042000155896ms
+[NX Daemon Server] - 2025-11-11T19:19:53.481Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:19:53.482Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:19:53.582Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:19:53.583Z - [REQUEST]: playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T19:19:53.583Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:19:53.585Z - Time taken for 'hash changed files from watcher' 0.10125000006519258ms
+[NX Daemon Server] - 2025-11-11T19:19:53.599Z - Time taken for 'build-project-configs' 13.660167000023648ms
+[NX Daemon Server] - 2025-11-11T19:19:53.612Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:19:53.612Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:19:53.612Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:19:53.612Z - Time taken for 'total execution time for createProjectGraph()' 10.462625000160187ms
+[NX Daemon Server] - 2025-11-11T19:19:57.027Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:19:57.029Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was created or restored
+[NX Daemon Server] - 2025-11-11T19:19:57.141Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:19:57.142Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:19:57.142Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:19:57.146Z - Time taken for 'hash changed files from watcher' 0.7104589999653399ms
+[NX Daemon Server] - 2025-11-11T19:19:57.170Z - Time taken for 'build-project-configs' 25.284874999895692ms
+[NX Daemon Server] - 2025-11-11T19:19:57.224Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:19:57.224Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:19:57.224Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:19:57.224Z - Time taken for 'total execution time for createProjectGraph()' 49.026542000006884ms
+[NX Daemon Server] - 2025-11-11T19:20:21.220Z - [WATCHER]: 2 file(s) created or restored, 3 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:20:21.221Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:21.324Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:21.324Z - [REQUEST]: log/performance-report/performance-report-70432-0.json,test-results/.last-run.json,log/usage.log,log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json,log/usage-debug.log
+[NX Daemon Server] - 2025-11-11T19:20:21.324Z - [REQUEST]: log/performance-report/performance-report-69995-0.json
+[NX Daemon Server] - 2025-11-11T19:20:21.325Z - Time taken for 'hash changed files from watcher' 1.8194579998962581ms
+[NX Daemon Server] - 2025-11-11T19:20:21.340Z - Time taken for 'build-project-configs' 12.8347500001546ms
+[NX Daemon Server] - 2025-11-11T19:20:21.353Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:21.353Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:21.354Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:21.354Z - Time taken for 'total execution time for createProjectGraph()' 11.972540999995545ms
+[NX Daemon Server] - 2025-11-11T19:20:26.471Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:20:26.471Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:26.672Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:26.672Z - [REQUEST]: log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:20:26.672Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:20:26.675Z - Time taken for 'hash changed files from watcher' 0.1474589998833835ms
+[NX Daemon Server] - 2025-11-11T19:20:26.693Z - Time taken for 'build-project-configs' 15.728499999968335ms
+[NX Daemon Server] - 2025-11-11T19:20:26.718Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:26.718Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:26.718Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:26.718Z - Time taken for 'total execution time for createProjectGraph()' 19.673083000117913ms
+[NX Daemon Server] - 2025-11-11T19:20:27.285Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was deleted
+[NX Daemon Server] - 2025-11-11T19:20:27.285Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:27.685Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:27.686Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:20:27.686Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:20:27.688Z - Time taken for 'hash changed files from watcher' 0.1071249998640269ms
+[NX Daemon Server] - 2025-11-11T19:20:27.704Z - Time taken for 'build-project-configs' 13.731499999994412ms
+[NX Daemon Server] - 2025-11-11T19:20:27.724Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:27.724Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:27.724Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:27.724Z - Time taken for 'total execution time for createProjectGraph()' 18.556417000014335ms
+[NX Daemon Server] - 2025-11-11T19:20:32.294Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:20:32.294Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:32.830Z - [WATCHER]: log/bstack-logs.tar.gz was created or restored
+[NX Daemon Server] - 2025-11-11T19:20:32.830Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:33.099Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:33.099Z - [REQUEST]: log/sdk-cli.log,log/sdk-cli-debug.log,log/bstack-logs.tar.gz
+[NX Daemon Server] - 2025-11-11T19:20:33.099Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:20:33.102Z - Time taken for 'hash changed files from watcher' 4.905833000084385ms
+[NX Daemon Server] - 2025-11-11T19:20:33.116Z - Time taken for 'build-project-configs' 14.375166000099853ms
+[NX Daemon Server] - 2025-11-11T19:20:33.131Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:33.131Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:33.131Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:33.131Z - Time taken for 'total execution time for createProjectGraph()' 10.809083000058308ms
+[NX Daemon Server] - 2025-11-11T19:20:36.522Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:20:36.522Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:36.647Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:20:36.647Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:20:36.647Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:20:36.650Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:20:36.650Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:20:36.650Z - Handled RECORD_TASK_RUNS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:20:36.650Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:20:36.650Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:20:36.650Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:20:36.684Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:20:36.684Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:36.723Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:36.723Z - [REQUEST]: log/usage.log
+[NX Daemon Server] - 2025-11-11T19:20:36.723Z - [REQUEST]: log/usage-debug.log,log/bstack-logs.tar.gz,log/sdk-cli-debug.log,apps/browserstack-e2e/browserstackSetupConfig.json,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T19:20:36.724Z - Time taken for 'hash changed files from watcher' 0.388416999951005ms
+[NX Daemon Server] - 2025-11-11T19:20:36.735Z - Time taken for 'build-project-configs' 10.019874999998137ms
+[NX Daemon Server] - 2025-11-11T19:20:36.782Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:36.782Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:36.782Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:36.782Z - Time taken for 'total execution time for createProjectGraph()' 10.238957999972627ms
+[NX Daemon Server] - 2025-11-11T19:20:37.049Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:20:46.233Z - [WATCHER]: log was deleted
+[NX Daemon Server] - 2025-11-11T19:20:46.234Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:46.635Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:46.635Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:20:46.635Z - [REQUEST]: log
+[NX Daemon Server] - 2025-11-11T19:20:46.639Z - Time taken for 'hash changed files from watcher' 0.12937500001862645ms
+[NX Daemon Server] - 2025-11-11T19:20:46.664Z - Time taken for 'build-project-configs' 25.806166999973357ms
+[NX Daemon Server] - 2025-11-11T19:20:46.682Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:46.682Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:46.682Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:46.682Z - Time taken for 'total execution time for createProjectGraph()' 14.79058300005272ms
+[NX Daemon Server] - 2025-11-11T19:20:48.875Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:20:48.876Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:20:48.876Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2025-11-11T19:20:48.876Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2025-11-11T19:20:48.877Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2025-11-11T19:20:48.877Z - Time taken for 'total for creating and serializing project graph' 0.10404199990443885ms
+[NX Daemon Server] - 2025-11-11T19:20:48.880Z - Done responding to the client project-graph
+[NX Daemon Server] - 2025-11-11T19:20:48.880Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 3.
+[NX Daemon Server] - 2025-11-11T19:20:48.954Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:20:48.954Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2025-11-11T19:20:48.954Z - Handled HASH_TASKS. Handling time: 12. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:20:48.959Z - [REQUEST]: Responding to the client. handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:20:48.959Z - Done responding to the client handleGetEstimatedTaskTimings
+[NX Daemon Server] - 2025-11-11T19:20:48.959Z - Handled GET_ESTIMATED_TASK_TIMINGS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:20:53.919Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:20:53.920Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:54.021Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:54.021Z - [REQUEST]: log/sdk-cli-debug.log,log/usage.log,log/usage-debug.log
+[NX Daemon Server] - 2025-11-11T19:20:54.021Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:20:54.022Z - Time taken for 'hash changed files from watcher' 0.2442920000758022ms
+[NX Daemon Server] - 2025-11-11T19:20:54.031Z - Time taken for 'build-project-configs' 8.447958000004292ms
+[NX Daemon Server] - 2025-11-11T19:20:54.044Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:54.044Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:54.044Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:54.045Z - Time taken for 'total execution time for createProjectGraph()' 10.08841700013727ms
+[NX Daemon Server] - 2025-11-11T19:20:55.514Z - [WATCHER]: log/sdk-cli.log was created or restored
+[NX Daemon Server] - 2025-11-11T19:20:55.514Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:55.614Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:55.614Z - [REQUEST]: log/sdk-cli.log
+[NX Daemon Server] - 2025-11-11T19:20:55.614Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:20:55.615Z - Time taken for 'hash changed files from watcher' 0.08920799987390637ms
+[NX Daemon Server] - 2025-11-11T19:20:55.624Z - Time taken for 'build-project-configs' 8.291916999965906ms
+[NX Daemon Server] - 2025-11-11T19:20:55.638Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:55.638Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:55.638Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:55.638Z - Time taken for 'total execution time for createProjectGraph()' 11.122042000060901ms
+[NX Daemon Server] - 2025-11-11T19:20:57.086Z - [WATCHER]: 3 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:20:57.086Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:57.137Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:57.138Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:20:57.187Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:57.187Z - [REQUEST]: apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,apps/browserstack-e2e/browserstackSetupConfig.json,log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:20:57.187Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:20:57.188Z - Time taken for 'hash changed files from watcher' 0.1799170000012964ms
+[NX Daemon Server] - 2025-11-11T19:20:57.195Z - Time taken for 'build-project-configs' 6.757915999973193ms
+[NX Daemon Server] - 2025-11-11T19:20:57.208Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:57.208Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:57.208Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:57.208Z - Time taken for 'total execution time for createProjectGraph()' 10.388291000155732ms
+[NX Daemon Server] - 2025-11-11T19:20:59.790Z - [WATCHER]: 1 file(s) created or restored, 0 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:20:59.790Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:20:59.892Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:20:59.892Z - [REQUEST]: playwright-browserstack-sdk.config.temp.json
+[NX Daemon Server] - 2025-11-11T19:20:59.892Z - [REQUEST]: test-results/.last-run.json
+[NX Daemon Server] - 2025-11-11T19:20:59.894Z - Time taken for 'hash changed files from watcher' 0.4437080000061542ms
+[NX Daemon Server] - 2025-11-11T19:20:59.903Z - Time taken for 'build-project-configs' 6.773207999998704ms
+[NX Daemon Server] - 2025-11-11T19:20:59.917Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:20:59.917Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:20:59.917Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:20:59.917Z - Time taken for 'total execution time for createProjectGraph()' 12.161917000077665ms
+[NX Daemon Server] - 2025-11-11T19:21:03.420Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was created or restored
+[NX Daemon Server] - 2025-11-11T19:21:03.420Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:21:03.519Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:21:03.520Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:21:03.520Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:21:03.521Z - Time taken for 'hash changed files from watcher' 0.09487500018440187ms
+[NX Daemon Server] - 2025-11-11T19:21:03.530Z - Time taken for 'build-project-configs' 8.645041999872774ms
+[NX Daemon Server] - 2025-11-11T19:21:03.541Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:21:03.541Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:21:03.541Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:21:03.541Z - Time taken for 'total execution time for createProjectGraph()' 8.182666999986395ms
+[NX Daemon Server] - 2025-11-11T19:21:30.179Z - [WATCHER]: 2 file(s) created or restored, 3 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:21:30.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:21:30.282Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:21:30.282Z - [REQUEST]: log/performance-report/performance-report-70746-0.json,test-results/.last-run.json,log/usage-debug.log,log/usage.log,log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:21:30.282Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:21:30.283Z - Time taken for 'hash changed files from watcher' 0.7370420000515878ms
+[NX Daemon Server] - 2025-11-11T19:21:30.298Z - Time taken for 'build-project-configs' 13.01162500004284ms
+[NX Daemon Server] - 2025-11-11T19:21:30.314Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:21:30.314Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:21:30.314Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:21:30.314Z - Time taken for 'total execution time for createProjectGraph()' 14.360792000079527ms
+[NX Daemon Server] - 2025-11-11T19:21:34.055Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:21:34.055Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:21:34.256Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:21:34.256Z - [REQUEST]: log/key-metrics.json
+[NX Daemon Server] - 2025-11-11T19:21:34.256Z - [REQUEST]: log/key-metrics.json.lock
+[NX Daemon Server] - 2025-11-11T19:21:34.260Z - Time taken for 'hash changed files from watcher' 0.15183299989439547ms
+[NX Daemon Server] - 2025-11-11T19:21:34.276Z - Time taken for 'build-project-configs' 15.060291999951005ms
+[NX Daemon Server] - 2025-11-11T19:21:34.299Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:21:34.299Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:21:34.300Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:21:34.300Z - Time taken for 'total execution time for createProjectGraph()' 21.306499999947846ms
+[NX Daemon Server] - 2025-11-11T19:21:34.881Z - [WATCHER]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json was deleted
+[NX Daemon Server] - 2025-11-11T19:21:34.881Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:21:35.282Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:21:35.282Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:21:35.282Z - [REQUEST]: log/.obs_test_details-default/chrome@135:Windows 10@browserstack-51f8d40a272cb921b96a-49aee2ae168977f8f4dc-0.json
+[NX Daemon Server] - 2025-11-11T19:21:35.285Z - Time taken for 'hash changed files from watcher' 0.0625ms
+[NX Daemon Server] - 2025-11-11T19:21:35.301Z - Time taken for 'build-project-configs' 16.010958000086248ms
+[NX Daemon Server] - 2025-11-11T19:21:35.318Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:21:35.318Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:21:35.319Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:21:35.319Z - Time taken for 'total execution time for createProjectGraph()' 14.510125000029802ms
+[NX Daemon Server] - 2025-11-11T19:21:39.896Z - [WATCHER]: 0 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:21:39.897Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:21:40.444Z - [WATCHER]: log/bstack-logs.tar.gz was created or restored
+[NX Daemon Server] - 2025-11-11T19:21:40.445Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:21:40.700Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:21:40.701Z - [REQUEST]: log/sdk-cli.log,log/sdk-cli-debug.log,log/bstack-logs.tar.gz
+[NX Daemon Server] - 2025-11-11T19:21:40.701Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:21:40.709Z - Time taken for 'hash changed files from watcher' 3.1461249999701977ms
+[NX Daemon Server] - 2025-11-11T19:21:40.719Z - Time taken for 'build-project-configs' 16.52199999988079ms
+[NX Daemon Server] - 2025-11-11T19:21:40.734Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:21:40.734Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:21:40.734Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:21:40.735Z - Time taken for 'total execution time for createProjectGraph()' 13.22137499996461ms
+[NX Daemon Server] - 2025-11-11T19:21:43.880Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 6 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:21:43.880Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:21:43.979Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:21:43.979Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2025-11-11T19:21:43.979Z - Handled RECORD_OUTPUTS_HASH. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:21:43.983Z - [REQUEST]: Responding to the client. handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:21:43.983Z - Done responding to the client handleRecordTaskRuns
+[NX Daemon Server] - 2025-11-11T19:21:43.983Z - Handled RECORD_TASK_RUNS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:21:43.983Z - [REQUEST]: Responding to the client. handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:21:43.983Z - Done responding to the client handleGetFlakyTasks
+[NX Daemon Server] - 2025-11-11T19:21:43.983Z - Handled GET_FLAKY_TASKS. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2025-11-11T19:21:44.012Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX Daemon Server] - 2025-11-11T19:21:44.012Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:21:44.081Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:21:44.081Z - [REQUEST]: log/usage.log
+[NX Daemon Server] - 2025-11-11T19:21:44.081Z - [REQUEST]: log/usage-debug.log,log/bstack-logs.tar.gz,log/sdk-cli-debug.log,apps/browserstack-e2e/playwright-browserstack-sdk.config.ts,playwright-browserstack-sdk.config.temp.json,apps/browserstack-e2e/browserstackSetupConfig.json
+[NX Daemon Server] - 2025-11-11T19:21:44.082Z - Time taken for 'hash changed files from watcher' 0.12733300006948411ms
+[NX Daemon Server] - 2025-11-11T19:21:44.089Z - Time taken for 'build-project-configs' 6.235499999951571ms
+[NX Daemon Server] - 2025-11-11T19:21:44.099Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:21:44.100Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:21:44.100Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:21:44.100Z - Time taken for 'total execution time for createProjectGraph()' 8.035832999972627ms
+[NX Daemon Server] - 2025-11-11T19:21:44.297Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2025-11-11T19:23:50.658Z - [WATCHER]: log.zip was modified
+[NX Daemon Server] - 2025-11-11T19:23:50.660Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:23:50.752Z - [WATCHER]: log.zip was created or restored
+[NX Daemon Server] - 2025-11-11T19:23:50.753Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:23:51.062Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:23:51.062Z - [REQUEST]: log.zip
+[NX Daemon Server] - 2025-11-11T19:23:51.062Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:23:51.064Z - Time taken for 'hash changed files from watcher' 1.2574579999782145ms
+[NX Daemon Server] - 2025-11-11T19:23:51.085Z - Time taken for 'build-project-configs' 20.528416000073776ms
+[NX Daemon Server] - 2025-11-11T19:23:51.104Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:23:51.104Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:23:51.104Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:23:51.104Z - Time taken for 'total execution time for createProjectGraph()' 14.535791999893263ms
+[NX Daemon Server] - 2025-11-11T19:24:44.075Z - [WATCHER]: apps/browserstack-e2e/browserstack.yml was modified
+[NX Daemon Server] - 2025-11-11T19:24:44.076Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:24:44.279Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:24:44.279Z - [REQUEST]: apps/browserstack-e2e/browserstack.yml
+[NX Daemon Server] - 2025-11-11T19:24:44.279Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:24:44.281Z - Time taken for 'hash changed files from watcher' 0.31558299995958805ms
+[NX Daemon Server] - 2025-11-11T19:24:44.302Z - Time taken for 'build-project-configs' 19.105957999825478ms
+[NX Daemon Server] - 2025-11-11T19:24:44.324Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:24:44.324Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:24:44.324Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:24:44.324Z - Time taken for 'total execution time for createProjectGraph()' 18.23954199999571ms
+[NX Daemon Server] - 2025-11-11T19:24:51.477Z - [WATCHER]: apps/browserstack-e2e/fixture.js was modified
+[NX Daemon Server] - 2025-11-11T19:24:51.477Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:24:51.877Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:24:51.877Z - [REQUEST]: apps/browserstack-e2e/fixture.js
+[NX Daemon Server] - 2025-11-11T19:24:51.877Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:24:51.879Z - Time taken for 'hash changed files from watcher' 0.1410840000025928ms
+[NX Daemon Server] - 2025-11-11T19:24:51.894Z - Time taken for 'build-project-configs' 13.545041000004858ms
+[NX Daemon Server] - 2025-11-11T19:24:51.912Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:24:51.912Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:24:51.912Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:24:51.913Z - Time taken for 'total execution time for createProjectGraph()' 14.650499999988824ms
+[NX Daemon Server] - 2025-11-11T19:24:56.588Z - [WATCHER]: apps/browserstack-e2e/fixture.js was modified
+[NX Daemon Server] - 2025-11-11T19:24:56.589Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2025-11-11T19:24:57.389Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2025-11-11T19:24:57.389Z - [REQUEST]: apps/browserstack-e2e/fixture.js
+[NX Daemon Server] - 2025-11-11T19:24:57.389Z - [REQUEST]: 
+[NX Daemon Server] - 2025-11-11T19:24:57.392Z - Time taken for 'hash changed files from watcher' 0.16754200006835163ms
+[NX Daemon Server] - 2025-11-11T19:24:57.405Z - Time taken for 'build-project-configs' 12.576292000012472ms
+[NX Daemon Server] - 2025-11-11T19:24:57.423Z - [SYNC]: collect registered sync generators
+[NX Daemon Server] - 2025-11-11T19:24:57.423Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX Daemon Server] - 2025-11-11T19:24:57.423Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX Daemon Server] - 2025-11-11T19:24:57.423Z - Time taken for 'total execution time for createProjectGraph()' 15.472000000067055ms

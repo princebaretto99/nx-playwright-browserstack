@@ -12,9 +12,9 @@ accessKey:
 # The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
 # Note: Avoid using special characters like |, ;, >, <, ", ?, %, /, \, newlines, carriage returns, or tabs in project names
-projectName: BrowserStack Samples 
+projectName: Nx Playwright BrowserStack
 # Set `buildName` as the name of the job / testsuite being run
-buildName: browserstack build 
+buildName: playwright-build-testing
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
 # buildName. Choose your buildIdentifier format from the available expressions:
 # ${BUILD_NUMBER} (Default): Generates an incremental counter with every execution
@@ -27,13 +27,14 @@ buildIdentifier: '#${BUILD_NUMBER}' # Supports strings along with either/both ${
 # =======================================
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
-platforms:
-  - os: Windows
-    osVersion: 11
-    browserName: chrome
-    browserVersion: 135
+# platforms:
+#   - os: Windows
+#     osVersion: 11
+#     browserName: chrome
+#     browserVersion: 135
 
 accessibility: true
+browserstackAutomation: false
 # =======================
 # Parallels per Platform
 # =======================
@@ -43,7 +44,7 @@ accessibility: true
 # Example 1 - If you have configured 3 platforms and set `parallelsPerPlatform` as 2, a total of 6 (2 * 3) parallel threads will be used on BrowserStack
 #
 # Example 2 - If you have configured 1 platform and set `parallelsPerPlatform` as 5, a total of 5 (1 * 5) parallel threads will be used on BrowserStack
-parallelsPerPlatform: 1
+# parallelsPerPlatform: 1
 
 # ==========================================
 # BrowserStack Local
@@ -51,7 +52,7 @@ parallelsPerPlatform: 1
 # ==========================================
 # Set browserStackLocal to true if your website under test is not accessible publicly over the internet
 # Learn more about how BrowserStack Local works here -> https://www.browserstack.com/docs/automate/selenium/local-testing-introduction
-browserstackLocal: false # <boolean> (Default false)
+# browserstackLocal: false # <boolean> (Default false)
 # browserStackLocalOptions:
 # Options to be passed to BrowserStack local in-case of advanced configurations
   # localIdentifier: # <string> (Default: null) Needed if you need to run multiple instances of local.
@@ -61,12 +62,12 @@ browserstackLocal: false # <boolean> (Default false)
 # ===================
 # Debugging features
 # ===================
-debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
-networkLogs: true # <boolean> Set to true to enable HAR logs capturing
-consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
+# debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
+# networkLogs: true # <boolean> Set to true to enable HAR logs capturing
+# consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
 # CUSTOM_TAG_<INT>: # <string> (Default: parent folder name of the test file) Custom tag for your test suite
-
+logLevel: debug
 # Test Reporting And Analytics is an intelligent test reporting & debugging product. It collects data using the SDK. Read more about what data is collected at https://www.browserstack.com/docs/test-reporting-and-analytics/references/terms-and-conditions
 # Visit automation.browserstack.com to see your test reports and insights. To disable test reporting and analytics, specify `testReporting: false` in the key below.
 testReporting: true

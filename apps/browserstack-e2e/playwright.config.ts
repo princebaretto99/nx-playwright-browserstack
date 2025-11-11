@@ -13,12 +13,13 @@ export default defineConfig({
     trace: 'on-first-retry'
   },
   projects: [
-    {
-      name: 'chrome',
-        use: {
-        channel: 'chrome',
+     {
+      name: "chrome@135:Windows 10@browserstack",
+      use: {
+        browserName: "chromium",
+        channel: "chrome",
       },
-    }
+    },
   ],
   webServer: undefined
 });

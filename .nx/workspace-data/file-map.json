@@ -14,32 +14,88 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "log/performance-report/performance-report-70746-0.json",
+        "hash": "13853335033204429237"
+      },
+      {
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/headless_lib_data.pak",
+        "hash": "5132700056461156159"
+      },
+      {
+        "file": "test-results/.last-run.json",
+        "hash": "11141884120100644736"
+      },
+      {
+        "file": "log/performance-report/performance-report-69428-0.json",
+        "hash": "11577741980818826241"
+      },
+      {
+        "file": "README.md",
+        "hash": "16630836668796244156"
+      },
+      {
         "file": "log/usage.log",
-        "hash": "7939288120547844633"
+        "hash": "10625616605258309623"
       },
       {
-        "file": "nx.json",
-        "hash": "14022267939979960331"
-      },
-      {
-        "file": "executors.json",
-        "hash": "17337914398787310589"
+        "file": "log/key-metrics.json",
+        "hash": "4266007044449287149"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "9196281002566044291"
       },
       {
-        "file": "yarn.lock",
-        "hash": "4896474778247512878"
+        "file": "executors.json",
+        "hash": "17337914398787310589"
       },
       {
-        "file": "log/performance-report/performance-report-32402-0.json",
-        "hash": "12785399869330447927"
+        "file": ".yarnrc.yml",
+        "hash": "5566286921977447571"
       },
       {
-        "file": "log/sdk-cli.log",
-        "hash": "7871747319710617036"
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/headless_lib_strings.pak",
+        "hash": "2090028593142521844"
+      },
+      {
+        "file": "playwright.config.js",
+        "hash": "17847752149351175839"
+      },
+      {
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/chrome-headless-shell",
+        "hash": "3018523682333946209"
+      },
+      {
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/libvk_swiftshader.dylib",
+        "hash": "11072169184808495973"
+      },
+      {
+        "file": "chrome-headless-shell/142.0.7444.61-chrome-headless-shell-mac-arm64.zip",
+        "hash": "1391856457434307908"
+      },
+      {
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/libGLESv2.dylib",
+        "hash": "7796334662565861256"
+      },
+      {
+        "file": "log/performance-report/performance-report-70432-0.json",
+        "hash": "2863836164962813425"
+      },
+      {
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/PrivacySandboxAttestationsPreloaded/manifest.json",
+        "hash": "5712146795915233163"
+      },
+      {
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/libEGL.dylib",
+        "hash": "3111873889004634493"
+      },
+      {
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/headless_command_resources.pak",
+        "hash": "14464584483624803482"
+      },
+      {
+        "file": "log.zip",
+        "hash": "16529306435938620096"
       },
       {
         "file": ".gitignore",
@@ -50,35 +106,47 @@
         "hash": "4943629265661768905"
       },
       {
-        "file": "README.md",
-        "hash": "16630836668796244156"
+        "file": "yarn.lock",
+        "hash": "4896474778247512878"
       },
       {
-        "file": "log/events.json",
-        "hash": "6528968394641898455"
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/icudtl.dat",
+        "hash": "10378854453868506218"
       },
       {
-        "file": "test-results/.last-run.json",
-        "hash": "11141884120100644736"
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/PrivacySandboxAttestationsPreloaded/privacy-sandbox-attestations.dat",
+        "hash": "6175786927276755881"
       },
       {
-        "file": ".yarnrc.yml",
-        "hash": "5566286921977447571"
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/ABOUT",
+        "hash": "6462044144214310094"
       },
       {
-        "file": "log/performance-report/modified-key-metrics.json",
-        "hash": "13318010088445209132"
+        "file": "nx.json",
+        "hash": "14022267939979960331"
+      },
+      {
+        "file": "chrome-headless-shell/mac_arm-142.0.7444.61/chrome-headless-shell-mac-arm64/LICENSE.headless_shell",
+        "hash": "6569899402945474761"
+      },
+      {
+        "file": "log/sdk-cli.log",
+        "hash": "12362073699841065936"
       }
     ],
     "projectFileMap": {
       "browserstack-e2e": [
         {
           "file": "apps/browserstack-e2e/browserstack.yml",
-          "hash": "16893584013348584805"
+          "hash": "15563367736265570132"
+        },
+        {
+          "file": "apps/browserstack-e2e/fixture.js",
+          "hash": "2938744768142878298"
         },
         {
           "file": "apps/browserstack-e2e/playwright.config.ts",
-          "hash": "16425037141446000107"
+          "hash": "566601110348945388"
         },
         {
           "file": "apps/browserstack-e2e/project.json",
@@ -86,11 +154,11 @@
         },
         {
           "file": "apps/browserstack-e2e/tests/browserstack.spec.ts",
-          "hash": "13603888535021075692"
+          "hash": "2413388701768050338"
         },
         {
           "file": "apps/browserstack-e2e/tests/executors/playwright/playwright.ts",
-          "hash": "1455589443799124723"
+          "hash": "17121955678115701899"
         },
         {
           "file": "apps/browserstack-e2e/tests/executors/playwright/schema.json",

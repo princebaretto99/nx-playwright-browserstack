@@ -1,4 +1,6 @@
 import { execSync, exec } from 'child_process';
+import * as fs from 'fs';
+import * as path from 'path';
 import {
   ExecutorContext,
   getPackageManagerCommand,
@@ -134,19 +136,44 @@ function createArgs(
   return args;
 }
 
-function runPlaywright(args: string[], cwd: string,browserStackConfig?:string) {
-  const env:any = {}
-  if(browserStackConfig){
-    env['BROWSERSTACK_CONFIG_FILE'] = browserStackConfig
+function runPlaywright(args: string[], cwd: string, browserStackConfig?: string) {
+  const env: any = {};
+  if (browserStackConfig) {
+    env['BROWSERSTACK_CONFIG_FILE'] = browserStackConfig;
   }
+
+  // If a browserStackConfig is provided, try to detect whether the config
+  // explicitly disables BrowserStack automation. In that case we should call
+  // the Playwright CLI directly (so no SDK wrapper spawns a mock-process that
+  // can intercept `launch` calls). This allows using only the CDP connection
+  // to BrowserStack without the SDK orchestrating runs.
   try {
-    return exec(['browserstack-node-sdk playwright test',...args].join(' '),{
-        cwd,
-        env:{
-          ...process.env,
-          ...env
+    if (browserStackConfig) {
+      const configPath = path.resolve(cwd, browserStackConfig);
+      if (fs.existsSync(configPath)) {
+        const contents = fs.readFileSync(configPath, 'utf8');
+        const match = contents.match(/browserstackAutomation\s*:\s*(true|false)/);
+        if (match && match[1] === 'false') {
+          // Run Playwright directly
+          return exec(['npx browserstack-node-sdk playwright test', ...args].join(' '), {
+            cwd,
+            env: {
+              ...process.env,
+              ...env,
+            },
+          });
         }
-    })
+      }
+    }
+
+    // Fallback: run via the BrowserStack SDK wrapper
+    return exec(['browserstack-node-sdk playwright test', ...args].join(' '), {
+      cwd,
+      env: {
+        ...process.env,
+        ...env,
+      },
+    });
   } catch (e) {
     console.error(e);
     throw new Error('Unable to run playwright. Is @playwright/test installed?');

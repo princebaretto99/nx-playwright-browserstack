@@ -18,9 +18,9 @@ const caps = {
   realMobile: "true",
   name: "My android playwright test",
   build: "playwright-build-1",
-  "browserstack.username": process.env.BROWSERSTACK_USERNAME || "<USERNAME>",
+  "browserstack.username": process.env.BROWSERSTACK_USERNAME || "",
   "browserstack.accessKey":
-    process.env.BROWSERSTACK_ACCESS_KEY || "<ACCESS_KEY>",
+    process.env.BROWSERSTACK_ACCESS_KEY || "",
   "browserstack.local": process.env.BROWSERSTACK_LOCAL || false,
 };
 
@@ -28,7 +28,7 @@ exports.bsLocal = new BrowserStackLocal.Local();
 
 // replace YOUR_ACCESS_KEY with your key. You can also set an environment variable - "BROWSERSTACK_ACCESS_KEY".
 exports.BS_LOCAL_ARGS = {
-  key: process.env.BROWSERSTACK_ACCESS_KEY || "ACCESSKEY",
+  key: process.env.BROWSERSTACK_ACCESS_KEY || "",
 };
 
 // Patching the capabilities dynamically according to the project name.
@@ -58,6 +58,8 @@ const patchCaps = (name, title) => {
   caps.os = os ? os : "osx";
   caps.os_version = os_version ? os_version : "catalina";
   caps.name = title;
+  caps.project = "Nx Playwright BrowserStack";
+  caps.build = "playwright-build-testing";
 };
 
 const patchIosCaps = (name, title) => {
@@ -93,7 +95,10 @@ const evaluateSessionStatus = (status) => {
 };
 
 exports.test = base.test.extend({
-  page: async ({ page, playwright }, use, testInfo) => {
+  // Do not request the base `page` fixture here — we create pages ourselves.
+  // Requesting `page` from the base would make Playwright launch a local
+  // browser before this fixture runs (which caused the `--headless=old` issue).
+  page: async ({ playwright }, use, testInfo) => {
     if (testInfo.project.name.match(/browserstack/)) {
       let vBrowser, vContext, vDevice;
       const isAndroid = testInfo.project.name.match(/browserstack-android/);
@@ -127,7 +132,10 @@ exports.test = base.test.extend({
         delete caps.osVersion;
         delete caps.deviceName;
         delete caps.realMobile;
-        vBrowser = await playwright.chromium.launch({
+        // Connect to BrowserStack's Playwright endpoint instead of launching a local browser.
+        // Using `connect` avoids invoking the local Chrome binary (which was being started
+        // with the deprecated `--headless=old` flag).
+        vBrowser = await playwright.chromium.connect({
           wsEndpoint:
             `wss://cdp.browserstack.com/playwright?caps=` +
             `${encodeURIComponent(JSON.stringify(caps))}`,
@@ -145,7 +153,16 @@ exports.test = base.test.extend({
         await vBrowser.close();
       }
     } else {
-      use(page);
+      // Non-BrowserStack run: create a local browser/context/page explicitly
+      // so we control how the browser is launched instead of relying on the
+      // base `page` which would have been created for us.
+      const localBrowser = await playwright.chromium.launch();
+      const localContext = await localBrowser.newContext();
+      const localPage = await localContext.newPage();
+      await use(localPage);
+
+      await localPage.close();
+      await localBrowser.close();
     }
   },
 
